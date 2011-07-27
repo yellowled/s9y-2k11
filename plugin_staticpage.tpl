@@ -1,0 +1,45 @@
+<div id="staticpage_{$staticpage_pagetitle|@makeFilename}" class="{if $staticpage_articleformat}serendipity_entry {/if}serendipity_staticpage">
+    <header>
+        <h2>{if $staticpage_articleformat}{$staticpage_articleformattitle|@escape}{else}{$staticpage_headline|@escape}{/if}</h2>
+    {if $staticpage_navigation AND $staticpage_shownavi}
+        {if is_array($staticpage_childpages)}
+        <ul id="staticpage_childpages">
+            {foreach from=$staticpage_childpages item="childpage"}
+            <li><a href="{$childpage.permalink|@escape}" title="{$childpage.pagetitle|@escape}">{$childpage.pagetitle|@escape}</a></li>
+            {/foreach}
+        </ul>
+        {/if}
+    {/if}
+    </header>
+{if $staticpage_pass AND $staticpage_form_pass != $staticpage_pass}
+    <form class="staticpage_password_form" action="{$staticpage_form_url}" method="post">
+    <fieldset>
+        <legend>{$CONST.STATICPAGE_PASSWORD_NOTICE}</legend>
+        <input name="serendipity[pass]" type="password" value=""/>
+        <input name="submit" type="submit" value="{$CONST.GO}" />
+    </fieldset>
+    </form>
+{else}
+    <div class="clearfix serendipity_preface">
+    {$staticpage_precontent}
+    </div>
+    <div class="clearfix staticpage_content">
+    {$staticpage_content}
+    </div>
+{/if}
+{if $staticpage_author or $staticpage_lastchange or $staticpage_adminlink}
+    <footer class="staticpage_metainfo">
+        <small>
+        {if $staticpage_author}
+            {$staticpage_author|@escape}
+        {/if}
+        {if $staticpage_lastchange}
+            | <time datetime="{$staticpage_lastchange|@formatTime:'%Y-%m-%dT%H:%M:%S'}">{$staticpage_lastchange|date_format:$template_option.date_format}</time>
+        {/if}
+        {if $staticpage_adminlink AND $staticpage_adminlink.page_user}
+            | <a href="{$staticpage_adminlink.link_edit}">{$staticpage_adminlink.link_name|@escape}</a>
+        {/if}
+        </small>
+    </footer>
+{/if}
+</div>

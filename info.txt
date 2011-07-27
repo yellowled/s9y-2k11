@@ -1,0 +1,4 @@
+Name: 2k11
+Author: Matthias Mees
+Date: 2011-07-27
+Require Serendipity: 1.6
