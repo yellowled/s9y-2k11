@@ -1,15 +1,16 @@
 {if $is_embedded != true}
 <!doctype html>
-<!--[if lt IE 7 ]> <html class="no-js ie6" lang="{$lang}"> <![endif]-->
-<!--[if IE 7 ]>    <html class="no-js ie7" lang="{$lang}"> <![endif]-->
-<!--[if IE 8 ]>    <html class="no-js ie8" lang="{$lang}"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="{$lang}"> <!--<![endif]-->
+<!--[if lt IE 7 ]> <html class="no-js ie6 oldie" lang="{$lang}"> <![endif]-->
+<!--[if IE 7 ]>    <html class="no-js ie7 oldie" lang="{$lang}"> <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js ie8 oldie" lang="{$lang}"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="{$lang}"> <!--<![endif]-->
 <head>
     <meta charset="{$head_charset}">
     <title>{$head_title|@default:$blogTitle} {if $head_subtitle} - {$head_subtitle}{/if}</title>
     <meta name="generator" content="Serendipity v.{$head_version}"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <link rel="stylesheet" href="{$head_link_stylesheet}"/>
-    <script src="{serendipity_getFile file="js/modernizr-2.0.min.js"}"></script>
+    <script src="{serendipity_getFile file="js/modernizr-2.0.6.min.js"}"></script>
     <link rel="alternate" type="application/rss+xml" title="{$blogTitle} RSS feed" href="{$serendipityBaseURL}{$serendipityRewritePrefix}feeds/index.rss2"/>
     <link rel="alternate" type="application/x.atom+xml"  title="{$blogTitle} Atom feed"  href="{$serendipityBaseURL}{$serendipityRewritePrefix}feeds/atom.xml"/>
 {if $entry_id}
