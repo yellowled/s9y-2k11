@@ -360,10 +360,12 @@ blockquote + cite {
 }
 
 /* Header */
-#identity h1,
-#identity p { margin: 0 3em 0 0; }
+#identity h1 { margin: 0 3em 0 0; }
 
-#identity p { color: #666; }
+#identity p {
+    color: #666;
+    margin: 0 3em 1em 0;
+}
 
 /* Navigation */
 #primary-nav {
@@ -709,6 +711,8 @@ blockquote + cite {
 }
 
 @media only screen and (min-width: 768px) {
+    #identity p { margin: 0 3em 0 0; }
+
     /* Style adjustments for viewports 768px and over go here */
     #search div { margin: 2.5em 0 0 3em; }
     
