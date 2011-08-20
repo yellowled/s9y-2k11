@@ -229,7 +229,13 @@ input[type=text],
 input[type=search],
 input[type=email],
 input[type=url],
-textarea { color: #666;}
+textarea {
+    border: 1px solid #aaa;
+    color: #666;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    border-radius: 3px 3px 3px 3px;
+}
 
 input[type=text]:focus,
 input[type=search]:focus,
