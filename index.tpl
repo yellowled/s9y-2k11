@@ -45,7 +45,7 @@
     </nav>
     
     <div id="main" class="clearfix container{if $leftSidebarElements > 0 && $rightSidebarElements > 0} col3{elseif $leftSidebarElements > 0 && $rightSidebarElements == 0} col2l{else} col2r{/if}">
-        <dic id="content" class="clearfix" role="main">
+        <div id="content" class="clearfix" role="main">
         {$CONTENT}
         </div>
     {if $leftSidebarElements > 0}
