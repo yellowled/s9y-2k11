@@ -4,7 +4,7 @@
     {foreach from=$dategroup.entries item="entry"}
     <article id="post_{$entry.id}" class="serendipity_entry{if $dategroup.is_sticky} sticky{/if}" role="article">
         <header>
-            <h3><a href="{$entry.link}">{$entry.title}</a></h3>
+            <h2><a href="{$entry.link}">{$entry.title}</a></h2>
             
             <span class="serendipity_byline">{$CONST.POSTED_BY} <a href="{$entry.link_author}">{$entry.author}</a> {$CONST.ON} <time datetime="{$entry.timestamp|@formatTime:'%Y-%m-%dT%H:%M:%S'}" pubdate>{$entry.timestamp|@formatTime:$template_option.date_format}</time></span>
         {if $entry.categories}
@@ -124,9 +124,10 @@
     <p>{$CONST.NO_ENTRIES_TO_PRINT}</p>
     {/if}
 {/foreach}
-
+{if $footer_info or $footer_prev_page or $footer_next_page}
     <nav class="serendipity_pagination" role="navigation">
-    {if $footer_info or $footer_prev_page or $footer_next_page}
+        <h2 class="visuallyhidden">Pagination</h2>
+        
         <ul class="clearfix">
             {if $footer_info}
             <li class="info"><span>{$footer_info}</span></li>
@@ -134,6 +135,6 @@
             <li class="prev">{if $footer_prev_page}<a href="{$footer_prev_page}">{/if}{if $footer_prev_page}&larr; {$CONST.PREVIOUS_PAGE}{else}&nbsp;{/if}{if $footer_prev_page}</a>{/if}</li>
             <li class="next">{if $footer_next_page}<a href="{$footer_next_page}">{/if}{if $footer_next_page}{$CONST.NEXT_PAGE} &rarr;{else}&nbsp;{/if}{if $footer_next_page}</a>{/if}</li>
         </ul>
-    {/if}
     </nav>
+{/if}
     {serendipity_hookPlugin hook="entries_footer"}

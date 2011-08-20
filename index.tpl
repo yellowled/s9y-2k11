@@ -41,6 +41,8 @@
     </header>
     
     <nav id="primary-nav" role="navigation">
+        <h2 class="visuallyhidden">Navigation</h2>
+        
         <ul class="clearfix container">{foreach from=$navlinks item="navlink" name="sbnav"}<li{if $smarty.foreach.sbnav.first} class="first"{/if}{if $smarty.foreach.sbnav.last} class="last"{/if}>{if $currpage==$navlink.href or $currpage2==$navlink.href}<span>{else}<a href="{$navlink.href}">{/if}{$navlink.title}{if $currpage==$navlink.href or $currpage2==$navlink.href}</span>{else}</a>{/if}</li>{/foreach}</ul>
     </nav>
     
@@ -50,12 +52,14 @@
         </div>
     {if $leftSidebarElements > 0}
         <aside id="sidebar_left" role="complementary">
-        {serendipity_printSidebar side="left"}
+            <h2 class="visuallyhidden">Sidebar</h2>
+            {serendipity_printSidebar side="left"}
         </aside>
     {/if}
     {if $rightSidebarElements > 0}
         <aside id="sidebar_right" role="complementary">
-        {serendipity_printSidebar side="right"}
+            <h2 class="visuallyhidden">Sidebar</h2>
+            {serendipity_printSidebar side="right"}
         </aside>
     {/if}
     </div>
