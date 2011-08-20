@@ -45,9 +45,9 @@
     </nav>
     
     <div id="main" class="clearfix container{if $leftSidebarElements > 0 && $rightSidebarElements > 0} col3{elseif $leftSidebarElements > 0 && $rightSidebarElements == 0} col2l{else} col2r{/if}">
-        <section id="content" class="clearfix" role="main">
+        <dic id="content" class="clearfix" role="main">
         {$CONTENT}
-        </section>
+        </div>
     {if $leftSidebarElements > 0}
         <aside id="sidebar_left" role="complementary">
         {serendipity_printSidebar side="left"}
