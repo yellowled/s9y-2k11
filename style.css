@@ -86,7 +86,7 @@ pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
 q { quotes: none; }
 q:before, q:after { content: ""; content: none; }
 
-small { font-size: 85%; }
+small { font-size: .8125em; }
 
 /* Position subscript and superscript content without affecting line-height: h5bp.com/k */
 sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
@@ -288,11 +288,31 @@ body {
 
 h1 { font-size: 2em; }
 
-h2 { font-size: 1.5em; }
+h2 {
+    font-size: 1.5em;
+    margin: 0 0 .6667em;
+}
 
-h3 { font-size: 1.25em; }
+h3 { 
+    font-size: 1.25em;
+    margin: 0 0 .8em;
+}
 
-p, ul, ol, dl { margin: 0 0 1em; }
+h4, h5, h6,
+p, ul, ol, dl,
+table { margin: 0 0 1em; }
+
+li ul, li ol { margin: 0; }
+
+blockquote,
+blockquote + cite {
+    display: block;
+    margin: 0 0 1em 40px;;
+}
+
+dt { font-weight: bold; }
+
+caption, th { text-align: left; }
 
 /* Automagic quotes for blockquotes */
 blockquote { quotes: "„" "“" "‚" "‘"; }
@@ -317,18 +337,8 @@ blockquote[lang~='en'] > *:before { content: "“"; }
 *[lang~='en'] blockquote > *:after,
 blockquote[lang~='en'] > *:after { content: "”"; }
 
-blockquote {
-    margin: 0 2em 1em;
-}
-
 /* cite adjacent to blockquote */
 blockquote + cite:before { content: "–\202F"; }
-
-blockquote + cite {
-    display: inline-block;
-    font-style: italic;
-    margin: 0 0 1em 2em;
-}
 
 
 /**
