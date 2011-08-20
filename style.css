@@ -247,6 +247,20 @@ fieldset { display: block; }
 /*audio, video,*/
 /*embed, object { max-width: 100%; }*/
 
+/* Inline quotations */
+q { quotes: '“' '”' '‘' '’'; }
+/* German quotes */
+:lang(de) q { quotes: '„' '“' '‚' '‘'; }
+/* pre-2011 WebKit */
+q:before   { content: '“'; content: open-quote;  }
+q:after    { content: '”'; content: close-quote; }
+q q:before { content: '‘'; content: open-quote;  }
+q q:after  { content: '’'; content: close-quote; }
+:lang(de) q:before   { content: '„'; content: open-quote;  }
+:lang(de) q:after    { content: '“'; content: close-quote; }
+:lang(de) q q:before { content: '‚'; content: open-quote;  }
+:lang(de) q q:after  { content: '‘'; content: close-quote; }
+
 a, a:active, a:visited { color: #3e5f81; }
 a:hover { color: #f80; }
 
