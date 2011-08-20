@@ -706,8 +706,17 @@ blockquote + cite {
    ========================================================================== */
 
 @media only screen and (min-width: 480px) {
-  /* Style adjustments for viewports 480px and over go here */
-
+    /* Style adjustments for viewports 480px and over go here */
+    .sidebar_plugin {
+        float: left;
+        margin: 0 5% 2em 0;
+        width: 45%;
+    }
+    
+    .ie7 .sidebar_plugin { width: 44.9%; }
+    
+    #sidebar_left .odd,
+    #sidebar_right .odd { clear: both; }
 }
 
 @media only screen and (min-width: 768px) {
@@ -760,8 +769,14 @@ blockquote + cite {
     .col2r .serendipity_entry { margin: 0 2em 2em 0;}
     .col3 .serendipity_entry { margin: 0 1em 2em; }
     .col3 #content nav { margin: 0 1em; }
-    #sidebar_left section { margin: 0 3em 2em 0; }
-    #sidebar_right section { margin: 0 0 2em 3em; }
+    #sidebar_left .sidebar_plugin { margin: 0 3em 2em 0; }
+    #sidebar_right .sidebar_plugin { margin: 0 0 2em 3em; }
+    
+    .sidebar_plugin,
+    .ie7 .sidebar_plugin {
+        float: none;
+        width: auto;
+    }
 }
 
 
