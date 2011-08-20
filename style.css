@@ -32,7 +32,7 @@ audio:not([controls]) { display: none; }
 
 html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 
-body { margin: 0; font-size: 13px; line-height: 1.231; }
+body { margin: 0; font-size: 100%; line-height: 1.5; }
 
 body, button, input, select, textarea { font-family: sans-serif; color: #222; }
 
@@ -263,17 +263,8 @@ a:link { -webkit-tap-highlight-color: #f80; }
  */
 body {
     background: #fcfcfc;
-    font:100%/1.5 Arial, Helvetica, sans-serif; *font-size:small;
     padding: 1em 0;
 }
-select, input, textarea, button { font:99% Arial, Helvetica, sans-serif; }
-pre, code, kbd, samp { font-family: Consolas, monospace, sans-serif; }
-
-small { font-size: .8125em; }
-
-em, i { font-style: italic; }
-
-b, dt { font-weight: bold; }
 
 h1 { font-size: 2em; }
 
