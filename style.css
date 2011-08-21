@@ -374,7 +374,7 @@ blockquote + cite:before { content: "–\202F"; }
 }
 
 #search div {
-    margin: 3.9em 0 1em;
+    margin: 0 0 1em;
     padding: 0 1em;
 }
 
@@ -413,6 +413,11 @@ blockquote + cite:before { content: "–\202F"; }
 
 
 /* Content */
+.serendipity_entry,
+.sidebar_plugin { margin: 0 1em 2em; }
+
+.serendipity_pagination { margin: 0 1em; }
+
 .serendipity_byline,
 .serendipity_entry footer,
 .serendipity_pagination,
@@ -719,20 +724,28 @@ blockquote + cite:before { content: "–\202F"; }
 
 @media only screen and (min-width: 480px) {
     /* Style adjustments for viewports 480px and over go here */
+    #sidebar_left,
+    #sidebar_right { padding: 0 1em; }
+    
     .sidebar_plugin {
         float: left;
-        margin: 0 5% 2em 0;
-        width: 45%;
+        margin: 0 0 2em;
+        width: 47.5%;
     }
     
-    .ie7 .sidebar_plugin { width: 44.9%; }
+    .ie7 .sidebar_plugin { width: 47.4%; }
     
     #sidebar_left .odd,
-    #sidebar_right .odd { clear: both; }
+    #sidebar_right .odd {
+        clear: both;
+        margin-right: 5%;
+    }
 }
 
 @media only screen and (min-width: 768px) {
     /* Style adjustments for viewports 768px and over go here */
+    #search div { margin-top: 3.9em; }
+    
     #searchterm { max-width: 100%; }
     
     #identity, #search,
@@ -773,10 +786,8 @@ blockquote + cite:before { content: "–\202F"; }
     .ie7 .col3 #content { left: 24.9%; }
     .ie7 .col3 #sidebar_left { left: -49.9%; }
     
-    .serendipity_entry,
-    .sidebar_plugin { margin: 0 1em 2em; }
-    
-    .serendipity_pagination { margin: 0 1em; }
+    #sidebar_left,
+    #sidebar_right { padding: 0; }
     
     .sidebar_plugin,
     .ie7 .sidebar_plugin {
