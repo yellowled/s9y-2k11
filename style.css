@@ -424,8 +424,6 @@ blockquote + cite:before { content: "–\202F"; }
 .archives,
 .freetag_cloud { margin: 0 1em 2em; }
 
-.serendipity_pagination { margin: 0 1em; }
-
 .serendipity_byline,
 .serendipity_entry footer,
 .serendipity_pagination,
@@ -449,12 +447,17 @@ blockquote + cite:before { content: "–\202F"; }
     border: 1px solid #aaa;
     font-size: .8125em;
     margin: 0 0 1.2308em;
+    padding: .3846em;
 }
 
-.serendipity_byline,
-.serendipity_pagination {
+.serendipity_byline {
     display: block;
     margin: 0 0 1.2308em;
+}
+
+.serendipity_pagination {
+    display: block;
+    margin: 0 1.2308em 1.2308em;
 }
 
 .serendipity_pagination li {
