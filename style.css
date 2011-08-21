@@ -786,6 +786,8 @@ blockquote + cite:before { content: "–\202F"; }
     .ie7 .col3 #content { left: 24.9%; }
     .ie7 .col3 #sidebar_left { left: -49.9%; }
     
+    .col2l #search { text-align: right; }
+    
     #sidebar_left,
     #sidebar_right { padding: 0; }
     
