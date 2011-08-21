@@ -526,6 +526,23 @@ blockquote + cite:before { content: "–\202F"; }
     padding: .3846em;
 }
 
+.serendipity_comment_captcha br {
+    display: none;
+    height: 0;
+    visibility:hidden;
+}
+
+.serendipity_comment_captcha .captcha {
+    border: 1px solid #aaa;
+    display: block;
+    margin: 1em 0;
+}
+
+.serendipity_comment_captcha label {
+    display: block;
+    margin: 0 0 .5em;
+}
+
 .comment_avatar {
     border: 1px solid #aaa;
     margin: 0 .625em 0 0;
@@ -557,6 +574,7 @@ blockquote + cite:before { content: "–\202F"; }
 .serendipity_msg_important,
 .serendipity_msg_notice {
     font-size: .8125em;
+    max-width: 35em;
     padding: .3846em;
 }
 
