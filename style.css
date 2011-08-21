@@ -300,9 +300,11 @@ h3 {
 
 h4, h5, h6,
 p, ul, ol, dl,
-table,
+table, details,
 #trackback_url,
 .manage_comments { margin: 0 0 1em; }
+
+summary { cursor: pointer; }
 
 li ul, li ol { margin: 0; }
 
@@ -500,6 +502,8 @@ blockquote + cite:before { content: "–\202F"; }
 .serendipity_comments { margin: 1em 0; }
 
 .nocomments { font-style: italic; }
+
+.serendipity_comment cite { font-style: normal; }
 
 .form_field label,
 .form_tarea label { display: block; }
