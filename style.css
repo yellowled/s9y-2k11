@@ -564,8 +564,12 @@ p.break { margin: 0 0 1em; }
     border-top: 1px solid #ccc;
     color: #666;
     display: block;
-    padding: .9167em 1.2308em 1em;
+    padding: .9167em 0 1em;
 }
+
+.serendipity_staticpage small { font-size: 1em; }
+
+#colophon small { padding: .9167em 1.2308em 1em; }
 
 .staticpage_results h3 { font-size: 1em; }
 
