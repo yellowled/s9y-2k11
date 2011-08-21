@@ -509,8 +509,9 @@ blockquote + cite:before { content: "–\202F"; }
 .form_tarea label { display: block; }
 
 .form_tarea,
-.form_toolbar,
-.serendipity_comment { margin-bottom: 1em; }
+.form_toolbar { margin-bottom: 1em; }
+
+.serendipity_comment { margin: 0 0 2em; }
 
 #serendipity_comment input[type=text],
 #serendipity_comment input[type=email],
@@ -547,6 +548,8 @@ blockquote + cite:before { content: "–\202F"; }
     display: block;
     margin: 0 0 .5em;
 }
+
+p.break { margin: 0 0 1em; }
 
 .comment_avatar {
     border: 1px solid #aaa;
