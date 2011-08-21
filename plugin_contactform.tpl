@@ -25,7 +25,6 @@
 	            <input type="hidden" name="serendipity[subpage]" value="{$commentform_sname}"/>
 	            <input type="hidden" name="serendipity[commentform]" value="true"/>
             </div>
-            <!-- TODO: Add placeholder text for input form fields; placeholders should be s9y lang variables   -->
             <div class="form_field">
                 <label for="serendipity_commentform_name">{$CONST.NAME}</label>
                 <input id="serendipity_commentform_name" name="serendipity[name]" type="text" value="{$commentform_name}"/>

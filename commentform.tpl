@@ -3,7 +3,6 @@
     <a id="serendipity_CommentForm"></a>
     <form id="serendipity_comment" action="{$commentform_action}#feedback" method="post">
     <div><input type="hidden" name="serendipity[entry_id]" value="{$commentform_id}"/></div>
-    <!-- TODO: Add placeholder text for input form fields; placeholders should be s9y lang variables   -->
     <div class="form_field">
         <label for="serendipity_commentform_name">{$CONST.NAME}</label>
         <input id="serendipity_commentform_name" name="serendipity[name]" type="text" value="{$commentform_name}"/>

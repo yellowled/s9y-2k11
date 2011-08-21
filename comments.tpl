@@ -1,6 +1,5 @@
 {foreach from=$comments item=comment name="comments"}
 <!-- TODO: * find a robust solution for threaded comments -->
-<!--       * revise heading level                         -->
 <!--       * jQuery code for admin functions              -->
 <article id="c{$comment.id}" class="serendipity_comment{if $entry.author == $comment.author} serendipity_comment_author_self{/if} {cycle values="odd, even"}">
     <h4>{if $comment.url}<a href="{$comment.url}">{/if}{$comment.author|@default:$CONST.ANONYMOUS}{if $comment.url}</a>{/if} {$CONST.ON} <time datetime="{$comment.timestamp|@formatTime:'%Y-%m-%dT%H:%M:%S'}" pubdate>{$comment.timestamp|@formatTime:$template_option.date_format}</time>:</h4>
