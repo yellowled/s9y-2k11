@@ -401,6 +401,9 @@ blockquote + cite:before { content: "–\202F"; }
     text-decoration: none;
 }
 
+#primary-nav .first span,
+#primary-nav .first a { border-left: 0 none; }
+
 #primary-nav .last span,
 #primary-nav .last a { border-right: 1px solid #294564; }
 
