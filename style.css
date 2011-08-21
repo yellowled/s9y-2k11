@@ -629,7 +629,7 @@ blockquote + cite:before { content: "–\202F"; }
 .serendipity_calendar {
     border: 1px solid #3e5f81;
     margin: 0 0 1em;
-    width: 100%;
+    width: 70%;
 }
 
 .serendipity_calendar tfoot a,
