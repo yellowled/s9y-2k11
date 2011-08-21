@@ -789,9 +789,16 @@ blockquote + cite:before { content: "–\202F"; }
     #sidebar_left,
     #sidebar_right { padding: 0; }
     
+    #sidebar_left .odd,
+    #sidebar_right .odd {
+        clear: none;
+        margin-right: 1em;
+    }
+    
     .sidebar_plugin,
     .ie7 .sidebar_plugin {
         float: none;
+        margin: 0 1em 2em;
         width: auto;
     }
 }
