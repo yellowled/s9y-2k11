@@ -421,6 +421,7 @@ blockquote + cite:before { content: "–\202F"; }
 /* Content */
 .serendipity_entry,
 .sidebar_plugin,
+.archives,
 .freetag_cloud { margin: 0 1em 2em; }
 
 .serendipity_pagination { margin: 0 1em; }
