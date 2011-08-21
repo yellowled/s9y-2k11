@@ -23,7 +23,8 @@
 {serendipity_hookPlugin hook="frontend_header"}
 {/if}
 {if $is_raw_mode != true}
-    <header id="banner" class="clearfix container{if $leftSidebarElements > 0 && $rightSidebarElements > 0} col3{elseif $leftSidebarElements > 0 && $rightSidebarElements == 0} col2l{else} col2r{/if}" role="banner">
+<div id="page" class="clearfix container">
+    <header id="banner" class="clearfix{if $leftSidebarElements > 0 && $rightSidebarElements > 0} col3{elseif $leftSidebarElements > 0 && $rightSidebarElements == 0} col2l{else} col2r{/if}" role="banner">
         <div id="identity">
             <h1><a href="{$serendipityBaseURL}">{$head_title|@default:$blogTitle}</a></h1>
             <p>{$head_subtitle|@default:$blogDescription}</p>
@@ -43,10 +44,10 @@
     <nav id="primary-nav" role="navigation">
         <h2 class="visuallyhidden">Navigation</h2>
         
-        <ul class="clearfix container">{foreach from=$navlinks item="navlink" name="sbnav"}<li{if $smarty.foreach.sbnav.first} class="first"{/if}{if $smarty.foreach.sbnav.last} class="last"{/if}>{if $currpage==$navlink.href or $currpage2==$navlink.href}<span>{else}<a href="{$navlink.href}">{/if}{$navlink.title}{if $currpage==$navlink.href or $currpage2==$navlink.href}</span>{else}</a>{/if}</li>{/foreach}</ul>
+        <ul class="clearfix">{foreach from=$navlinks item="navlink" name="sbnav"}<li{if $smarty.foreach.sbnav.first} class="first"{/if}{if $smarty.foreach.sbnav.last} class="last"{/if}>{if $currpage==$navlink.href or $currpage2==$navlink.href}<span>{else}<a href="{$navlink.href}">{/if}{$navlink.title}{if $currpage==$navlink.href or $currpage2==$navlink.href}</span>{else}</a>{/if}</li>{/foreach}</ul>
     </nav>
     
-    <div id="main" class="clearfix container{if $leftSidebarElements > 0 && $rightSidebarElements > 0} col3{elseif $leftSidebarElements > 0 && $rightSidebarElements == 0} col2l{else} col2r{/if}">
+    <div id="main" class="clearfix{if $leftSidebarElements > 0 && $rightSidebarElements > 0} col3{elseif $leftSidebarElements > 0 && $rightSidebarElements == 0} col2l{else} col2r{/if}">
         <div id="content" class="clearfix" role="main">
         {$CONTENT}
         </div>
@@ -64,9 +65,10 @@
     {/if}
     </div>
     
-    <footer id="colophon" class="container" role="contentinfo">
+    <footer id="colophon" role="contentinfo">
         <small lang="en">Powered by <a href="http://s9y.org">Serendipity</a> &amp; the <i>2k11</i> theme.</small>
     </footer>
+</div>
 {/if}
 {$raw_data}
 {serendipity_hookPlugin hook="frontend_footer"}

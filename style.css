@@ -282,7 +282,7 @@ a:link { -webkit-tap-highlight-color: #f80; }
  * Typography
  */
 body {
-    background: #fcfcfc;
+    background: #ddd;
     padding: 1em 0;
 }
 
@@ -333,9 +333,14 @@ blockquote + cite:before { content: "–\202F"; }
  * Layout
  */
 .container {
+    background: #fcfcfc;
+    border: 1px solid #aaa;
     margin: 0 auto 1em;
     max-width: 75em;
     width: 94%;
+    -webkit-box-shadow: 0 0 5px 2px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 0 5px 2px rgba(0,0,0,.2);
+    box-shadow: 0 0 5px 2px rgba(0,0,0,.2);
 }
 
 #primary-nav ul { margin: 0 auto; }
