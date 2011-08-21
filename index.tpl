@@ -26,8 +26,8 @@
 <div id="page" class="clearfix container">
     <header id="banner" class="clearfix{if $leftSidebarElements > 0 && $rightSidebarElements > 0} col3{elseif $leftSidebarElements > 0 && $rightSidebarElements == 0} col2l{else} col2r{/if}" role="banner">
         <div id="identity">
-            <h1><a href="{$serendipityBaseURL}">{$head_title|@default:$blogTitle}</a></h1>
-            <p>{$head_subtitle|@default:$blogDescription}</p>
+            <h1><a href="{$serendipityBaseURL}">{$blogTitle}</a></h1>
+            <p>{$blogDescription}</p>
         </div>
         
         <form id="search" action="{$serendipityHTTPPath}{$serendipityIndexFile}" method="get" role="search">
