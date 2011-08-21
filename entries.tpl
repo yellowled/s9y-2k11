@@ -74,7 +74,7 @@
         <section id="trackbacks" class="serendipity_comments">
             <h3>{$CONST.TRACKBACKS}</h3>
 
-            <a class="trackback_url" rel="nofollow" href="{$entry.link_trackback}" onclick="alert('{$CONST.TRACKBACK_SPECIFIC_ON_CLICK|@escape:html}'); return false;" title="{$CONST.TRACKBACK_SPECIFIC_ON_CLICK|@escape}">{$CONST.TRACKBACK_SPECIFIC}</a>
+            <div id="trackback_url"><a rel="nofollow" href="{$entry.link_trackback}" onclick="alert('{$CONST.TRACKBACK_SPECIFIC_ON_CLICK|@escape:html}'); return false;" title="{$CONST.TRACKBACK_SPECIFIC_ON_CLICK|@escape}">{$CONST.TRACKBACK_SPECIFIC}</a></div>
             
             {serendipity_printTrackbacks entry=$entry.id}
         </section>
@@ -82,7 +82,7 @@
         <section id="comments" class="serendipity_comments">
             <h3>{$CONST.COMMENTS}</h3>
             
-            <p>{$CONST.DISPLAY_COMMENTS_AS}
+            <p id="comments_display">{$CONST.DISPLAY_COMMENTS_AS}
             {if $entry.viewmode eq $CONST.VIEWMODE_LINEAR}
                {$CONST.COMMENTS_VIEWMODE_LINEAR} | <a href="{$entry.link_viewmode_threaded}#comments" rel="nofollow">{$CONST.COMMENTS_VIEWMODE_THREADED}</a>
             {else}

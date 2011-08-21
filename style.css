@@ -300,7 +300,8 @@ h3 {
 
 h4, h5, h6,
 p, ul, ol, dl,
-table { margin: 0 0 1em; }
+table,
+#trackback_url { margin: 0 0 1em; }
 
 li ul, li ol { margin: 0; }
 
@@ -314,28 +315,15 @@ dt { font-weight: bold; }
 
 caption, th { text-align: left; }
 
-/* Automagic quotes for blockquotes */
-blockquote { quotes: "„" "“" "‚" "‘"; }
-blockquote:lang(de) { quotes: "„" "“" "‚" "‘"; }
-blockquote:lang(en) { quotes: "“" "”" "‘" "’"; }
-
-blockquote p:before { content: open-quote; }
-blockquote p:after { content: close-quote; }
-
-/* Safari support */
-blockquote * { quotes: none; }
-blockquote > *:before { content: "„"; }
-blockquote > *:after  { content: "“"; }
-
-*[lang~='de'] blockquote > *:before,
-blockquote[lang~='de'] > *:before { content: "„"; }
-*[lang~='de'] blockquote > *:after,
-blockquote[lang~='de'] > *:after { content: "“"; }
-
-*[lang~='en'] blockquote > *:before,
-blockquote[lang~='en'] > *:before { content: "“"; }
-*[lang~='en'] blockquote > *:after,
-blockquote[lang~='en'] > *:after { content: "”"; }
+/* blockquote hanging opening quote */
+blockquote:before {
+    color: #999;
+    content: "“";
+    display: block;
+    font: italic 400%/1 Georgia, 'Times New Roman', serif;
+    height: 0;
+    margin-left: -.625em;
+}
 
 /* cite adjacent to blockquote */
 blockquote + cite:before { content: "–\202F"; }
@@ -346,7 +334,7 @@ blockquote + cite:before { content: "–\202F"; }
  */
 .container {
     margin: 0 auto 1em;
-    max-width: 80em;
+    max-width: 75em;
     width: 94%;
 }
 
@@ -414,7 +402,10 @@ blockquote + cite:before { content: "–\202F"; }
 /* Content */
 .serendipity_byline,
 .serendipity_entry footer,
-.serendipity_pagination {
+.serendipity_pagination,
+.nocomments,
+#trackback_url,
+#comments_display {
     color: #666;
     font-size: .8125em;
 }
@@ -665,8 +656,6 @@ blockquote + cite:before { content: "–\202F"; }
     margin: 0;
     text-align: left;
 }
-
-.serendipity_freeTag_related ul { margin: 0 0 1em; }
 
 .serendipity_freetag_taglist {
     background: #eee;
