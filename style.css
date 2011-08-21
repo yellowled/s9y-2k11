@@ -447,7 +447,7 @@ blockquote + cite:before { content: "–\202F"; }
     border: 1px solid #aaa;
     font-size: .8125em;
     margin: 0 0 1.2308em;
-    padding: .3846em;
+    padding: .5385em;
 }
 
 .serendipity_byline {
