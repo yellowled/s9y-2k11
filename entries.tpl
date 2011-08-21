@@ -82,7 +82,7 @@
         <section id="comments" class="serendipity_comments">
             <h3>{$CONST.COMMENTS}</h3>
             
-            <p id="comments_display">{$CONST.DISPLAY_COMMENTS_AS}
+            <p class="manage_comments">{$CONST.DISPLAY_COMMENTS_AS}
             {if $entry.viewmode eq $CONST.VIEWMODE_LINEAR}
                {$CONST.COMMENTS_VIEWMODE_LINEAR} | <a href="{$entry.link_viewmode_threaded}#comments" rel="nofollow">{$CONST.COMMENTS_VIEWMODE_THREADED}</a>
             {else}
@@ -92,11 +92,13 @@
 
             {serendipity_printComments entry=$entry.id mode=$entry.viewmode}
         {if $entry.is_entry_owner}
+            <p class="manage_comments">
             {if $entry.allow_comments}
             <a href="{$entry.link_deny_comments}">{$CONST.COMMENTS_DISABLE}</a>
             {else}
             <a href="{$entry.link_allow_comments}">{$CONST.COMMENTS_ENABLE}</a>
             {/if}
+            </p>
         {/if}
         </section>
             <a id="feedback"></a>

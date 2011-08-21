@@ -301,7 +301,8 @@ h3 {
 h4, h5, h6,
 p, ul, ol, dl,
 table,
-#trackback_url { margin: 0 0 1em; }
+#trackback_url,
+.manage_comments { margin: 0 0 1em; }
 
 li ul, li ol { margin: 0; }
 
@@ -423,7 +424,7 @@ blockquote + cite:before { content: "–\202F"; }
 .serendipity_pagination,
 .nocomments,
 #trackback_url,
-#comments_display {
+.manage_comments {
     color: #666;
     font-size: .8125em;
 }
@@ -497,10 +498,7 @@ blockquote + cite:before { content: "–\202F"; }
 /* Comments, trackbacks & comment form */
 .serendipity_comments { margin: 1em 0; }
 
-.nocomments {
-    color: #666;
-    font-style: italic;
-}
+.nocomments { font-style: italic; }
 
 .form_field label,
 .form_tarea label { display: block; }
