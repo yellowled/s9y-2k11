@@ -363,11 +363,19 @@ blockquote + cite:before { content: "–\202F"; }
 }
 
 /* Header */
-#identity h1 { margin: 0 3em 0 0; }
+#identity h1 {
+    margin: .5em 0 0;
+    padding: 0 .5em;
+}
 
 #identity p {
     color: #666;
-    margin: 0 3em 1em 0;
+    padding: 0 1em;
+}
+
+#search div {
+    margin: 3.9em 0 1em;
+    padding: 0 1em;
 }
 
 /* Navigation */
@@ -385,7 +393,7 @@ blockquote + cite:before { content: "–\202F"; }
 #primary-nav a:visited {
     color: #fff;
     display: block;
-    padding: .25em .75em;
+    padding: .25em 1em;
     border-left: 1px solid #294564;
     text-decoration: none;
 }
@@ -522,7 +530,7 @@ blockquote + cite:before { content: "–\202F"; }
     border-top: 1px solid #ccc;
     color: #666;
     display: block;
-    padding: .9167em 0  1em;
+    padding: .9167em 1.2308em 1em;
 }
 
 .staticpage_results h3 { font-size: 1em; }
@@ -724,11 +732,7 @@ blockquote + cite:before { content: "–\202F"; }
 }
 
 @media only screen and (min-width: 768px) {
-    #identity p { margin: 0 3em 0 0; }
-
     /* Style adjustments for viewports 768px and over go here */
-    #search div { margin: 2.5em 0 0 3em; }
-    
     #searchterm { max-width: 100%; }
     
     #identity, #search,
@@ -769,12 +773,10 @@ blockquote + cite:before { content: "–\202F"; }
     .ie7 .col3 #content { left: 24.9%; }
     .ie7 .col3 #sidebar_left { left: -49.9%; }
     
-    .col2l .serendipity_entry { margin: 0 0 2em 2em; }
-    .col2r .serendipity_entry { margin: 0 2em 2em 0;}
-    .col3 .serendipity_entry { margin: 0 1em 2em; }
-    .col3 #content nav { margin: 0 1em; }
-    #sidebar_left .sidebar_plugin { margin: 0 3em 2em 0; }
-    #sidebar_right .sidebar_plugin { margin: 0 0 2em 3em; }
+    .serendipity_entry,
+    .sidebar_plugin { margin: 0 1em 2em; }
+    
+    .serendipity_pagination { margin: 0 1em; }
     
     .sidebar_plugin,
     .ie7 .sidebar_plugin {
