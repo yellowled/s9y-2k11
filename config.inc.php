@@ -31,10 +31,10 @@ $template_config = array(
     ),
     array(
         'var'           => 'webfonts',
-        'name'          => 'Webfont',
+        'name'          => TWOK11_WEBFONTS,
         'type'          => 'select',
         'default'       => 'none',
-        'select_values' => array('none' => 'none',
+        'select_values' => array('none' => TWOK11_NOWEBFONT,
                                  'droid' => 'Droid Sans',
                                  'ptsans' => 'PT Sans',
                                  'osans' => 'Open Sans',
