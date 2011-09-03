@@ -286,6 +286,26 @@ body {
     padding: 1em 0;
 }
 
+.droid, .droid button,
+.droid input, .droid select,
+.droid textarea { font-family: 'Droid Sans', sans-serif; }
+
+.ptsans, .ptsans button,
+.ptsans input, .ptsans select,
+.ptsans textarea { font-family: 'PT Sans', sans-serif; }
+
+.osans, .osans button,
+.osans input, .osans select,
+.osans textarea { font-family: 'Open Sans', sans-serif; }
+
+.cabin, .cabin button,
+.cabin input, .cabin select,
+.cabin textarea { font-family: 'Cabin', sans-serif; }
+
+.ubuntu, .ubuntu button,
+.ubuntu input, .ubuntu select,
+.ubuntu textarea { font-family: 'Ubuntu', sans-serif; }
+
 h1 { font-size: 2em; }
 
 h2 {

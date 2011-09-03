@@ -29,6 +29,18 @@ $template_config = array(
                                  '%b %d' => '%b %d',
                                  "%b %d '%y" => "%b %d '%y")
     ),
+    array(
+        'var'           => 'webfonts',
+        'name'          => 'Webfont',
+        'type'          => 'select',
+        'default'       => 'none',
+        'select_values' => array('none' => 'none',
+                                 'droid' => 'Droid Sans',
+                                 'ptsans' => 'PT Sans',
+                                 'osans' => 'Open Sans',
+                                 'cabin' => 'Cabin',
+                                 'ubuntu' => 'Ubuntu')
+    ),
 );
 
 $template_global_config = array('navigation' => true);

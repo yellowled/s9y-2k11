@@ -9,6 +9,17 @@
     <title>{$head_title|@default:$blogTitle}{if $head_subtitle} | {$head_subtitle}{/if}</title>
     <meta name="generator" content="Serendipity v.{$head_version}"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
+{if $template_option.webfonts == 'droid'}
+    <link  rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700">
+{elseif $template_option.webfonts == 'ptsans'}
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic">
+{elseif $template_option.webfonts == 'osans'}
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic">
+{elseif $template_option.webfonts == 'cabin'}
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cabin:400,400italic,700,700italic">
+{elseif $template_option.webfonts == 'ubuntu'}
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Ubuntu:400,400italic,700,700italic">
+{/if}
     <link rel="stylesheet" href="{$head_link_stylesheet}"/>
     <script src="{serendipity_getFile file="js/modernizr-2.0.6.min.js"}"></script>
     <link rel="alternate" type="application/rss+xml" title="{$blogTitle} RSS feed" href="{$serendipityBaseURL}{$serendipityRewritePrefix}feeds/index.rss2"/>
@@ -18,7 +29,7 @@
 {/if}
 {serendipity_hookPlugin hook="frontend_header"}
 </head>
-<body>
+<body{if $template_option.webfonts != 'none'} class="{$template_option.webfonts}"{/if}>
 {else}
 {serendipity_hookPlugin hook="frontend_header"}
 {/if}
