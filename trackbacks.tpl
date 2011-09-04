@@ -7,7 +7,9 @@
         <div class="serendipity_commentBody">{$trackback.body|@strip_tags|@escape:all}</div>
     </details>    
 {if $entry.is_entry_owner}
-    <a href="{$serendipityBaseURL}comment.php?serendipity[delete]={$trackback.id}&amp;serendipity[entry]={$trackback.entry_id}&amp;serendipity[type]=trackbacks">{$CONST.DELETE}</a>
+    <footer>
+        <a href="{$serendipityBaseURL}comment.php?serendipity[delete]={$trackback.id}&amp;serendipity[entry]={$trackback.entry_id}&amp;serendipity[type]=trackbacks">{$CONST.DELETE}</a>
+    </footer>
 {/if}
 </article>
 {foreachelse}
