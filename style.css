@@ -214,10 +214,10 @@ td { vertical-align: top; }
 /**
  * s9y colors:
  * 
- * dark blue:   #294564
- * medium blue: #3e5f81
- * light blue:  #ccdee7
- * orange:      #f80
+ * dark blue:   #294564     rgb(41,69,100)
+ * medium blue: #3e5f81     rgb(62,95,129)
+ * light blue:  #ccdee7     rgb(204,222,231)
+ * orange:      #f80        rgb(255,136,0)
  * 
  */
 input[type="checkbox"] {
@@ -241,7 +241,19 @@ input[type=text]:focus,
 input[type=search]:focus,
 input[type=email]:focus,
 input[type=url]:focus,
-textarea:focus { color: #333;}
+textarea:focus {
+    color: #333;
+    outline: 0 none;
+    -webkit-box-shadow: 0 0 2px 1px rgba(41,69,100,.5);
+    -moz-box-shadow: 0 0 2px 1px rgba(41,69,100,.5);
+    box-shadow: 0 0 2px 1px rgba(41,69,100,.5);
+}
+
+.no-boxshadow input[type=text]:focus,
+.no-boxshadow input[type=search]:focus,
+.no-boxshadow input[type=email]:focus,
+.no-boxshadow input[type=url]:focus,
+.no-boxshadow textarea:focus { border: 1px solid #294564; }
 
 input, textarea { padding: 3px; }
 button { padding: 4px; }
