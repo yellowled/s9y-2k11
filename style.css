@@ -457,7 +457,8 @@ blockquote + cite:before { content: "–\202F"; }
 .freetag_cloud { margin: 0 1em 2em; }
 
 .serendipity_search,
-.staticpage_results { margin: 0 1em 1em; }
+.staticpage_results,
+.nocontent { margin: 0 1em 1em; }
 
 .serendipity_byline,
 .serendipity_entry footer,

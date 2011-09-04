@@ -123,7 +123,7 @@
     {/foreach}
 {foreachelse}
     {if not $plugin_clean_page}
-    <p>{$CONST.NO_ENTRIES_TO_PRINT}</p>
+    <p class="nocontent">{$CONST.NO_ENTRIES_TO_PRINT}</p>
     {/if}
 {/foreach}
 {if $footer_info or $footer_prev_page or $footer_next_page}
