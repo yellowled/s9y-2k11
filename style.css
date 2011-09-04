@@ -452,7 +452,8 @@ blockquote + cite:before { content: "–\202F"; }
 .serendipity_pagination,
 .nocomments,
 #trackback_url,
-.manage_comments {
+.manage_comments,
+.serendipity_edit_nugget {
     color: #666;
     font-size: .8125em;
 }
