@@ -30,6 +30,12 @@ $template_config = array(
                                  "%b %d '%y" => "%b %d '%y")
     ),
     array(
+        'var'           => 'header_img',
+        'name'          => TWOK11_HEADER_IMG,
+        'type'          => 'media',
+        'default'       => serendipity_getTemplateFile('header.jpg')
+    ),
+    array(
         'var'           => 'webfonts',
         'name'          => TWOK11_WEBFONTS,
         'type'          => 'select',

@@ -50,6 +50,9 @@
         </div>
         </form>
         {serendipity_hookPlugin hook="quicksearch_plugin" hookAll="true"}
+        {if $template_option.header_img}
+        <img src="{$template_option.header_img}" alt=""/>
+        {/if}
     </header>
     
     <nav id="primary-nav" role="navigation">
