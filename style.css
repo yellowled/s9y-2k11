@@ -822,7 +822,7 @@ p.break { margin: 0 0 1em; }
 
 @media only screen and (min-width: 768px) {
     /* Style adjustments for viewports 768px and over go here */
-    #search div { margin-top: 3.9em; }
+    #search div { margin-top: 3.75em; }
     
     #searchterm { max-width: 100%; }
     
