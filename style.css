@@ -408,6 +408,11 @@ blockquote + cite:before { content: "–\202F"; }
     padding: 0 1em;
 }
 
+#banner>img {
+    display: none;
+    clear: both;
+}
+
 #search div {
     margin: 0 0 1em;
     padding: 0 1em;
@@ -844,6 +849,10 @@ p.break { margin: 0 0 1em; }
         clear: both;
         margin-right: 5%;
     }
+}
+
+@media only screen and (min-width: 601px) {
+    #banner>img { display: block; }
 }
 
 @media only screen and (min-width: 768px) {
