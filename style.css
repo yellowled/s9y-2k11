@@ -445,6 +445,20 @@ blockquote + cite:before { content: "–\202F"; }
 #primary-nav .last span,
 #primary-nav .last a { border-right: 1px solid #294564; }
 
+#primary-nav span { position: relative; }
+
+#primary-nav span::after {
+    border-color: #294564 transparent;
+    border-style: solid;
+    border-width: 8px 8px 0;
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -8px;
+    left: 42.5%;
+    width: 0;
+}
+
 #primary-nav a,
 #primary-nav a:active,
 #primary-nav a:visited { color: #fff; }
