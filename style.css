@@ -372,7 +372,7 @@ blockquote + cite:before { content: "–\202F"; }
     border: 1px solid #aaa;
     margin: 0 auto 1em;
     max-width: 70em;
-    width: 94%;
+    width: 96%;
     -webkit-box-shadow: 0 0 5px 2px rgba(0,0,0,.2);
     -moz-box-shadow: 0 0 5px 2px rgba(0,0,0,.2);
     box-shadow: 0 0 5px 2px rgba(0,0,0,.2);
