@@ -916,9 +916,17 @@ p.break { margin: 0 0 1em; }
     .sidebar_plugin,
     .ie7 .sidebar_plugin {
         float: none;
-        margin: 0 1em 2em;
         width: auto;
     }
+    
+    #sidebar_left .sidebar_plugin,
+    .ie7 #sidebar_left .sidebar_plugin { margin: 0 2em 2em 1em; }
+    
+    #sidebar_right .sidebar_plugin,
+    .ie7 #sidebar_right .sidebar_plugin { margin: 0 1em 2em 2em; }
+    
+    #search div,
+    .ie7 #search div { padding: 0 1em 0 2em; }
 }
 
 
