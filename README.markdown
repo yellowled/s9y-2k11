@@ -12,6 +12,16 @@ If you _do_ want to test it (locally), your test blog needs to run at least s9y 
 
 ## Features
 
+### Layout options
+
+2k11 supports three different layouts, activated by pushing sidebar plugins to the standard left/hidden/right sidebars in plugin management in the backend:
+    
+* 3 columns, left + right sidebars
+* 2 columns, left sidebar only
+* 2 columns, right sidebar only
+
+(If you leave _both_ sidebars empty, you'll get a layout which looks like 2 columns, right sidebar only – just without a sidebar.)
+
 ### Theme options
 
 * **Date format:** Sets a date format used _globally_ in the theme, i.e. for entries, comments, trackbacks, static pages. Basically for anything controlled by the .tpl files provided by 2k11.
