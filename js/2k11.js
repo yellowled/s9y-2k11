@@ -5,9 +5,14 @@ jQuery(document).ready(function($) {
         alert(trackbackMsg);
         return false;
     });
+    // Reply to comment
+    $('.comment_reply').click(function() {
+        var commentId = $(this).attr('id').replace(/serendipity_reply_/g,"");
+        $('#serendipity_replyTo').val(commentId);
+    });
     // Confirm comment deletion
     $('.comment_source_ownerlink').click(function() {
         var deleteMsg = $(this).attr('title');
         return confirm(deleteMsg);
-    })
+    });
 });
