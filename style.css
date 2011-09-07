@@ -336,7 +336,8 @@ h4, h5, h6,
 p, ul, ol, dl,
 table, details,
 #trackback_url,
-.manage_comments { margin: 0 0 1em; }
+.manage_comments,
+.plugin_comment_wrap { margin: 0 0 1em; }
 
 summary { cursor: pointer; }
 
