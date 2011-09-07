@@ -4,7 +4,7 @@
 
 ## Disclaimer
 
-This is work in progress. At the time of writing, I do **not** recommend using 2k11 in a production enviroment. It's still work in progress, it will also require some work on the s9y core and possibly some plugins to work properly. Use at your own risk, if at all.
+At the time of writing, I do **not** recommend using 2k11 in a production enviroment. It's still work in progress, it will also require some work on the s9y core and possibly some plugins to work properly. Use at your own risk, if at all.
 
 ### Testing
 
