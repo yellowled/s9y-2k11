@@ -12,6 +12,8 @@ If you _do_ want to test it (locally), your test blog needs to run at least s9y 
 
 ## Features
 
+2k11 is a responsive HTML5 template. It has a fluid grid layout which adapts to the visitor's screen resolution, even on smaller screens down to smartphones.
+
 ### Layout options
 
 2k11 supports three different layouts, activated by pushing sidebar plugins to the standard left/hidden/right sidebars in plugin management in the backend:
