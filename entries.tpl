@@ -1,4 +1,3 @@
-<!-- TODO: * jQuery code for trackback link etc. -->
 {serendipity_hookPlugin hook="entries_header" addData="$entry_id"}
 {foreach from=$entries item="dategroup"}
     {foreach from=$dategroup.entries item="entry"}

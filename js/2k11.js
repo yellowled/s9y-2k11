@@ -5,4 +5,9 @@ jQuery(document).ready(function($) {
         alert(trackbackMsg);
         return false;
     });
+    // Confirm comment deletion
+    $('.comment_source_ownerlink').click(function() {
+        var deleteMsg = $(this).attr('title');
+        return confirm(deleteMsg);
+    })
 });
