@@ -5,20 +5,20 @@
 <!--[if IE 8 ]>    <html class="no-js ie8 oldie" lang="{$lang}"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="{$lang}"> <!--<![endif]-->
 <head>
-    <meta charset="{$head_charset}">
+    <meta charset="{$head_charset}"/>
     <title>{$head_title|@default:$blogTitle}{if $head_subtitle} | {$head_subtitle}{/if}</title>
     <meta name="generator" content="Serendipity v.{$head_version}"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
 {if $template_option.webfonts == 'droid'}
-    <link  rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700">
+    <link  rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700"/>
 {elseif $template_option.webfonts == 'ptsans'}
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic"/>
 {elseif $template_option.webfonts == 'osans'}
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic"/>
 {elseif $template_option.webfonts == 'cabin'}
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cabin:400,400italic,700,700italic">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cabin:400,400italic,700,700italic"/>
 {elseif $template_option.webfonts == 'ubuntu'}
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Ubuntu:400,400italic,700,700italic">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Ubuntu:400,400italic,700,700italic"/>
 {/if}
     <link rel="stylesheet" href="{$head_link_stylesheet}"/>
     <script src="{serendipity_getFile file="js/modernizr-2.0.6.min.js"}"></script>
