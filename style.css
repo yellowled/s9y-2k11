@@ -583,13 +583,24 @@ blockquote + cite:before { content: "–\202F"; }
 
 .serendipity_comment cite { font-style: normal; }
 
+.serendipity_comment { margin: 0 0 2em; }
+
+/* threading */
+.commentlevel-1 { margin-left: 1em; }
+.commentlevel-2 { margin-left: 2em; }
+.commentlevel-3 { margin-left: 3em; }
+.commentlevel-4 { margin-left: 4em; }
+.commentlevel-5 { margin-left: 5em; }
+.commentlevel-6 { margin-left: 6em; }
+.commentlevel-7 { margin-left: 7em; }
+.commentlevel-8 { margin-left: 8em; }
+.commentlevel-9 { margin-left: 9em; }
+
 .form_field label,
 .form_tarea label { display: block; }
 
 .form_tarea,
 .form_toolbar { margin-bottom: 1em; }
-
-.serendipity_comment { margin: 0 0 2em; }
 
 #serendipity_comment input[type=text],
 #serendipity_comment input[type=email],
