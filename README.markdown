@@ -5,3 +5,12 @@
 ## Disclaimer
 
 This is work in progress. At the time of writing, I do **not** recommend using 2k11 in a production enviroment. It's still work in progress, it will also require some work on the s9y core and possibly some plugins to work properly. Use at your own risk, if at all.
+
+## Features
+
+### Theme options
+
+* **Date format:** Sets a date format used _globally_ in the theme, i.e. for entries, comments, trackbacks, static pages. Basically for anything controlled by the .tpl files provided by 2k11.
+* **Header image:** Pick an image from the s9y media database (or leave empty to omit). This will be added as a banner img between header/search and navigation. It's a responsive images only displayed in screen resolutions higher than 600 pixels. Should be 1120 pixels wide to work properly.
+* **Google webfont:** Pick one of five preselected webfonts or the 'none' option to use Helvetica/Arial. These webfonts are included via the Google webfonts API.
+* **Navigation:** Global navigation provided by s9y core.
