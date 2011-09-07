@@ -6,6 +6,10 @@
 
 This is work in progress. At the time of writing, I do **not** recommend using 2k11 in a production enviroment. It's still work in progress, it will also require some work on the s9y core and possibly some plugins to work properly. Use at your own risk, if at all.
 
+### Testing
+
+If you _do_ want to test it (locally), your test blog needs to run at least s9y v1.6-beta, preferably a recent svn snapshot. To test it, simply extract the downloaded archive to `/templates/` and activate it in the s9y backend. Might need a reload in the frontend.
+
 ## Features
 
 ### Theme options
