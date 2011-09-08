@@ -728,7 +728,7 @@ p.break { margin: 0 0 1em; }
     
     #identity h1 { margin: 1em 0 0; }
     
-    #search div { margin-top: 5em; }
+    #search div { margin-top: 4.9em; }
     
     #searchterm { max-width: 100%; }
     
@@ -800,6 +800,28 @@ p.break { margin: 0 0 1em; }
     
     #search div,
     .ie7 #search div { padding: 0 1em 0 2em; }
+}
+
+@media only screen and (min-width:1024px) {
+    #identity h1 { padding: 0 1em; }
+    
+    #identity p,
+    #search div { padding: 0 2em; }
+    
+    #primary-nav ul { margin: 0 1em; }
+    
+    .serendipity_search,
+    .staticpage_results { margin: 0 2em 1em; }
+    
+    .serendipity_entry, .archives, .freetag_cloud,
+    #sidebar_left .sidebar_plugin,
+    .ie7 #sidebar_left .sidebar_plugin,
+    #sidebar_right .sidebar_plugin,
+    .ie7 #sidebar_right .sidebar_plugin { margin: 0 2em 2em; }
+    
+    .serendipity_pagination { margin: 0 2.4615em 1.2308em; }
+    
+    #colophon small { padding: .9167em 2.4615em 1em; }
 }
 
 
