@@ -726,14 +726,16 @@ p.break { margin: 0 0 1em; }
         box-shadow: 0 0 10px 1px rgba(0,0,0,.2);
     }
     
-    #banner>img { display: block; }
+    #identity h1 { margin: 1em 0 0; }
     
-    #search div { margin-top: 3.75em; }
+    #search div { margin-top: 5em; }
     
     #searchterm { max-width: 100%; }
     
     #identity p, #search div,
     #primary-nav { margin-bottom: 1.5em; }
+    
+    #banner>img { display: block; }
     
     #identity, #search,
     #content,
