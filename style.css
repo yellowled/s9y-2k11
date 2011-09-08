@@ -356,6 +356,7 @@ blockquote + cite:before { content: "–\202F"; }
 }
 
 .serendipity_entry,
+.serendipity_staticpage,
 .sidebar_plugin,
 .archives,
 .freetag_cloud { margin: 0 1em 2em; }
@@ -366,6 +367,7 @@ blockquote + cite:before { content: "–\202F"; }
 
 .serendipity_byline,
 .serendipity_entry footer,
+.serendipity_staticpage footer,
 .serendipity_pagination,
 .nocomments,
 #trackback_url,
@@ -815,6 +817,7 @@ p.break { margin: 0 0 1em; }
     .nocontent { margin: 0 2em 1em; }
     
     .serendipity_entry, .archives, .freetag_cloud,
+    .serendipity_staticpage,
     #sidebar_left .sidebar_plugin,
     .ie7 #sidebar_left .sidebar_plugin,
     #sidebar_right .sidebar_plugin,
