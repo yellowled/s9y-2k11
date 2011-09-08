@@ -197,11 +197,6 @@ a:link { -webkit-tap-highlight-color: #f80; }
 /**
  * Typography
  */
-body {
-    background: #ddd;
-    padding: 1em 0;
-}
-
 .droid, .droid button,
 .droid input, .droid select,
 .droid textarea { font-family: 'Droid Sans', sans-serif; }
@@ -274,13 +269,8 @@ blockquote + cite:before { content: "–\202F"; }
  */
 #page {
     background: #fcfcfc;
-    border: 1px solid #aaa;
-    margin: 0 auto 1em;
-    max-width: 70em;
-    width: 96%;
-    -webkit-box-shadow: 0 0 5px 2px rgba(0,0,0,.2);
-    -moz-box-shadow: 0 0 5px 2px rgba(0,0,0,.2);
-    box-shadow: 0 0 5px 2px rgba(0,0,0,.2);
+    margin: 0 0 1em;
+    width: 100%;
 }
 
 #primary-nav ul { margin: 0 auto; }
@@ -738,11 +728,24 @@ p.break { margin: 0 0 1em; }
     }
 }
 
-@media only screen and (min-width: 601px) {
-    #banner>img { display: block; }
-}
-
 @media only screen and (min-width: 768px) {
+    body {
+        background: #ddd;
+        padding: 1em 0;
+    }
+
+    #page {
+        border: 1px solid #aaa;
+        margin: 0 auto 1em;
+        max-width: 70em;
+        width: 96%;
+        -webkit-box-shadow: 0 0 5px 2px rgba(0,0,0,.2);
+        -moz-box-shadow: 0 0 5px 2px rgba(0,0,0,.2);
+        box-shadow: 0 0 5px 2px rgba(0,0,0,.2);
+    }
+    
+    #banner>img { display: block; }
+    
     #search div { margin-top: 3.75em; }
     
     #searchterm { max-width: 100%; }
