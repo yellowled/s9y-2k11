@@ -739,9 +739,9 @@ p.break { margin: 0 0 1em; }
         margin: 0 auto 1em;
         max-width: 70em;
         width: 96%;
-        -webkit-box-shadow: 0 0 5px 2px rgba(0,0,0,.2);
-        -moz-box-shadow: 0 0 5px 2px rgba(0,0,0,.2);
-        box-shadow: 0 0 5px 2px rgba(0,0,0,.2);
+        -webkit-box-shadow: 0 0 10px 1px rgba(0,0,0,.2);
+        -moz-box-shadow: 0 0 10px 1px rgba(0,0,0,.2);
+        box-shadow: 0 0 10px 1px rgba(0,0,0,.2);
     }
     
     #banner>img { display: block; }
