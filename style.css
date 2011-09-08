@@ -272,7 +272,7 @@ blockquote + cite:before { content: "–\202F"; }
 /**
  * Layout
  */
-.container {
+#page {
     background: #fcfcfc;
     border: 1px solid #aaa;
     margin: 0 auto 1em;
