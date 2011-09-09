@@ -49,7 +49,10 @@ sub { bottom: -0.25em; }
 /* =============================================================================
    Lists
    ========================================================================== */
-nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
+ul, ol, dd,
+nav ul, nav ol { margin: 0; padding: 0; }
+
+nav ul, nav ol { list-style: none; list-style-image: none; }
 
 /* =============================================================================
    Embedded content
