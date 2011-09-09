@@ -378,13 +378,13 @@ blockquote + cite:before { content: "–\202F"; }
     line-height: 1.8462;
 }
 
-.serendipity_entry ul,
-.serendipity_entry ol { margin: 0 0 1em 2em; }
+.serendipity_entry_body ul,
+.serendipity_entry_body ol { margin: 0 0 1em 2em; }
 
-.serendipity_entry li ul,
-.serendipity_entry li ol { margin: 0 0 0 2em; }
+.serendipity_entry_body li ul,
+.serendipity_entry_body li ol { margin: 0 0 0 2em; }
 
-.serendipity_entry .plainList { margin: 0; }
+.serendipity_entry_body .plainList { margin: 0 0 1em; }
 
 .serendipity_entry pre {
     background: #eee;
