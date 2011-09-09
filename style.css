@@ -382,7 +382,7 @@ blockquote + cite:before { content: "–\202F"; }
 .serendipity_entry li ul,
 .serendipity_entry li ol { margin: 0 0 0 2em; }
 
-.serendipity_entry .plainList { margin: 0; }
+.serendipity_entry .plainList { margin: 0 0 1em; }
 
 .serendipity_entry pre {
     background: #eee;
