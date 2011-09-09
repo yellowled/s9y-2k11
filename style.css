@@ -375,6 +375,7 @@ blockquote + cite:before { content: "–\202F"; }
 .serendipity_edit_nugget {
     color: #666;
     font-size: .8125em;
+    line-height: 1.8462;
 }
 
 .serendipity_entry ul,
