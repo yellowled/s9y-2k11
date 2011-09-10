@@ -351,6 +351,14 @@ blockquote + cite:before { content: "–\202F"; }
 
 .serendipity_entry .plainList { margin: 0 0 1em; }
 
+.serendipity_entry table {
+    border: 1px solid #aaa;
+    max-width: 100%;
+}
+
+.serendpity_entry th,
+.serendpity_entry td { padding: .125em .5em; }
+
 .serendipity_entry pre {
     background: #eee;
     border: 1px solid #aaa;
@@ -568,7 +576,7 @@ p.break { margin: 0 0 1em; }
 
 .serendipity_imageComment_txt {
     background: #ddd;
-    border: 0 none;
+    border-top: 0 none;
     color: #333;
     font-size: .8125em;
     padding: .2301em;
