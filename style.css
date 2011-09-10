@@ -1,29 +1,21 @@
-/* =============================================================================
-   HTML5 display definitions
-   ========================================================================== */
+/* HTML5 display definitions */
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
 audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
 audio:not([controls]) { display: none; }
 [hidden] { display: none; }
 
-/* =============================================================================
-   Base
-   ========================================================================== */
+/* Base */
 html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 
 body { margin: 0; font-size: 100%; line-height: 1.5; }
 
 body, button, input, select, textarea { font-family: Helvetica, Arial, sans-serif; color: #222; }
 
-/* =============================================================================
-   Links
-   ========================================================================== */
+/* Links */
 a:focus { outline: thin dotted; }
 a:hover, a:active { outline: 0; }
 
-/* =============================================================================
-   Typography
-   ========================================================================== */
+/* Typography */
 abbr[title] { border-bottom: 1px dotted; }
 
 b, strong { font-weight: bold; }
@@ -46,24 +38,18 @@ sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: b
 sup { top: -0.5em; }
 sub { bottom: -0.25em; }
 
-/* =============================================================================
-   Lists
-   ========================================================================== */
+/* Lists */
 ul, ol, dd,
 nav ul, nav ol { margin: 0; padding: 0; }
 
 nav ul, nav ol { list-style: none; list-style-image: none; }
 
-/* =============================================================================
-   Embedded content
-   ========================================================================== */
+/* Embedded content */
 img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
 
 svg:not(:root) { overflow: hidden; }
 
-/* =============================================================================
-   Forms
-   ========================================================================== */
+/* Forms */
 form, figure { margin: 0; }
 fieldset { border: 0; margin: 0; padding: 0; }
 
@@ -90,26 +76,12 @@ textarea { overflow: auto; vertical-align: top; resize: vertical; }
 input:valid, textarea:valid {  }
 input:invalid, textarea:invalid { background-color: #f0dddd; }
 
-/* =============================================================================
-   Tables
-   ========================================================================== */
+/* Tables */
 table { border-collapse: collapse; border-spacing: 0; }
 td { vertical-align: top; }
 
 
-/* ==|== primary styles =====================================================
-   Author: Matthias Mees, mm@yellowled.de
-   ========================================================================== */
-
-/**
- * s9y colors:
- * 
- * dark blue:   #294564     rgb(41,69,100)
- * medium blue: #3e5f81     rgb(62,95,129)
- * light blue:  #ccdee7     rgb(204,222,231)
- * orange:      #f80        rgb(255,136,0)
- * 
- */
+/* Primary styles */
 input[type="checkbox"] {
     margin: 0 .25em 0 0;
     vertical-align: baseline;
@@ -177,9 +149,7 @@ h4 a, h5 a, h6 a { text-decoration: none; }
 a:link { -webkit-tap-highlight-color: #f80; }
 
 
-/**
- * Typography
- */
+/* Typography */
 .droid, .droid button,
 .droid input, .droid select,
 .droid textarea { font-family: 'Droid Sans', sans-serif; }
@@ -247,9 +217,7 @@ blockquote:before {
 blockquote + cite:before { content: "–\202F"; }
 
 
-/**
- * Layout
- */
+/* Layout */
 #page {
     background: #fcfcfc;
     margin: 0 0 1em;
@@ -265,10 +233,6 @@ blockquote + cite:before { content: "–\202F"; }
     zoom: 1;
 }
 
-
-/**
- * Area styles
- */ 
 .read_more,
 .trackback_url {
     display: block;
@@ -673,9 +637,7 @@ p.break { margin: 0 0 1em; }
 }
 
 
-/* ==|== non-semantic helper classes ========================================
-   Please define your styles before this section.
-   ========================================================================== */
+/* Helper classes  */
 .ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; }
 .ir br { display: none; }
 
@@ -692,9 +654,7 @@ p.break { margin: 0 0 1em; }
 .clearfix { zoom: 1; }
 
 
-/* ==|== media queries ======================================================
-   PLACEHOLDER Media Queries for Responsive Design.
-   ========================================================================== */
+/* Media queries  */
 @media only screen and (min-width: 480px) {
     #sidebar_left,
     #sidebar_right { padding: 0 1em; }
@@ -831,9 +791,7 @@ p.break { margin: 0 0 1em; }
 }
 
 
-/* ==|== print styles =======================================================
-   Print styles.
-   ========================================================================== */
+/* Print styles */
 @media print {
   * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; }
   a, a:visited { text-decoration: underline; }
