@@ -271,7 +271,11 @@ blockquote + cite:before { content: "–\202F"; }
     border-bottom: 1px solid #294564;
     color: #fff;
     margin: 0 0 1em;
-    background: rgb(62,95,129); /* Old browsers */
+}
+
+.borderradius #primary-nav,
+.borderradius .serendipity_calendar thead,
+.borderradius .serendipity_calendar tfoot {
     background: -moz-linear-gradient(top, rgba(62,95,129,1) 0%, rgba(41,69,100,1) 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(62,95,129,1)), color-stop(100%,rgba(41,69,100,1))); /* Chrome,Safari4+ */
     background: -webkit-linear-gradient(top, rgba(62,95,129,1) 0%,rgba(41,69,100,1) 100%); /* Chrome10+,Safari5.1+ */
@@ -279,6 +283,10 @@ blockquote + cite:before { content: "–\202F"; }
     background: -ms-linear-gradient(top, rgba(62,95,129,1) 0%,rgba(41,69,100,1) 100%); /* IE10+ */
     background: linear-gradient(top, rgba(62,95,129,1) 0%,rgba(41,69,100,1) 100%); /* W3C */
 }
+
+.no-borderradius #primary-nav,
+.no-borderradius .serendipity_calendar thead,
+.no-borderradius .serendipity_calendar tfoot { background: rgb(41,69,100) url({TEMPLATE_PATH}img/gradient-dblue.png) left top repeat-x; }
 
 #primary-nav span,
 #primary-nav a,
@@ -316,9 +324,10 @@ blockquote + cite:before { content: "–\202F"; }
 #primary-nav a:visited { color: #fff; }
 
 #primary-nav a:hover,
-#primary-nav a:focus {
-    color: #000;
-    background: rgb(204,222,231); /* Old browsers */
+#primary-nav a:focus { color: #000; }
+
+.borderradius #primary-nav a:hover,
+.borderradius #primary-nav a:focus {
     background: -moz-linear-gradient(top, rgba(204,222,231,1) 0%, rgba(170,188,197,1) 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(204,222,231,1)), color-stop(100%,rgba(170,188,197,1))); /* Chrome,Safari4+ */
     background: -webkit-linear-gradient(top, rgba(204,222,231,1) 0%,rgba(170,188,197,1) 100%); /* Chrome10+,Safari5.1+ */
@@ -326,6 +335,9 @@ blockquote + cite:before { content: "–\202F"; }
     background: -ms-linear-gradient(top, rgba(204,222,231,1) 0%,rgba(170,188,197,1) 100%); /* IE10+ */
     background: linear-gradient(top, rgba(204,222,231,1) 0%,rgba(170,188,197,1) 100%); /* W3C */
 }
+
+.no-borderradius #primary-nav a:hover,
+.no-borderradius #primary-nav a:focus { background: rgb(170,188,197) url({TEMPLATE_PATH}img/gradient-lblue.png) left top repeat-x; }
 
 .serendipity_entry,
 .serendipity_staticpage,
@@ -623,16 +635,7 @@ p.break { margin: 0 0 1em; }
 }
 
 .serendipity_calendar thead,
-.serendipity_calendar tfoot {
-    color: #fff;
-    background: rgb(62,95,129); /* Old browsers */
-    background: -moz-linear-gradient(top, rgba(62,95,129,1) 0%, rgba(41,69,100,1) 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(62,95,129,1)), color-stop(100%,rgba(41,69,100,1))); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, rgba(62,95,129,1) 0%,rgba(41,69,100,1) 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, rgba(62,95,129,1) 0%,rgba(41,69,100,1) 100%); /* Opera11.10+ */
-    background: -ms-linear-gradient(top, rgba(62,95,129,1) 0%,rgba(41,69,100,1) 100%); /* IE10+ */
-    background: linear-gradient(top, rgba(62,95,129,1) 0%,rgba(41,69,100,1) 100%); /* W3C */
-}
+.serendipity_calendar tfoot { color: #fff; }
 
 .serendipity_calendar th,
 .serendipity_calendar td {
