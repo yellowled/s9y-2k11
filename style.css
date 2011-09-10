@@ -184,6 +184,11 @@ h3 {
     margin: 0 0 .8em;
 }
 
+.serendipity_plugin>h3 {
+    color: #666;
+    font-weight: normal;
+}
+
 h4, h5, h6 { font-size: 1em; }
 
 h4, h5, h6,
