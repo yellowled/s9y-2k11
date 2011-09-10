@@ -450,6 +450,9 @@ blockquote + cite:before { content: "–\202F"; }
 .form_tarea,
 .form_toolbar { margin-bottom: 1em; }
 
+.form_field,
+.form_tarea { margin-bottom: .5em; }
+
 #serendipity_comment input[type=text],
 #serendipity_comment input[type=email],
 #serendipity_comment input[type=url] { min-width: 13em; }
