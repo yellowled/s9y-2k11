@@ -356,8 +356,15 @@ blockquote + cite:before { content: "–\202F"; }
     max-width: 100%;
 }
 
-.serendpity_entry th,
-.serendpity_entry td { padding: .125em .5em; }
+.serendipity_entry caption {
+    font-style: italic;
+    font-size: .8125em;
+    line-height: 1.8462;
+    text-align: center;
+}
+
+.serendipity_entry th,
+.serendipity_entry td { padding: .125em .5em; }
 
 .serendipity_entry pre {
     background: #eee;
@@ -458,6 +465,7 @@ blockquote + cite:before { content: "–\202F"; }
     background: #eee;
     border: 1px solid #aaa;
     font-size: .8125em;
+    line-height: 1.8462;
     margin: 0 0 1.2308em;
     max-width: 35em;
     padding: .3846em;
@@ -511,6 +519,7 @@ p.break { margin: 0 0 1em; }
 .serendipity_msg_important,
 .serendipity_msg_notice {
     font-size: .8125em;
+    line-height: 1.8462;
     max-width: 35em;
     padding: .3846em;
 }
@@ -579,6 +588,7 @@ p.break { margin: 0 0 1em; }
     border-top: 0 none;
     color: #333;
     font-size: .8125em;
+    line-height: 1.8462;
     padding: .2301em;
     text-align: center;
 }
