@@ -177,6 +177,8 @@ h2 {
     margin: 0 0 .6667em;
 }
 
+.serendipity_entry header h2 { margin: 0 0 .3333em; }
+
 h3 { 
     font-size: 1.25em;
     margin: 0 0 .8em;
