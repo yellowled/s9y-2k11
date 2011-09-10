@@ -372,6 +372,8 @@ blockquote + cite:before { content: "–\202F"; }
 .serendipity_entry thead { border-bottom: 1px solid #aaa; }
 .serendipity_entry tfoot { border-top: 1px solid #aaa; }
 
+.serendipity_entry tbody tr:nth-child(even) { background: #eee; }
+
 .serendipity_entry pre {
     background: #eee;
     border: 1px solid #aaa;
