@@ -364,7 +364,9 @@ blockquote + cite:before { content: "–\202F"; }
 }
 
 .serendipity_entry th,
-.serendipity_entry td { padding: .125em 1em; }
+.serendipity_entry tfoot td { padding: .125em 1em; }
+
+.serendipity_entry tbody td { padding: .1875em 1em; }
 
 .serendipity_entry thead,
 .serendipity_entry tfoot { background: #ddd; }
