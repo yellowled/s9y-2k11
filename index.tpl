@@ -34,6 +34,7 @@
 {serendipity_hookPlugin hook="frontend_header"}
 {/if}
 {if $is_raw_mode != true}
+<a class="visuallyhidden" href="#content"><span lang="en">Skip to content</span></a>
 <div id="page" class="clearfix">
     <header id="banner" class="clearfix{if $leftSidebarElements > 0 && $rightSidebarElements > 0} col3{elseif $leftSidebarElements > 0 && $rightSidebarElements == 0} col2l{else} col2r{/if}" role="banner">
         <div id="identity">
