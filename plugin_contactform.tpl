@@ -1,3 +1,8 @@
+{assign var="placename" value=$CONST.TWOK11_PLACE_NAME}
+{assign var="placemail" value=$CONST.TWOK11_PLACE_MAIL}
+{assign var="placeurl" value=$CONST.TWOK11_PLACE_URL}
+{assign var="placemess" value=$CONST.TWOK11_PLACE_MESSAGE}
+{assign var="sendmail" value=$CONST.TWOK11_SEND_MAIL}
 {if $plugin_contactform_articleformat}
     <div class="serendipity_entry">
 {/if}
@@ -27,25 +32,25 @@
             </div>
             <div class="form_field">
                 <label for="serendipity_commentform_name">{$CONST.NAME}</label>
-                <input id="serendipity_commentform_name" name="serendipity[name]" type="text" value="{$commentform_name}"/>
+                <input id="serendipity_commentform_name" name="serendipity[name]" type="text" value="{$commentform_name}" placeholder="{$placename}"/>
             </div>
             
             <div class="form_field">
                 <label for="serendipity_commentform_email">{$CONST.EMAIL}</label>
-                <input id="serendipity_commentform_email" name="serendipity[email]" type="email" value="{$commentform_email}"/>
+                <input id="serendipity_commentform_email" name="serendipity[email]" type="email" value="{$commentform_email}" placeholder="{$placemail}"/>
             </div>
             
             <div class="form_field">
                 <label for="serendipity_commentform_url">{$CONST.HOMEPAGE}</label>
-                <input id="serendipity_commentform_url" name="serendipity[url]" type="url" value="{$commentform_url}"/>
+                <input id="serendipity_commentform_url" name="serendipity[url]" type="url" value="{$commentform_url}" placeholder="{$placeurl}"/>
             </div>
             
             <div class="form_tarea">
                 <label for="serendipity_commentform_comment">{$plugin_contactform_message}</label>
-                <textarea id="serendipity_commentform_comment" name="serendipity[comment]" rows="10" cols="40">{$commentform_data}</textarea>
+                <textarea id="serendipity_commentform_comment" name="serendipity[comment]" rows="10" cols="40" placeholder="{$placemess}">{$commentform_data}</textarea>
             </div>
             {serendipity_hookPlugin hook="frontend_comment" data=$commentform_entry}
-            <input id="serendipity_submit" name="serendipity[submit]" type="submit" value="{$CONST.SUBMIT_COMMENT}"/>
+            <input id="serendipity_submit" name="serendipity[submit]" type="submit" value="{$sendmail}"/>
             </form>
         </div>
     {/if}
