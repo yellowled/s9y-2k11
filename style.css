@@ -285,8 +285,11 @@ blockquote + cite:before { content: "–\202F"; }
 }
 
 .no-borderradius #primary-nav,
+.no-js #primary-nav,
 .no-borderradius .serendipity_calendar thead,
-.no-borderradius .serendipity_calendar tfoot { background: rgb(41,69,100) url({TEMPLATE_PATH}img/gradient-dblue.png) left top repeat-x; }
+.no-js .serendipity_calendar thead
+.no-borderradius .serendipity_calendar tfoot,
+.no-js .serendipity_calendar tfoot { background: rgb(41,69,100) url({TEMPLATE_PATH}img/gradient-dblue.png) left top repeat-x; }
 
 #primary-nav span,
 #primary-nav a,
@@ -337,7 +340,9 @@ blockquote + cite:before { content: "–\202F"; }
 }
 
 .no-borderradius #primary-nav a:hover,
-.no-borderradius #primary-nav a:focus { background: rgb(170,188,197) url({TEMPLATE_PATH}img/gradient-lblue.png) left top repeat-x; }
+.no-js #primary-nav a:hover,
+.no-borderradius #primary-nav a:focus,
+.no-js #primary-nav a:focus { background: rgb(170,188,197) url({TEMPLATE_PATH}img/gradient-lblue.png) left top repeat-x; }
 
 .serendipity_entry,
 .serendipity_staticpage,
