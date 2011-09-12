@@ -481,7 +481,7 @@ blockquote + cite:before { content: "–\202F"; }
 #serendipity_comment input[type=url] { min-width: 13em; }
 
 #serendipity_replyTo {
-    margin: 0 0 1em;
+    margin: 0;
     max-width: 100%;
     min-width: 13.5em;
 }
