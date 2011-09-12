@@ -6,6 +6,8 @@
 // Sprachkonstanten
 @define('TWOK11_NAV_TITLE', 'Navigation');
 @define('TWOK11_PAG_TITLE', 'Pagination');
+@define('TWOK11_PLINK_TEXT', 'Link');
+@define('TWOK11_PLINK_TITLE', 'Permanenter Link zu diesem Kommentar');
 @define('TWOK11_PLACE_NAME', 'z.B. John Doe');
 @define('TWOK11_PLACE_MAIL', 'z.B. mail@example.org');
 @define('TWOK11_PLACE_URL', 'z.B. http://example.org');
