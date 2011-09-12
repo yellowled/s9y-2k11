@@ -231,7 +231,20 @@ blockquote + cite:before { content: "–\202F"; }
     width: 100%;
 }
 
-#primary-nav ul { margin: 0 auto; }
+#primary-nav ul {
+    display: none;
+    margin: 0 auto;
+}
+
+.no-js #primary-nav ul {
+    display: block;
+}
+
+#primary-nav select {
+    display: block;
+    margin: .5em 1em;
+    width: 90%;
+}
 
 #primary-nav li { display: inline-block; }
 
@@ -690,6 +703,10 @@ p.break { margin: 0 0 1em; }
 
 /* Media queries  */
 @media only screen and (min-width: 480px) {
+    #primary-nav ul { display: block; }
+    
+    #primary-nav select { display: none; }
+    
     #sidebar_left,
     #sidebar_right { padding: 0 1em; }
     
