@@ -4,6 +4,7 @@
 @define('TWOK11_WEBFONTS', 'Use a webfont, hosted by Google?');
 @define('TWOK11_NOWEBFONT', 'Include no webfont');
 // Lang constants
+@define('TWOK11_NAV_TITLE', 'Navigation');
 @define('TWOK11_PLACE_NAME', 'i.e. John Doe');
 @define('TWOK11_PLACE_MAIL', 'i.e. mail@example.org');
 @define('TWOK11_PLACE_URL', 'i.e. http://example.org');

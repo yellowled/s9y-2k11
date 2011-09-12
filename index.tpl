@@ -34,6 +34,7 @@
 {serendipity_hookPlugin hook="frontend_header"}
 {/if}
 {if $is_raw_mode != true}
+{assign var="navtitle" value=$CONST.TWOK11_NAV_TITLE}
 <a class="visuallyhidden" href="#content"><span lang="en">Skip to content</span></a>
 <div id="page" class="clearfix">
     <header id="banner" class="clearfix{if $leftSidebarElements > 0 && $rightSidebarElements > 0} col3{elseif $leftSidebarElements > 0 && $rightSidebarElements == 0} col2l{else} col2r{/if}" role="banner">
@@ -57,7 +58,7 @@
     </header>
     
     <nav id="primary-nav" role="navigation">
-        <h2 class="visuallyhidden">Navigation</h2>
+        <h2 class="visuallyhidden">{$navtitle}</h2>
         
         <ul class="clearfix">{foreach from=$navlinks item="navlink" name="sbnav"}<li{if $smarty.foreach.sbnav.first} class="first"{/if}{if $smarty.foreach.sbnav.last} class="last"{/if}>{if $currpage==$navlink.href or $currpage2==$navlink.href}<span>{else}<a href="{$navlink.href}">{/if}{$navlink.title}{if $currpage==$navlink.href or $currpage2==$navlink.href}</span>{else}</a>{/if}</li>{/foreach}</ul>
     </nav>
