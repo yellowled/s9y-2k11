@@ -286,9 +286,9 @@ blockquote + cite:before { content: "–\202F"; }
     margin: 0 0 1em;
 }
 
-.borderradius #primary-nav,
-.borderradius .serendipity_calendar thead,
-.borderradius .serendipity_calendar tfoot {
+.cssgradients #primary-nav,
+.cssgradients .serendipity_calendar thead,
+.cssgradients .serendipity_calendar tfoot {
     background: -moz-linear-gradient(top, rgba(62,95,129,1) 0%, rgba(41,69,100,1) 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(62,95,129,1)), color-stop(100%,rgba(41,69,100,1))); /* Chrome,Safari4+ */
     background: -webkit-linear-gradient(top, rgba(62,95,129,1) 0%,rgba(41,69,100,1) 100%); /* Chrome10+,Safari5.1+ */
@@ -297,11 +297,11 @@ blockquote + cite:before { content: "–\202F"; }
     background: linear-gradient(top, rgba(62,95,129,1) 0%,rgba(41,69,100,1) 100%); /* W3C */
 }
 
-.no-borderradius #primary-nav,
+.no-cssgradients #primary-nav,
 .no-js #primary-nav,
-.no-borderradius .serendipity_calendar thead,
+.no-cssgradients .serendipity_calendar thead,
 .no-js .serendipity_calendar thead,
-.no-borderradius .serendipity_calendar tfoot,
+.no-cssgradients .serendipity_calendar tfoot,
 .no-js .serendipity_calendar tfoot { background: rgb(41,69,100) url({TEMPLATE_PATH}img/gradient-dblue.png) left top repeat-x; }
 
 #primary-nav span,
@@ -342,8 +342,8 @@ blockquote + cite:before { content: "–\202F"; }
 #primary-nav a:hover,
 #primary-nav a:focus { color: #000; }
 
-.borderradius #primary-nav a:hover,
-.borderradius #primary-nav a:focus {
+.cssgradients #primary-nav a:hover,
+.cssgradients #primary-nav a:focus {
     background: -moz-linear-gradient(top, rgba(204,222,231,1) 0%, rgba(170,188,197,1) 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(204,222,231,1)), color-stop(100%,rgba(170,188,197,1))); /* Chrome,Safari4+ */
     background: -webkit-linear-gradient(top, rgba(204,222,231,1) 0%,rgba(170,188,197,1) 100%); /* Chrome10+,Safari5.1+ */
@@ -352,9 +352,9 @@ blockquote + cite:before { content: "–\202F"; }
     background: linear-gradient(top, rgba(204,222,231,1) 0%,rgba(170,188,197,1) 100%); /* W3C */
 }
 
-.no-borderradius #primary-nav a:hover,
+.no-cssgradients #primary-nav a:hover,
 .no-js #primary-nav a:hover,
-.no-borderradius #primary-nav a:focus,
+.no-cssgradients #primary-nav a:focus,
 .no-js #primary-nav a:focus { background: rgb(170,188,197) url({TEMPLATE_PATH}img/gradient-lblue.png) left top repeat-x; }
 
 .serendipity_entry,
