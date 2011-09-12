@@ -177,6 +177,8 @@ h2 {
     margin: 0 0 .6667em;
 }
 
+h1, h2 { line-height: 1.25; }
+
 .serendipity_entry header h2 { margin: 0 0 .3333em; }
 
 h3 { 
