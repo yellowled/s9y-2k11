@@ -842,7 +842,9 @@ p.break { margin: 0 0 1em; }
     .staticpage_results,
     .nocontent { margin: 0 2em 1em; }
     
-    .serendipity_entry, .archives, .freetag_cloud,
+    .serendipity_entry { margin: 0 2em 3em; }
+    
+    .archives, .freetag_cloud,
     .serendipity_staticpage,
     #sidebar_left .sidebar_plugin,
     .ie7 #sidebar_left .sidebar_plugin,
