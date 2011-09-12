@@ -29,4 +29,5 @@ If you _do_ want to test it (locally), your test blog needs to run at least s9y 
 * **Date format:** Sets a date format used _globally_ in the theme, i.e. for entries, comments, trackbacks, static pages. Basically for anything controlled by the .tpl files provided by 2k11.
 * **Header image:** Pick an image from the s9y media database (or leave empty to omit). This will be added as a banner img between header/search and navigation. It's a responsive images only displayed in screen resolutions higher than 600 pixels. Should be 1120 pixels wide to work properly.
 * **Google webfont:** Pick one of five preselected webfonts or the 'none' option to use Helvetica/Arial. These webfonts are included via the Google webfonts API.
-* **Navigation:** Global navigation provided by s9y core.
+* **Navigation:** Global navigation provided by s9y core. Switches to an (additionally added using JS) `select` as a pseudo dropdown menu on small screens.
+
