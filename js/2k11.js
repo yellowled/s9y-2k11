@@ -18,10 +18,11 @@ jQuery(document).ready(function($) {
     // Clone primary navigation as select for small screen
     $('<select/>').appendTo('#primary-nav');
     // Create default option
+    var currPage = $('#primary-nav span').text();
     $("<option />", {
         "selected": "selected",
         "value"   : "",
-        "text"    : "Navigation …"
+        "text"    : currPage
     }).appendTo("#primary-nav>select");
     // Populate dropdown with menu items
     $("#primary-nav a").each(function() {
