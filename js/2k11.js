@@ -15,4 +15,24 @@ jQuery(document).ready(function($) {
         var deleteMsg = $(this).attr('title');
         return confirm(deleteMsg);
     });
+    // Clone primary navigation as select for small screen
+    $('<select/>').appendTo('#primary-nav');
+    // Create default option
+    $("<option />", {
+        "selected": "selected",
+        "value"   : "",
+        "text"    : "Navigation …"
+    }).appendTo("#primary-nav>select");
+    // Populate dropdown with menu items
+    $("#primary-nav a").each(function() {
+        var el = $(this);
+        $("<option />", {
+            "value"   : el.attr("href"),
+            "text"    : el.text()
+        }).appendTo("#primary-nav>select");
+    });
+    // Make the select navs work
+    $("#primary-nav>select").change(function() {
+        window.location = $(this).find("option:selected").val();
+    });
 });
