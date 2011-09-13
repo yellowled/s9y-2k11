@@ -669,6 +669,8 @@ p.break { margin: 0 0 1em; }
 
 .serendipity_calendar abbr[title] { border: 0 none; }
 
+.serendipity_calendar .Today { font-weight: bold; }
+
 .serendipity_freeTag {
     display: block;
     font-size: 1em;
