@@ -1,6 +1,6 @@
 {foreach from=$trackbacks item=trackback}
 <article id="c{$trackback.id}" class="serendipity_comment {cycle values="odd,even"}">
-    <h4><cite>{$trackback.author|@default:$CONST.ANONYMOUS}</cite> {$CONST.ON} <time datetime="{$trackback.timestamp|@formatTime:'%Y-%m-%dT%H:%M:%S%z'}" pubdate>{$trackback.timestamp|@formatTime:$template_option.date_format}</time>: <a href="{$trackback.url|@strip_tags}">{$trackback.title}</a></h4>
+    <h4><cite>{$trackback.author|@default:$CONST.ANONYMOUS}</cite> {$CONST.ON} <time datetime="{$trackback.timestamp|@serendipity_smarty_html5time}" pubdate>{$trackback.timestamp|@formatTime:$template_option.date_format}</time>: <a href="{$trackback.url|@strip_tags}">{$trackback.title}</a></h4>
 
     <details>
         <summary>{$CONST.VIEW_EXTENDED_ENTRY|@sprintf:$trackback.title}</summary>

@@ -14,6 +14,12 @@ function serendipity_plugin_api_event_hook($event, &$bag, &$eventData, $addData 
     return true;
 }
 
+function serendipity_smarty_html5time($timestamp) {
+    return date("c", $timestamp);
+}
+
+$serendipity['smarty']->register_modifier('serendipity_smarty_html5time', 'serendipity_smarty_html5time');
+
 $template_config = array(
     array(
         'var'           => 'date_format',

@@ -6,7 +6,7 @@
         <header>
             <h2><a href="{$entry.link}">{$entry.title}</a></h2>
             
-            <span class="serendipity_byline">{$CONST.POSTED_BY} <a href="{$entry.link_author}">{$entry.author}</a> {$CONST.ON} <time datetime="{$entry.timestamp|@formatTime:'%Y-%m-%dT%H:%M:%S%z'}" pubdate>{$entry.timestamp|@formatTime:$template_option.date_format}</time></span>
+            <span class="serendipity_byline">{$CONST.POSTED_BY} <a href="{$entry.link_author}">{$entry.author}</a> {$CONST.ON} <time datetime="{$entry.timestamp|@serendipity_smarty_html5time}" pubdate>{$entry.timestamp|@formatTime:$template_option.date_format}</time></span>
         {if $entry.categories}
             {foreach from=$entry.categories item="entry_category"}
                 {if $entry_category.category_icon}
