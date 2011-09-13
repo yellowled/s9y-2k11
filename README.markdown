@@ -1,6 +1,6 @@
 # 2k11 – A new default theme for Serendipity
 
-2k11 is supposed to become the new default theme for the Serendipity (s9y) blog engine.
+2k11 is supposed to become the new default theme for the [Serendipity (s9y) blog engine](http://s9y.org).
 
 ## Disclaimer
 
@@ -12,7 +12,7 @@ If you _do_ want to test it (locally), your test blog needs to run at least s9y 
 
 ## Features
 
-2k11 is a responsive HTML5 template. It has a fluid grid layout which adapts to the visitor's screen resolution, even on smaller screens down to smartphones.
+2k11 is a responsive HTML5 template. It has a fluid grid layout which adapts to the visitor's screen resolution, even on smaller screens down to smartphones. 2k11 looks plain and simple by design, hoping it will appeal to as many users as possible. It is built using the [HTML5 Boilerplate](http://h5bp.com), [Modernizr](http://www.modernizr.com) and [jQuery](http://jquery.com).
 
 ### Layout options
 
