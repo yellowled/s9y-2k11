@@ -709,7 +709,7 @@ p.break { margin: 0 0 1em; }
 
 
 /* Media queries  */
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 481px) {
     #primary-nav ul { display: block; }
     
     #primary-nav select { display: none; }
