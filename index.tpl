@@ -60,7 +60,7 @@
     <nav id="primary-nav" role="navigation">
         <h2 class="visuallyhidden">{$navtitle}</h2>
         
-        <ul class="clearfix">{foreach from=$navlinks item="navlink" name="sbnav"}<li{if $smarty.foreach.sbnav.first} class="first"{/if}{if $smarty.foreach.sbnav.last} class="last"{/if}>{if $currpage==$navlink.href or $currpage2==$navlink.href}<span>{else}<a href="{$navlink.href}">{/if}{$navlink.title}{if $currpage==$navlink.href or $currpage2==$navlink.href}</span>{else}</a>{/if}</li>{/foreach}</ul>
+        <ul class="clearfix">{foreach from=$navlinks item="navlink" name="sbnav"}<li>{if $currpage==$navlink.href or $currpage2==$navlink.href}<span>{else}<a href="{$navlink.href}">{/if}{$navlink.title}{if $currpage==$navlink.href or $currpage2==$navlink.href}</span>{else}</a>{/if}</li>{/foreach}</ul>
     </nav>
     
     <div id="main" class="clearfix{if $leftSidebarElements > 0 && $rightSidebarElements > 0} col3{elseif $leftSidebarElements > 0 && $rightSidebarElements == 0} col2l{else} col2r{/if}">
