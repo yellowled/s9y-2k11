@@ -317,8 +317,8 @@ fieldset,
 
 #primary-nav span { position: relative; }
 
-#primary-nav span::after {
-    border-color: #294564 #fcfcfc;
+#primary-nav span:after {
+    border-color: #294564 transparent;
     border-style: solid;
     border-width: 8px 8px 0;
     margin: -8px;
