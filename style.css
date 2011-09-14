@@ -198,6 +198,7 @@ h4, h5, h6 { font-size: 1em; }
 h4, h5, h6,
 p, ul, ol, dl,
 table, details,
+audio, video,
 #trackback_url,
 .manage_comments,
 .plugin_comment_wrap { margin: 0 0 1em; }
