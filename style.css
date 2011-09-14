@@ -124,10 +124,9 @@ fieldset { display: block; }
 
 img,
 audio, video,
-embed, object {
-    height: auto;
-    max-width: 100%;
-}
+embed, object { max-width: 100%; }
+
+img { height: auto; }
 
 q { quotes: '“' '”' '‘' '’'; }
 :lang(de) q { quotes: '„' '“' '‚' '‘'; }
