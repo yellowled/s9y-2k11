@@ -252,9 +252,11 @@ fieldset,
     width: 90%;
 }
 
-#primary-nav li { display: inline-block; }
+#primary-nav li,
+.archives_date { display: inline-block; }
 
-.ie7 #primary-nav li {
+.ie7 #primary-nav li,
+.ie7 .archives_date {
     display: inline;
     zoom: 1;
 }
@@ -452,15 +454,7 @@ fieldset,
 
 .arch_even { margin: 0 0 0 2%; }
 
-.archives_date {
-    display: inline-block;
-    min-width: 7em;
-}
-
-.ie7 .archives_date {
-    display: inline;
-    zoom: 1;
-}
+.archives_date { min-width: 7em; }
 
 .serendipity_comments { margin: 1em 0; }
 
