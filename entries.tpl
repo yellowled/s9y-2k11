@@ -16,14 +16,14 @@
         {/if}
         </header>
 
-        <div class="clearfix serendipity_entry_body">
+        <div class="clearfix content serendipity_entry_body">
         {$entry.body}
         {if $entry.has_extended and not $is_single_entry and not $entry.is_extended}
         <a class="read_more" href="{$entry.link}#extended">{$CONST.VIEW_EXTENDED_ENTRY|@sprintf:$entry.title}</a>
         {/if}
         </div>
         {if $entry.is_extended}
-        <div id="extended">
+        <div id="extended" class="content">
         {$entry.extended}
         </div>
         {/if}

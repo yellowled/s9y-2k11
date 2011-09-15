@@ -843,8 +843,16 @@ fieldset,
     
     #search, #primary-nav,
     #sidebar_left, #sidebar_right,
-    #colophon { display: none;}
+    #colophon, audio, video,
+    .serendipity_entry>footer,
+    .serendipity_pagination,
+    #trackback_url, .manage_comments,
+    .serendipity_comment>details,
+    .serendipity_comment>footer,
+    .comment_avatar, #respond { display: none;}
 
     body { font-family: Georgia, Times, "Times New Roman", serif !important; }
-    .content a[href]:after { content: " (" attr(href) ")"; }
+    .content a[href]:after,
+    #trackbacks h4 a[href]:after { content: " (" attr(href) ")"; }
+    .content a.serendipity_image_link[href]:after { content: ""; }
 }
