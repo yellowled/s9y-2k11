@@ -20,10 +20,10 @@
     </fieldset>
     </form>
 {else}
-    <div class="clearfix serendipity_preface">
+    <div class="clearfix content serendipity_preface">
     {$staticpage_precontent}
     </div>
-    <div class="clearfix staticpage_content">
+    <div class="clearfix content staticpage_content">
     {$staticpage_content}
     </div>
 {/if}

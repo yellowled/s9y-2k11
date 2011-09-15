@@ -4,7 +4,7 @@
 
     <details>
         <summary>{$CONST.VIEW_EXTENDED_ENTRY|@sprintf:$trackback.title}</summary>
-        <div class="serendipity_commentBody">{$trackback.body|@strip_tags|@escape:all}</div>
+        <div class="content serendipity_commentBody">{$trackback.body|@strip_tags|@escape:all}</div>
     </details>    
 {if $entry.is_entry_owner}
     <footer>
