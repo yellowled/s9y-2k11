@@ -199,7 +199,9 @@ table, details,
 audio, video,
 #trackback_url,
 .manage_comments,
-.plugin_comment_wrap { margin: 0 0 1em; }
+.plugin_comment_wrap,
+p.break, #search div,
+.serendipity_entry .plainList { margin: 0 0 1em; }
 
 summary { cursor: pointer; }
 
@@ -282,10 +284,7 @@ fieldset,
     clear: both;
 }
 
-#search div {
-    margin: 0 0 1em;
-    padding: 0 1em;
-}
+#search div { padding: 0 1em; }
 
 #primary-nav {
     border-top: 1px solid #294564;
@@ -378,8 +377,6 @@ fieldset,
 
 .serendipity_entry li ul,
 .serendipity_entry li ol { margin: 0 0 0 2em; }
-
-.serendipity_entry .plainList { margin: 0 0 1em; }
 
 .serendipity_entry table {
     border: 1px solid #aaa;
@@ -505,8 +502,6 @@ fieldset,
     display: block;
     margin: 0 0 .5em;
 }
-
-p.break { margin: 0 0 1em; }
 
 .comment_avatar {
     border: 1px solid #aaa;
