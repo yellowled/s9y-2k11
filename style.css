@@ -849,7 +849,8 @@ fieldset,
     #trackback_url, .manage_comments,
     .serendipity_comment>details,
     .serendipity_comment>footer,
-    .comment_avatar, #respond { display: none;}
+    .comment_avatar, #respond,
+    .serendipityCommentForm { display: none;}
 
     body { font-family: Georgia, Times, "Times New Roman", serif !important; }
     .content a[href]:after,
