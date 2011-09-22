@@ -439,19 +439,7 @@ fieldset,
 
 .serendipity_pagination .next { width: 25%; }
 
-.archives_year {
-    float: left;
-    width: 48%;
-}
-
-.arch_odd {
-    clear: left;
-    margin: 0 2% 0 0;
-}
-
-.arch_even { margin: 0 0 0 2%; }
-
-.archives_date { min-width: 7em; }
+.archives_date { min-width: 10em; }
 
 .serendipity_comments { margin: 1em 0; }
 
@@ -694,6 +682,20 @@ fieldset,
         clear: both;
         margin-right: 5%;
     }
+    
+    .archives_year {
+        float: left;
+        width: 48%;
+    }
+
+    .arch_odd {
+        clear: left;
+        margin: 0 2% 0 0;
+    }
+
+    .arch_even { margin: 0 0 0 2%; }
+    
+    .archives_date { min-width: 7em; }
 }
 
 @media only screen and (min-width: 768px) {
