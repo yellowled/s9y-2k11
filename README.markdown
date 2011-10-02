@@ -18,6 +18,7 @@ If you _do_ want to test it (locally), your test blog needs to run at least s9y 
 * [Modernizr](http://www.modernizr.com)
 * [jQuery](http://jquery.com)
 * [jQuery placeholder plugin](https://github.com/mathiasbynens/Placeholder-jQuery-Plugin)
+* [Details-Polyfill](https://github.com/manuelbieh/Details-Polyfill)
 * *Optional:* [Google webfonts](http://www.google.com/webfonts)
 
 ### Layout options
