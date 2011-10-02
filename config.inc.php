@@ -53,6 +53,12 @@ $template_config = array(
                                  'cabin' => 'Cabin',
                                  'ubuntu' => 'Ubuntu')
     ),
+    array(
+        'var'           => 'userstyles',
+        'name'          => TWOK11_USERSTYLES,
+        'type'          => 'boolean',
+        'default'       => false
+    ),
 );
 
 $template_global_config = array('navigation' => true);

@@ -3,6 +3,7 @@
 @define('TWOK11_HEADER_IMG','Use a banner image in the header? (1120 pixels wide; leave box empty to not use a banner)');
 @define('TWOK11_WEBFONTS', 'Use a webfont, hosted by Google?');
 @define('TWOK11_NOWEBFONT', 'Include no webfont');
+@define('TWOK11_USERSTYLES', 'Include user.css? (You need to create that file in your template directory.)');
 // Lang constants
 @define('TWOK11_NAV_TITLE', 'Navigation');
 @define('TWOK11_PAG_TITLE', 'Pagination');
