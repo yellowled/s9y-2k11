@@ -18,6 +18,7 @@ If you _do_ want to test it (locally), your test blog needs to run at least s9y 
 * [Modernizr](http://www.modernizr.com)
 * [jQuery](http://jquery.com)
 * [jQuery placeholder plugin](https://github.com/mathiasbynens/Placeholder-jQuery-Plugin)
+* *Optional:* [Google webfonts](http://www.google.com/webfonts)
 
 ### Layout options
 
@@ -34,6 +35,6 @@ If you _do_ want to test it (locally), your test blog needs to run at least s9y 
 * **Date format:** Sets a date format used _globally_ in the theme, i.e. for entries, comments, trackbacks, static pages. Basically for anything controlled by the .tpl files provided by 2k11.
 * **Header image:** Pick an image from the s9y media database (or leave empty to omit). This will be added as a banner img between header/search and navigation. It's a responsive images only displayed in screen resolutions higher than 600 pixels. Should be 1120 pixels wide to work properly.
 * **Google webfont:** Pick one of five preselected webfonts or the 'none' option to use Helvetica/Arial. These webfonts are included via the Google webfonts API.
-* **User stylesheet:** Includes an additional stylesheet. Note that this **must** be called `user.css` and you have to create in manually in your template directory. Also note that both this and the Google webfont option add an additional HTTP request which might cause slight performance issues.
+* **User stylesheet:** Includes an additional stylesheet. Note that this **must** be called `user.css` and you have to create it manually in your template directory. Also note that both this and the Google webfont option add an additional HTTP request which might cause slight performance issues.
 * **Navigation:** Global navigation provided by s9y core. Switches to an (additionally added using JS) `select` as a pseudo dropdown menu on small screens.
 
