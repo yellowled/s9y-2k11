@@ -205,7 +205,10 @@ audio, video,
 .manage_comments,
 .plugin_comment_wrap,
 p.break, #search div,
-.serendipity_entry .plainList { margin: 0 0 1em; }
+.serendipity_entry .plainList,
+#page, #primary-nav,
+.serendipity_calendar,
+.serendipity_freetag_taglist { margin: 0 0 1em; }
 
 summary { cursor: pointer; }
 
@@ -236,7 +239,6 @@ blockquote + cite:before { content: "–\202F"; }
 /* Layout */
 #page {
     background: #fcfcfc;
-    margin: 0 0 1em;
     width: 100%;
 }
 
@@ -294,7 +296,6 @@ fieldset,
     border-top: 1px solid #294564;
     border-bottom: 1px solid #294564;
     color: #fff;
-    margin: 0 0 1em;
 }
 
 #primary-nav,
@@ -600,7 +601,6 @@ fieldset,
 
 .serendipity_calendar {
     border: 1px solid #3e5f81;
-    margin: 0 0 1em;
     width: 85%;
 }
 
@@ -643,7 +643,6 @@ fieldset,
 .serendipity_freetag_taglist {
     background: #eee;
     border: 1px solid #aaa;
-    margin: 0 0 1em;
     padding: 1em;
 }
 
