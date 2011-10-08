@@ -17,6 +17,7 @@ If you _do_ want to test it (locally), your test blog needs to run at least s9y 
 * [HTML5 Boilerplate](http://h5bp.com)
 * [Modernizr](http://www.modernizr.com)
 * [jQuery](http://jquery.com)
+* [CSS Tricks small screen navigation](http://css-tricks.com/13303-convert-menu-to-dropdown/)
 * [jQuery placeholder plugin](https://github.com/mathiasbynens/Placeholder-jQuery-Plugin)
 * [Details-Polyfill](https://github.com/manuelbieh/Details-Polyfill)
 * *Optional:* [Google webfonts](http://www.google.com/webfonts)
