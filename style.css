@@ -185,7 +185,10 @@ h3 {
     font-weight: normal;
 }
 
-h4, h5, h6 { font-size: 1em; }
+h4, h5, h6,
+.serendipity_staticpage small,
+.staticpage_results h3,
+.serendipity_freeTag { font-size: 1em; }
 
 h4, h5, h6,
 p, ul, ol, dl,
@@ -499,11 +502,7 @@ fieldset,
     padding: .9167em 0 1em;
 }
 
-.serendipity_staticpage small { font-size: 1em; }
-
 #colophon small { padding: .9167em 1.2308em 1em; }
-
-.staticpage_results h3 { font-size: 1em; }
 
 .serendipity_center {
     margin-left: auto;
@@ -624,7 +623,6 @@ fieldset,
 
 .serendipity_freeTag {
     display: block;
-    font-size: 1em;
     text-align: left;
 }
 
