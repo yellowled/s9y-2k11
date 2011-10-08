@@ -215,9 +215,15 @@ blockquote + cite {
     margin: 0 0 1em 40px;;
 }
 
-dt { font-weight: bold; }
+dt,
+.serendipity_calendar tfoot a,
+.serendipity_calendar tfoot a:active,
+.serendipity_calendar tfoot a:visited,
+.serendipity_calendar .Today,
+.serendipity_freetag_taglist_related { font-weight: bold; }
 
-caption, th { text-align: left; }
+caption, th, prev,
+.serendipity_freeTag { text-align: left; }
 
 blockquote:before {
     color: #999;
@@ -596,7 +602,6 @@ fieldset,
 .serendipity_calendar tfoot a:active,
 .serendipity_calendar tfoot a:visited {
     color: #fff;
-    font-weight: bold;
     text-decoration: none;
 }
 
@@ -614,17 +619,12 @@ fieldset,
     padding: .125em;
     text-align: center;
 }
-.prev { text-align: left; }
+
 .next { text-align: right; }
 
 .serendipity_calendar abbr[title] { border: 0 none; }
 
-.serendipity_calendar .Today { font-weight: bold; }
-
-.serendipity_freeTag {
-    display: block;
-    text-align: left;
-}
+.serendipity_freeTag { display: block; }
 
 .serendipity_freetag_taglist {
     background: #eee;
@@ -632,10 +632,7 @@ fieldset,
     padding: 1em;
 }
 
-.serendipity_freetag_taglist_related {
-    font-size: 1.25em;
-    font-weight: bold;
-}
+.serendipity_freetag_taglist_related { font-size: 1.25em; }
 
 /* Helper classes  */
 .visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
