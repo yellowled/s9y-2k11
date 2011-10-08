@@ -391,7 +391,6 @@ fieldset,
 }
 
 .serendipity_entry caption {
-    font-style: italic;
     font-size: .8125em;
     line-height: 1.8462;
     text-align: center;
@@ -450,7 +449,8 @@ fieldset,
 
 .serendipity_comments { margin: 1em 0; }
 
-.nocomments { font-style: italic; }
+.nocomments,
+.serendipity_entry caption { font-style: italic; }
 
 .serendipity_comment cite { font-style: normal; }
 
