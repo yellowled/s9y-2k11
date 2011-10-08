@@ -1,21 +1,17 @@
-/* HTML5 display definitions */
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary { display: block; }
 audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
 audio:not([controls]) { display: none; }
 [hidden] { display: none; }
 
-/* Base */
 html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 
 body { margin: 0; font-size: 100%; line-height: 1.5; }
 
 body, button, input, select, textarea { font-family: Helvetica, Arial, sans-serif; color: #222; }
 
-/* Links */
 a:focus { outline: thin dotted; }
 a:hover, a:active { outline: 0; }
 
-/* Typography */
 abbr[title] { border-bottom: 1px dotted; }
 
 b, strong { font-weight: bold; }
@@ -38,18 +34,15 @@ sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: b
 sup { top: -0.5em; }
 sub { bottom: -0.25em; }
 
-/* Lists */
 ul, ol, dd,
 nav ul, nav ol { margin: 0; padding: 0; }
 
 nav ul, nav ol { list-style: none; list-style-image: none; }
 
-/* Embedded content */
 img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
 
 svg:not(:root) { overflow: hidden; }
 
-/* Forms */
 form, figure { margin: 0; }
 fieldset { border: 0; margin: 0; padding: 0; }
 
@@ -76,7 +69,6 @@ textarea { overflow: auto; vertical-align: top; resize: vertical; }
 input:valid, textarea:valid {  }
 input:invalid, textarea:invalid { background-color: #f0dddd; }
 
-/* Tables */
 table { border-collapse: collapse; border-spacing: 0; }
 td { vertical-align: top; }
 
@@ -152,8 +144,6 @@ h4 a, h5 a, h6 a { text-decoration: none; }
 ::selection { background:#333; color:#fff; text-shadow: none; }
 a:link { -webkit-tap-highlight-color: #d52; }
 
-
-/* Typography */
 .droid, .droid button,
 .droid input, .droid select,
 .droid textarea { font-family: 'Droid Sans', sans-serif; }
@@ -237,8 +227,6 @@ blockquote:before {
 
 blockquote + cite:before { content: "–\202F"; }
 
-
-/* Layout */
 #page {
     background: #fcfcfc;
     width: 100%;
@@ -792,7 +780,6 @@ fieldset,
     #search div,
     .ie7 #search div { padding: 0 1em 0 2em; }
     
-    /* comment threading */
     .commentlevel-1 { margin-left: 1em; }
     .commentlevel-2 { margin-left: 2em; }
     .commentlevel-3 { margin-left: 3em; }
@@ -829,7 +816,6 @@ fieldset,
     
     #colophon small { padding: .9167em 2.4615em 1em; }
 }
-
 
 /* Print styles */
 @media print {
