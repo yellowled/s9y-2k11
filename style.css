@@ -212,7 +212,9 @@ p.break, #search div,
 
 summary { cursor: pointer; }
 
-li ul, li ol { margin: 0; }
+li ul, li ol,
+#serendipity_replyTo,
+.serendipity_freeTag { margin: 0; }
 
 blockquote,
 blockquote + cite {
@@ -464,7 +466,6 @@ fieldset,
 #serendipity_comment input[type=url] { min-width: 13em; }
 
 #serendipity_replyTo {
-    margin: 0;
     max-width: 100%;
     min-width: 13.5em;
 }
@@ -636,7 +637,6 @@ fieldset,
 .serendipity_freeTag {
     display: block;
     font-size: 1em;
-    margin: 0;
     text-align: left;
 }
 
