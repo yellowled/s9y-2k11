@@ -541,12 +541,12 @@ fieldset,
 
 .serendipity_image_left {
     float: left;
-    margin: 0 1em 1em 0;
+    margin: 0 2em 1em 0;
 }
 
 .serendipity_image_right {
     float: right;
-    margin: 0 0 1em 1em;
+    margin: 0 0 1em 2em;
 }
 
 .serendipity_image_center {
@@ -557,13 +557,13 @@ fieldset,
 .serendipity_imageComment_left {
     display: inline;
     float: left;
-    margin: 0 1em 1em 0;
+    margin: 0 2em 1em 0;
 }
 
 .serendipity_imageComment_right {
     display: inline;
     float: right;
-    margin: 0 0 1em 1em;
+    margin: 0 0 1em 2em;
 }
 
 .serendipity_imageComment_center {
