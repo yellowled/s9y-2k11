@@ -23,25 +23,27 @@ jQuery(document).ready(function($) {
         var deleteMsg = $(this).attr('title');
         return confirm(deleteMsg);
     });
+
     // Clone primary navigation as select for small screen
-    $('<select/>').appendTo('#primary-nav');
-    // Create default option
-    var currPage = $('#primary-nav span').text();
-    $("<option />", {
-        "selected": "selected",
-        "value"   : "",
-        "text"    : currPage
-    }).appendTo("#primary-nav>select");
+    var $select = $('<select/>');
     // Populate dropdown with menu items
-    $("#primary-nav a").each(function() {
-        var el = $(this);
-        $("<option />", {
-            "value"   : el.attr("href"),
-            "text"    : el.text()
-        }).appendTo("#primary-nav>select");
+    $('#primary-nav li').each(function() {
+        var $el = $(this);
+        if ($el.find('span').length) {
+            $('<option/>', {
+                'selected': 'selected',
+                'value'   : '',
+                'text'    : $el.text()
+            }).appendTo($select);
+        } else {
+            $('<option/>', {
+                'value'   : $el.find('a').attr('href'),
+                'text'    : $el.text()
+            }).appendTo($select);
+        }
     });
     // Make the select navs work
-    $("#primary-nav>select").change(function() {
-        window.location = $(this).find("option:selected").val();
+    $select.appendTo('#primary-nav').change(function() {
+        window.location = $(this).find('option:selected').val();
     });
 });
