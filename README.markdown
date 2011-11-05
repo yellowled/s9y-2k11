@@ -4,11 +4,11 @@
 
 ## Disclaimer
 
-At the time of writing, I do **not** recommend using 2k11 in a production enviroment. It's still work in progress, it will also require some work on the s9y core and possibly some plugins to work properly. Use at your own risk, if at all.
+2k11 is still work in progress, it will likely require some work on the s9y core and possibly some plugins to work properly. Use at your own risk, if at all.
 
 ### Testing
 
-If you _do_ want to test it (locally), your test blog needs to run at least s9y v1.6-beta, preferably a recent svn snapshot. To test it, simply extract the downloaded archive to `/templates/` and activate it in the s9y backend. Might need a reload in the frontend.
+If you _do_ want to test it, your blog needs to run at least s9y v1.6. Extract the downloaded archive to `/templates/` and activate it in the s9y backend. Might need a reload in the frontend.
 
 ## Features
 
@@ -39,4 +39,3 @@ If you _do_ want to test it (locally), your test blog needs to run at least s9y 
 * **Google webfont:** Pick one of five preselected webfonts or the 'none' option to use Helvetica/Arial. These webfonts are included via the Google webfonts API.
 * **User stylesheet:** Includes an additional stylesheet. Note that this **must** be called `user.css` and you have to create it manually in your template directory. Also note that both this and the Google webfont option add an additional HTTP request which might cause slight performance issues.
 * **Navigation:** Global navigation provided by s9y core. Switches to an (additionally added using JS) `select` as a pseudo dropdown menu on small screens.
-
