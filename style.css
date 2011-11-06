@@ -124,6 +124,7 @@ img { height: auto; }
 
 q { quotes: '“' '”' '‘' '’'; }
 :lang(de) q { quotes: '„' '“' '‚' '‘'; }
+/*:lang(de) q { quotes: '»' '«' '›' '‹'; }*/
 /* pre-2011 WebKit */
 q:before   { content: '“'; content: open-quote;  }
 q:after    { content: '”'; content: close-quote; }
@@ -133,6 +134,22 @@ q q:after  { content: '’'; content: close-quote; }
 :lang(de) q:after    { content: '“'; content: close-quote; }
 :lang(de) q q:before { content: '‚'; content: open-quote;  }
 :lang(de) q q:after  { content: '‘'; content: close-quote; }
+
+blockquote { quotes: '“' '”'; }
+blockquote p:before { content: ''; content: no-open-quote; }
+blockquote p:after  { content: ''; content: no-close-quote; }
+blockquote p:first-child:before { content: '“'; content: open-quote;  }
+blockquote p:last-child:after   { content: '”'; content: close-quote; }
+:lang(de) blockquote,
+blockquote:lang(de) { quotes: '„' '“'; }
+:lang(de) blockquote p:before,
+blockquote:lang(de)  p:before { content: ''; content: no-open-quote; }
+:lang(de) blockquote p:after,
+blockquote:lang(de)  p:after { content: ''; content: no-close-quote; }
+:lang(de) blockquote p:first-child:before,
+blockquote:lang(de)  p:first-child:before { content: '„'; content: open-quote; }
+:lang(de) blockquote p:last-child:after,
+blockquote:lang(de)  p:last-child:after  { content: '“'; content: close-quote; }
 
 a, a:active, a:visited { color: #3e5f81; }
 a:hover { color: #d52; }
@@ -212,8 +229,10 @@ li ul, li ol,
 blockquote,
 blockquote + cite {
     display: block;
-    margin: 0 0 1em 40px;;
+    margin: 0 0 1em 40px;
 }
+
+blockquote + cite:before { content: "–\202F"; }
 
 dt,
 .serendipity_calendar tfoot a,
@@ -224,17 +243,6 @@ dt,
 
 caption, th, prev,
 .serendipity_freeTag { text-align: left; }
-
-blockquote:before {
-    color: #999;
-    content: "“";
-    display: block;
-    font: italic 400%/1 Georgia, 'Times New Roman', serif;
-    height: 0;
-    margin-left: -.625em;
-}
-
-blockquote + cite:before { content: "–\202F"; }
 
 #page {
     background: #fcfcfc;
