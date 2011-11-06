@@ -59,13 +59,13 @@
         <img src="{$template_option.header_img}" alt=""/>
         {/if}
     </header>
-    
+    {if $template_option.use_corenav}
     <nav id="primary-nav" role="navigation">
         <h2 class="visuallyhidden">{$navtitle}</h2>
         
         <ul class="clearfix">{foreach from=$navlinks item="navlink" name="sbnav"}{if $navlink.title!=""&&$navlink.href!=""}<li>{if $currpage==$navlink.href or $currpage2==$navlink.href}<span>{else}<a href="{$navlink.href}">{/if}{$navlink.title}{if $currpage==$navlink.href or $currpage2==$navlink.href}</span>{else}</a>{/if}</li>{/if}{/foreach}</ul>
     </nav>
-    
+    {/if}
     <div id="main" class="clearfix{if $leftSidebarElements > 0 && $rightSidebarElements > 0} col3{elseif $leftSidebarElements > 0 && $rightSidebarElements == 0} col2l{else} col2r{/if}">
         <div id="content" class="clearfix" role="main">
         {$CONTENT}

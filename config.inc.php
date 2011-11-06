@@ -57,6 +57,12 @@ $template_config = array(
        'name' => TWOK11_USERSTYLES,
        'type' => 'boolean',
        'default' => false
+   ),
+   array(
+       'var' => 'use_corenav',
+       'name' => TWOK11_USE_CORENAV,
+       'type' => 'boolean',
+       'default' => true
    )
 );
 
