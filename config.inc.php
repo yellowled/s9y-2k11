@@ -6,8 +6,7 @@ if (IN_serendipity !== true) { die ("Don't hack!"); }
 $serendipity['smarty']->assign(array('currpage'  => "http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'],
                                      'currpage2' => $_SERVER['REQUEST_URI']));
 
-function serendipity_plugin_api_event_hook($event, &$bag, &$eventData,
-$addData = null) {
+function serendipity_plugin_api_event_hook($event, &$bag, &$eventData, $addData = null) {
    global $serendipity;
    switch($event) { case 'frontend_footer': echo '<!--PLUGIN API-->'; }
    return true;
