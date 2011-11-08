@@ -218,7 +218,8 @@ p.break, #search div,
 .serendipity_entry .plainList,
 #page, #primary-nav,
 .serendipity_calendar,
-.serendipity_freetag_taglist { margin: 0 0 1em; }
+.serendipity_freetag_taglist,
+.geshi { margin: 0 0 1em; }
 
 summary { cursor: pointer; }
 
