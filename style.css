@@ -100,7 +100,7 @@ input[type=search]:focus,
 input[type=email]:focus,
 input[type=url]:focus,
 textarea:focus {
-    color: #333;
+    color: #222;
     outline: 0 none;
     -webkit-box-shadow: 0 0 2px 1px rgba(41,69,100,.5);
     -moz-box-shadow: 0 0 2px 1px rgba(41,69,100,.5);
@@ -157,8 +157,8 @@ a:hover { color: #d52; }
 h1 a, h2 a, h3 a,
 h4 a, h5 a, h6 a { text-decoration: none; }
 
-::-moz-selection{ background: #333; color:#fff; text-shadow: none; }
-::selection { background:#333; color:#fff; text-shadow: none; }
+::-moz-selection{ background: #222; color:#fff; text-shadow: none; }
+::selection { background:#222; color:#fff; text-shadow: none; }
 a:link { -webkit-tap-highlight-color: #d52; }
 
 .droid, .droid button,
@@ -588,7 +588,7 @@ fieldset,
 .serendipity_imageComment_txt {
     background: #ddd;
     border-top: 0 none;
-    color: #333;
+    color: #222;
     font-size: .8125em;
     line-height: 1.8462;
     padding: .2301em;
