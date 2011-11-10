@@ -151,6 +151,17 @@ blockquote:lang(de)  p:first-child:before { content: '„'; content: open-quote;
 :lang(de) blockquote p:last-child:after,
 blockquote:lang(de)  p:last-child:after  { content: '“'; content: close-quote; }
 
+.ie8 q:before,
+.ie8 q q:before,
+.ie8 :lang(de) q:before,
+.ie8 :lang(de) q q:before,
+.ie8 blockquote p:before,
+.ie8 blockquote p:first-child:before,
+.ie8 :lang(de) blockquote p:before,
+.ie8 blockquote:lang(de)  p:before,
+.ie8 :lang(de) blockquote p:first-child:before,
+.ie8 blockquote:lang(de)  p:first-child:before { content: ''; content: no-open-quote; }
+
 a, a:active, a:visited { color: #3e5f81; }
 a:hover { color: #d52; }
 
