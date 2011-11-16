@@ -1,14 +1,12 @@
 <div id="staticpage_{$staticpage_pagetitle|@makeFilename}" class="{if $staticpage_articleformat}serendipity_entry {/if}serendipity_staticpage">
     <header>
         <h2>{if $staticpage_articleformat}{if $staticpage_articleformattitle}{$staticpage_articleformattitle|@escape}{else}{$staticpage_pagetitle}{/if}{else}{if $staticpage_headline}{$staticpage_headline|@escape}{else}{$staticpage_pagetitle}{/if}{/if}</h2>
-    {if $staticpage_navigation AND $staticpage_shownavi}
-        {if is_array($staticpage_childpages)}
+    {if is_array($staticpage_childpages)}
         <ul id="staticpage_childpages">
             {foreach from=$staticpage_childpages item="childpage"}
             <li><a href="{$childpage.permalink|@escape}" title="{$childpage.pagetitle|@escape}">{$childpage.pagetitle|@escape}</a></li>
             {/foreach}
         </ul>
-        {/if}
     {/if}
     </header>
 {if $staticpage_pass AND $staticpage_form_pass != $staticpage_pass}
