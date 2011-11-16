@@ -25,7 +25,7 @@
     {$staticpage_precontent}
     </div>
     {/if}
-    {if $staticpage_precontent}
+    {if $staticpage_content}
     <div class="clearfix content staticpage_content">
     {$staticpage_content}
     </div>
