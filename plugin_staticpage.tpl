@@ -20,12 +20,16 @@
     </fieldset>
     </form>
 {else}
+    {if $staticpage_precontent}
     <div class="clearfix content serendipity_preface">
     {$staticpage_precontent}
     </div>
+    {/if}
+    {if $staticpage_precontent}
     <div class="clearfix content staticpage_content">
     {$staticpage_content}
     </div>
+    {/if}
 {/if}
 {if $staticpage_author or $staticpage_lastchange or $staticpage_adminlink}
     <footer class="staticpage_metainfo">
