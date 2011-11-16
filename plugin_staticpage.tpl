@@ -1,6 +1,6 @@
 <div id="staticpage_{$staticpage_pagetitle|@makeFilename}" class="{if $staticpage_articleformat}serendipity_entry {/if}serendipity_staticpage">
     <header>
-        <h2>{if $staticpage_articleformat}{$staticpage_articleformattitle|@escape}{else}{$staticpage_headline|@escape}{/if}</h2>
+        <h2>{if $staticpage_articleformat}{if $staticpage_articleformattitle}{$staticpage_articleformattitle|@escape}{else}{$staticpage_pagetitle}{/if}{else}{if $staticpage_headline}{$staticpage_headline|@escape}{else}{$staticpage_pagetitle}{/if}{/if}</h2>
     {if $staticpage_navigation AND $staticpage_shownavi}
         {if is_array($staticpage_childpages)}
         <ul id="staticpage_childpages">
