@@ -8,7 +8,7 @@
 
 ### Testing
 
-If you _do_ want to test it, your blog needs to run at least s9y v1.6. Extract the downloaded archive to `/templates/` and activate it in the s9y backend. Might need a reload in the frontend.
+If you _do_ want to test it, your blog needs to run at least s9y v1.6. Extract the downloaded archive. Keep the folder name if you want to be able to test multiple versions or rename it to `2k11` to have just one version installed. Copy to `/templates/` and activate it in the s9y backend. Might need a reload in the frontend.
 
 ## Features
 
