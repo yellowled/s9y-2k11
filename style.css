@@ -192,6 +192,12 @@ a:link { -webkit-tap-highlight-color: #d52; }
 .ubuntu input, .ubuntu select,
 .ubuntu textarea { font-family: 'Ubuntu', sans-serif; }
 
+p {
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
+
 h1 { font-size: 2em; }
 
 h2 {
