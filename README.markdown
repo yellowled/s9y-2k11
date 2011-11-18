@@ -10,6 +10,8 @@
 
 If you _do_ want to test it, your blog needs to run at least s9y v1.6. Extract the downloaded archive. Keep the folder name if you want to be able to test multiple versions or rename it to `2k11` to have just one version installed. Copy to `/templates/` and activate it in the s9y backend. Might need a reload in the frontend.
 
+**Note:** If you used Bulletproof or a similar template with a customizable navigation, the global navigation in 2k11 *will* overwrite your current navigation. Please write down your navigation links *before* switching to 2k11.
+
 ## Features
 
 2k11 is a responsive HTML5 template. It has a fluid grid layout which adapts to the visitor's screen resolution, even on smaller screens down to smartphones. 2k11 looks plain and simple by design, hoping it will appeal to as many users as possible. It is built using
