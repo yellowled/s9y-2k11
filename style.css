@@ -481,14 +481,20 @@ fieldset,
 
 .form_field { margin-bottom: .5em; }
 
+#searchterm,
 #serendipity_comment input[type=text],
 #serendipity_comment input[type=email],
-#serendipity_comment input[type=url] { min-width: 13em; }
+#serendipity_comment input[type=url] {
+    min-width: 13em;
+    width: 97%;
+}
 
 #serendipity_replyTo {
-    max-width: 100%;
     min-width: 13.5em;
+    width: 100%;
 }
+
+#serendipity_commentform_comment { max-width: 97%; }
 
 .serendipity_commentDirection {
     background: #eee;
@@ -663,6 +669,16 @@ fieldset,
 
 
 /* Media queries  */
+@media only screen and (min-width: 321px) {
+    #searchterm { max-width: 15em; }
+
+    #serendipity_replyTo { max-width: 24em; }
+
+    #serendipity_comment input[type=text],
+    #serendipity_comment input[type=email],
+    #serendipity_comment input[type=url] { max-width: 23.4375em; }
+}
+
 @media only screen and (min-width: 481px) {
     #primary-nav ul { display: block; }
     
@@ -719,8 +735,6 @@ fieldset,
     #identity h1 { margin: 1em 0 0; }
     
     #search div { margin-top: 4.4em; }
-    
-    #searchterm { max-width: 100%; }
     
     #identity p, #search div { margin-bottom: 1.5em; }
     
