@@ -41,3 +41,7 @@ If you _do_ want to test it, your blog needs to run at least s9y v1.6. Extract t
 * **Google webfont:** Pick one of five preselected webfonts or the 'none' option to use Helvetica/Arial. These webfonts are included via the Google webfonts API.
 * **User stylesheet:** Includes an additional stylesheet. Note that this **must** be called `user.css` and you have to create it manually in your template directory. Also note that both this and the Google webfont option add an additional HTTP request which might cause slight performance issues.
 * **Navigation:** Global navigation provided by s9y core. Switches to an (additionally added using JS) `select` as a pseudo dropdown menu on small screens. Automagically suppresses links if link text *or* URL is empty, also has an option to not emit the nav at all.
+
+### user.css Generator
+
+Since changing the (desktop) layout isn't *that* easy for CSS padawans, I have built a small generator: [2k11 user.css generator](http://yellowled.github.com).
