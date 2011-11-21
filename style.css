@@ -236,7 +236,8 @@ p.break, #search div,
 #page, #primary-nav,
 .serendipity_calendar,
 .serendipity_freetag_taglist,
-.geshi, .serendipity_entrypaging { margin: 0 0 1em; }
+.geshi, .serendipity_entrypaging,
+#serendipity_emoticonchooser { margin: 0 0 1em; }
 
 summary { cursor: pointer; }
 
