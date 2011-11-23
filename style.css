@@ -365,10 +365,6 @@ fieldset,
     width: 0;
 }
 
-#primary-nav a,
-#primary-nav a:active,
-#primary-nav a:visited { color: #fff; }
-
 #primary-nav a:hover,
 #primary-nav a:focus { color: #000; }
 
