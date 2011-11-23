@@ -521,6 +521,7 @@ fieldset,
     border: 1px solid #aaa;
     margin: 0 .625em .625em;
     padding: 0!important;
+    overflow: hidden;
 }
 
 #colophon small,
