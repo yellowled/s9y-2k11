@@ -496,6 +496,7 @@ fieldset,
 .serendipity_commentDirection {
     background: #eee;
     border: 1px solid #aaa;
+    color: #222;
     font-size: .8125em;
     line-height: 1.8462;
     margin: 0 0 1.2308em;
