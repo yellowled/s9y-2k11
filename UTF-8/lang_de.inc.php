@@ -4,7 +4,7 @@
 @define('TWOK11_USE_CORENAV', 'Globale Navigation einbinden?');
 @define('TWOK11_WEBFONTS', 'Einen von Google gehosteten Webfont nutzen?');
 @define('TWOK11_NOWEBFONT', 'Keinen Webfont einbinden');
-@define('TWOK11_USERSTYLES', 'user.css einbinden? (Muss selbst im Templateverzeichnis angelegt werden!)');
+@define('TWOK11_USERSTYLES', 'user.css einbinden? (Muss selbst im Templateverzeichnis angelegt werden! Generator: http://yellowled.github.com)');
 // Sprachkonstanten
 @define('TWOK11_NAV_TITLE', 'Navigation');
 @define('TWOK11_PAG_TITLE', 'Pagination');
