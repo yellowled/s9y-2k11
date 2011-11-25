@@ -314,10 +314,10 @@ fieldset,
     padding: 0 1em;
 }
 
-#banner>img {
-    display: none;
-    clear: both;
-}
+#banner>img { display: none; }
+
+#banner>img,
+.serendipity_entry footer { clear: both; }
 
 #search div { padding: 0 1em; }
 
@@ -520,7 +520,7 @@ fieldset,
 
 .comment_avatar {
     border: 1px solid #aaa;
-    margin: 0 .625em .625em;
+    margin: 0 .625em .625em 0;
     padding: 0!important;
     overflow: hidden;
 }
