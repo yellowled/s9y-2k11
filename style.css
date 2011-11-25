@@ -363,6 +363,7 @@ fieldset,
     bottom: 0;
     left: 50%;
     width: 0;
+    z-index: 10;
 }
 
 #primary-nav a:hover,
