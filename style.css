@@ -742,6 +742,11 @@ fieldset,
     #identity h1 { margin: 1em 0 0; }
     
     #search div { margin-top: 4.4em; }
+
+    #searchterm {
+        min-width: 8em;
+        width: auto;
+    }
     
     #identity p, #search div { margin-bottom: 1.5em; }
     
