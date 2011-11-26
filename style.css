@@ -618,6 +618,13 @@ fieldset,
     text-align: center;
 }
 
+.serendipity_imageComment_center,
+.serendipity_imageComment_left,
+.serendipity_imageComment_right {
+    height: auto;
+    max-width: 100%;
+}
+
 .serendipity_calendar {
     border: 1px solid #3e5f81;
     width: 85%;
