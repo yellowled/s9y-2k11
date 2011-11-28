@@ -22,6 +22,12 @@ jQuery(document).ready(function($) {
         var deleteMsg = $(this).attr('title');
         return confirm(deleteMsg);
     });
+    // Scroll to comment preview
+    $('#serendipity_preview').click(function(preview) {
+        var previewTop = $('#c').offset().top;
+        $(window).scrollTop(previewTop);
+        preview.preventDefault();
+    });
     // Cloned primary navigation for small screen
     var $select = $('<select/>');
     $('#primary-nav li').each(function() {
