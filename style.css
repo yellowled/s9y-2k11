@@ -409,6 +409,11 @@ fieldset,
 .serendipity_entry li ul,
 .serendipity_entry li ol { margin: 0 0 0 2em; }
 
+.serendipity_entryIcon {
+    float: left;
+    margin: 0 .625em .625em 0;
+}
+
 .serendipity_entry table {
     border: 1px solid #aaa;
     max-width: 100%;
