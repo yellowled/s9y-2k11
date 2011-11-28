@@ -134,14 +134,13 @@ q q:after  { content: '’'; content: close-quote; }
 :lang(de) q:after    { content: '“'; content: close-quote; }
 :lang(de) q q:before { content: '‚'; content: open-quote;  }
 :lang(de) q q:after  { content: '‘'; content: close-quote; }
-
-blockquote { quotes: '“' '”'; }
+blockquote p { quotes: '“' '”'; }
 blockquote p:before { content: ''; content: no-open-quote; }
 blockquote p:after  { content: ''; content: no-close-quote; }
 blockquote p:first-child:before { content: '“'; content: open-quote;  }
 blockquote p:last-child:after   { content: '”'; content: close-quote; }
-:lang(de) blockquote,
-blockquote:lang(de) { quotes: '„' '“'; }
+:lang(de) blockquote p,
+blockquote:lang(de) p { quotes: '„' '“'; }
 :lang(de) blockquote p:before,
 blockquote:lang(de)  p:before { content: ''; content: no-open-quote; }
 :lang(de) blockquote p:after,
