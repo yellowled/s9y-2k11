@@ -441,9 +441,23 @@ fieldset,
 .serendipity_entry pre {
     background: #eee;
     border: 1px solid #aaa;
-    font-size: .8125em;
+    font-size: .875em;
     margin: 0 0 1.2308em;
     padding: .5385em;
+}
+
+.serendipity_entry code,
+.serendipity_entry kbd,
+.serendipity_entry samp {
+    font-size: .875em;
+    line-height: 1.7143;
+}
+
+pre>code,
+pre>kbd,
+pre>samp {
+    font-size: 1em;
+    line-height: 1.5;
 }
 
 .serendipity_byline { margin: 0 0 1.2308em; }
