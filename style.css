@@ -247,10 +247,15 @@ li ul, li ol,
 blockquote,
 blockquote + cite {
     display: block;
-    margin: 0 0 1em 40px;
+    margin: 0 2.5em 1em;
 }
 
 blockquote + cite:before { content: "–\202F"; }
+
+.content blockquote {
+    border-left: 4px solid #aaa;
+    padding-left: .75em;
+}
 
 dt,
 .serendipity_calendar tfoot a,
