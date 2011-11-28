@@ -498,6 +498,8 @@ pre>samp {
 
 .serendipity_comment { margin: 0 0 2em; }
 
+.serendipity_comment h4 { margin: 0 0 .25em; }
+
 .form_tarea,
 .form_toolbar { margin-bottom: 1em; }
 
