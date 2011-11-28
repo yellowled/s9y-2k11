@@ -4,7 +4,7 @@
 
 ## Disclaimer
 
-2k11 is still work in progress, it will likely require some work on the s9y core and possibly some plugins to work properly. Use at your own risk, if at all.
+This is the development branch of 2k11. Contrary to the version included in the s9y core, this is still subject to change. I do **not** recommend using it in a productive environment.
 
 ### Testing
 
@@ -32,7 +32,7 @@ If you _do_ want to test it, your blog needs to run at least s9y v1.6. Extract t
 * 2 columns, left sidebar only
 * 2 columns, right sidebar only
 
-(If you leave _both_ sidebars empty, you'll get a layout which looks like 2 columns, right sidebar only – just without a sidebar.)
+If you leave _both_ sidebars empty, you'll get a layout which looks like 2 columns, right sidebar only – just without a sidebar. Also, the 3-column layout will display both sidebars on one side in small resolutions, effectively turning it into a 2-column layout in those resolutions.
 
 ### Theme options
 
