@@ -24,6 +24,13 @@ jQuery(document).ready(function($) {
     });
     // Move preview comment in the DOM to fix comment preview
     $('#c').insertAfter('#feedback');
+    // Hide reply-to form element
+    $('.comment_reply').click(function() {
+        $('#reply-to-comment').remove();
+        var replyToPlaceholder = '<p id="reply-to-comment">' + $('#reply-to-hint').text() + ' ' + $('#serendipity_replyTo :selected').text() + '</p>';
+        $('#serendipity_replyTo').after(replyToPlaceholder);
+    });
+    $('#reply-to-hint, #serendipity_replyTo').addClass('visuallyhidden');
     // Cloned primary navigation for small screen
     var $select = $('<select/>');
     $('#primary-nav li').each(function() {
