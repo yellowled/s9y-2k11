@@ -8,7 +8,7 @@
     <form id="serendipity_comment" action="{$commentform_action}#feedback" method="post">
     <div><input type="hidden" name="serendipity[entry_id]" value="{$commentform_id}"/></div>
     <div class="form_field">
-        <label for="serendipity_replyTo">{$CONST.IN_REPLY_TO}</label>
+        <label id="reply-to-hint" for="serendipity_replyTo">{$CONST.IN_REPLY_TO}</label>
         {$commentform_replyTo}
     </div>
     <div class="form_field">
