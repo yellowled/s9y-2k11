@@ -22,7 +22,7 @@ jQuery(document).ready(function($) {
         var deleteMsg = $(this).attr('title');
         return confirm(deleteMsg);
     });
-    // Another shot at a sensible comment preview
+    // Move preview comment in the DOM to fix comment preview
     $('#c').insertAfter('#feedback');
     // Cloned primary navigation for small screen
     var $select = $('<select/>');
