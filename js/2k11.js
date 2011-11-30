@@ -22,6 +22,8 @@ jQuery(document).ready(function($) {
         var deleteMsg = $(this).attr('title');
         return confirm(deleteMsg);
     });
+    // Another shot at a sensible comment preview
+    $('#c').insertAfter('#feedback');
     // Cloned primary navigation for small screen
     var $select = $('<select/>');
     $('#primary-nav li').each(function() {
