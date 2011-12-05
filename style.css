@@ -230,7 +230,7 @@ audio, video,
 #trackback_url,
 .manage_comments,
 .plugin_comment_wrap,
-p.break, #search div,
+p.whiteline, #search div,
 .serendipity_entry .plainList,
 #page, #primary-nav,
 .serendipity_calendar,
@@ -240,7 +240,7 @@ p.break, #search div,
 
 summary { cursor: pointer; }
 
-li ul, li ol,
+li ul, li ol, p.break,
 #serendipity_replyTo,
 .serendipity_freeTag { margin: 0; }
 
