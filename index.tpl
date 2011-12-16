@@ -49,7 +49,7 @@
         <div>
             <input type="hidden" name="serendipity[action]" value="search"/>
             <label for="searchterm" class="visuallyhidden">{$CONST.QUICKSEARCH}</label>
-            <input id="searchterm" name="serendipity[searchTerm]" type="search" placeholder="{$CONST.QUICKSEARCH}" value=""/>
+            <input id="searchterm" name="serendipity[searchTerm]" type="search" placeholder="{$CONST.TWOK11_PLACE_SEARCH}" value=""/>
             <input id="searchsend" name="serendipity[searchButton]" type="submit" value="{$CONST.GO}"/>
         </div>
         </form>
