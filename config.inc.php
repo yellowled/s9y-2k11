@@ -19,6 +19,7 @@ $template_config = array(
                                 '%a, %e. %B %Y' => '%a, %e. %B %Y',
                                 '%d.%m.%y' => '%d.%m.%y',
                                 '%m/%d/%y' => '%m/%d/%y',
+                                '%Y-%m-%d' => '%Y-%m-%d',
                                 '%a %d-%m-%y' => '%a %d-%m-%y',
                                 '%a %m-%d-%y' => '%a %m-%d-%y',
                                 '%b %d' => '%b %d',
