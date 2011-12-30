@@ -29,6 +29,15 @@
         {if $entry.has_comments}
             <a href="{$entry.link}#comments" title="{$entry.comments} {$entry.label_comments}{if $entry.has_trackbacks}, {$entry.trackbacks} {$entry.label_trackbacks}{/if}">{$entry.comments} {$entry.label_comments}</a>
         {/if}
+        {if $entry.url_tweetthis}
+            | <a href="{$entry.url_tweetthis}"><span lang="en">Tweet this</span></a>
+        {/if}
+        {if $entry.url_dentthis}
+            | <a href="{$entry.url_dentthis}"><span lang="en">Identica this</span></a>
+        {/if}
+        {if $entry.url_shorturl}
+            | <a href="{$entry.url_shorturl}"><span lang="en">Short URL</span></a>
+        {/if}
             {$entry.add_footer}
             {$entry.plugin_display_dat}
         </footer>
