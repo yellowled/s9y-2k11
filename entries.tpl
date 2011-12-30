@@ -36,7 +36,7 @@
             | <a href="{$entry.url_dentthis}" title="{$CONST.TWOK11_DENT_THIS}">Identica</a>
         {/if}
         {if $entry.url_shorturl}
-            | <a href="{$entry.url_shorturl}" title="{$CONST.TWOK11_SHORT_URL_HINT}">{$CONST.TWOK11_SHORT_URL}</a>
+            | <a href="{$entry.url_shorturl}" title="{$CONST.TWOK11_SHORT_URL_HINT}" class="short-url">{$CONST.TWOK11_SHORT_URL}</a>
         {/if}
             {$entry.add_footer}
             {$entry.plugin_display_dat}
