@@ -22,8 +22,6 @@ $template_config = array(
                                 '%m/%d/%y' => '%m/%d/%y',
                                 '%m/%d/%Y' => '%m/%d/%Y',
                                 '%Y-%m-%d' => '%Y-%m-%d',
-                                '%a %d-%m-%y' => '%a %d-%m-%y',
-                                '%a %m-%d-%y' => '%a %m-%d-%y',
                                 '%b %d' => '%b %d',
                                 "%b %d '%y" => "%b %d '%y")
    ),
