@@ -16,3 +16,6 @@
 @define('TWOK11_PLACE_URL', 'i.e. http://example.org');
 @define('TWOK11_PLACE_MESSAGE', 'What do you want to say?');
 @define('TWOK11_SEND_MAIL', 'Send');
+@define('TWOK11_TWEET_THIS', 'Share article on Twitter');
+@define('TWOK11_DENT_THIS', 'Share article on Identica');
+@define('TWOK11_SHORT_URL', 'Short URL');
