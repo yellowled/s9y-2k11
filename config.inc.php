@@ -21,9 +21,7 @@ $template_config = array(
                                 '%d.%m.%Y' => '%d.%m.%Y',
                                 '%m/%d/%y' => '%m/%d/%y',
                                 '%m/%d/%Y' => '%m/%d/%Y',
-                                '%Y-%m-%d' => '%Y-%m-%d',
-                                '%b %d' => '%b %d',
-                                "%b %d '%y" => "%b %d '%y")
+                                '%Y-%m-%d' => '%Y-%m-%d')
    ),
    array(
        'var' => 'header_img',
