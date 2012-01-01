@@ -702,6 +702,15 @@ pre .geshi {
 
 .serendipity_freetag_taglist_related { font-size: 1.25em; }
 
+#twitter_update_list { list-style: none; }
+
+#twitter_update_list li { margin: 0 0 1em; }
+
+.twitter_update_time {
+    display: block;
+    text-align: right;
+}
+
 /* Helper classes  */
 .visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
 
