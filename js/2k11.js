@@ -13,6 +13,28 @@ jQuery(document).ready(function($) {
         header: '#banner',
         footer: '#colophon'
     });
+    // Cloned primary navigation for small screen
+    var $select = $('<select/>');
+    $('#primary-nav li').each(function() {
+        var $el = $(this);
+        if ($el.find('span').length) {
+            $('<option/>', {
+                'selected': 'selected',
+                'value'   : '',
+                'text'    : $el.text()
+            }).appendTo($select);
+        } else {
+            $('<option/>', {
+                'value'   : $el.find('a').attr('href'),
+                'text'    : $el.text()
+            }).appendTo($select);
+        }
+    });
+    if($select.children().size() > 0) {
+    $select.appendTo('#primary-nav').change(function() {
+        window.location = $(this).find('option:selected').val();
+    });
+    }
     // Disable trackback + short url links
     $('#trackback_url>a,.short-url').click(function() {
         var linkMsg = $(this).attr('title');
@@ -38,26 +60,4 @@ jQuery(document).ready(function($) {
         $('#serendipity_replyTo').after(replyToPlaceholder);
     });
     $('#reply-to-hint, #serendipity_replyTo').addClass('visuallyhidden');
-    // Cloned primary navigation for small screen
-    var $select = $('<select/>');
-    $('#primary-nav li').each(function() {
-        var $el = $(this);
-        if ($el.find('span').length) {
-            $('<option/>', {
-                'selected': 'selected',
-                'value'   : '',
-                'text'    : $el.text()
-            }).appendTo($select);
-        } else {
-            $('<option/>', {
-                'value'   : $el.find('a').attr('href'),
-                'text'    : $el.text()
-            }).appendTo($select);
-        }
-    });
-    if($select.children().size() > 0) {
-    $select.appendTo('#primary-nav').change(function() {
-        window.location = $(this).find('option:selected').val();
-    });
-    }
 });
