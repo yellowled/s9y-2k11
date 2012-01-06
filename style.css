@@ -118,9 +118,11 @@ button { padding: 4px; }
 
 img,
 audio, video,
-embed, object { max-width: 100%; }
+embed, object,
+.content iframe { max-width: 100%; }
 
-img, video { height: auto; }
+img, video,
+.content iframe { height: auto; }
 
 q { quotes: '“' '”' '‘' '’'; }
 :lang(de) q { quotes: '„' '“' '‚' '‘'; }
