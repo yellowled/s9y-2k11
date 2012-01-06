@@ -35,6 +35,9 @@ jQuery(document).ready(function($) {
         window.location = $(this).find('option:selected').val();
     });
     }
+    // Replace entrypaging icons
+    $('.serendipity_entrypaging_left .epicon').text('←');
+    $('.serendipity_entrypaging_right .epicon').text('→');
     // Disable trackback + short url links
     $('#trackback_url>a,.short-url').click(function() {
         var linkMsg = $(this).attr('title');
