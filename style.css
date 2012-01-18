@@ -404,7 +404,7 @@ fieldset,
 .serendipity_entry,
 .serendipity_staticpage,
 .sidebar_plugin, .archives,
-.freetag_cloud,
+.freetag_cloud, .content_msg,
 .serendipity_entrypaging { margin: 0 1em 2em; }
 
 .serendipity_search,
@@ -934,6 +934,7 @@ pre .geshi {
     .serendipity_entry { margin: 0 2em 3em; }
     
     .archives, .freetag_cloud,
+    .content_msg,
     .serendipity_staticpage,
     #sidebar_left .sidebar_plugin,
     .ie7 #sidebar_left .sidebar_plugin,
