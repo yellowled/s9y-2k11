@@ -489,7 +489,10 @@ pre .geshi {
 
 .serendipity_byline { margin: 0 0 1.2308em; }
 
-.serendipity_pagination { margin: 0 1.2308em 1.2308em; }
+.serendipity_pagination {
+    clear: both;
+    margin: 0 1.2308em 1.2308em;
+}
 
 .serendipity_pagination li {
     float: left;
