@@ -584,23 +584,20 @@ pre .geshi {
 
 .serendipity_msg_important,
 .serendipity_msg_notice {
+    color: #fff;
     font-size: .8125em;
     line-height: 1.8462;
     max-width: 35em;
     padding: .3846em;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.8);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
 }
 
-.serendipity_msg_important {
-    background: #fee;
-    border: 1px solid #900;
-    color: #900;
-}
+.serendipity_msg_important { background: #800; }
 
-.serendipity_msg_notice {
-    background: #efe;
-    border: 1px solid #090;
-    color: #090;
-}
+.serendipity_msg_notice { background: #080; }
 
 .serendipity_image_left,
 .serendipity_image_right,
