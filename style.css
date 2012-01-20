@@ -90,9 +90,9 @@ input[type=url],
 textarea {
     border: 1px solid #aaa;
     color: #666;
-    -webkit-border-radius: 3px 3px 3px 3px;
-    -moz-border-radius: 3px 3px 3px 3px;
-    border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
 }
 
 input[type=text]:focus,
