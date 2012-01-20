@@ -119,10 +119,9 @@ button { padding: 4px; }
 img,
 audio, video,
 embed, object,
-.content iframe { max-width: 100%; }
+.content>iframe { max-width: 100%; }
 
-img, video,
-.content iframe { height: auto; }
+img, video { height: auto; }
 
 q { quotes: '“' '”' '‘' '’'; }
 :lang(de) q { quotes: '„' '“' '‚' '‘'; }
