@@ -119,7 +119,8 @@ button { padding: 4px; }
 img,
 audio, video,
 embed, object,
-.content>iframe { max-width: 100%; }
+.serendipity_entry_body iframe,
+.serendipity_staticpage iframe { max-width: 100%; }
 
 img, video { height: auto; }
 
