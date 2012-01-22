@@ -571,6 +571,16 @@ pre .geshi {
     overflow: hidden;
 }
 
+.avatar_left {
+    float: left;
+    margin: 0 .625em .625em 0;
+}
+
+.avatar_right {
+    float: right;
+    margin: 0 0 .625em .625em;
+}
+
 #colophon small,
 .staticpage_metainfo small {
     border-top: 1px solid #ccc;
