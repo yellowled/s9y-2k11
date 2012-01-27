@@ -31,6 +31,7 @@
         parent.document.getElementById('serendipity_iframe').style.border = 0;
     {rdelim}
 </script>
+<style type="text/css">#serendipity_preview_spacer {ldelim}float:none!important;height:0!important;{rdelim}</style>
 </head>
 <body>
 <div id="page" class="clearfix container">
