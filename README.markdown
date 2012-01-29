@@ -4,13 +4,13 @@
 
 ## Disclaimer
 
-This is the development branch of 2k11. Contrary to the version included in the s9y core, this is still subject to change. I do **not** recommend using it in a productive environment.
+This is the development branch of 2k11. This is still subject to (sometimes experimental) changes. I do **not** recommend using it in a production environment.
 
 ### Testing
 
-If you _do_ want to test it, your blog needs to run at least s9y v1.6. Extract the downloaded archive. Keep the folder name if you want to be able to test multiple versions or rename it to `2k11` to have just one version installed. Copy to `/templates/` and activate it in the s9y backend. Might need a reload in the frontend.
+If you *do* want to test it, your blog needs to run at least s9y v1.6. Extract the downloaded archive. I recommend downloading a `.zip` or `.tag.gz` file from the `Tags` section on GitHub rather than cloning the repo. Keep the folder name if you want to be able to test multiple versions or rename it to `2k11` to have just one version installed. Copy to `/templates/` and activate it in the s9y backend. Might need a reload in the frontend.
 
-**Note:** If you used Bulletproof or a similar template with a customizable navigation, the global navigation in 2k11 *will* overwrite your current navigation. Please write down your navigation links *before* switching to 2k11.
+**Note:** If you used Bulletproof or a similar template with a customizable navigation, the global navigation in 2k11 **will** overwrite your current navigation. Please write down your navigation links' URLs and link texts *before* switching to 2k11.
 
 ## Features
 
@@ -19,10 +19,13 @@ If you _do_ want to test it, your blog needs to run at least s9y v1.6. Extract t
 * [HTML5 Boilerplate](http://h5bp.com)
 * [Modernizr](http://www.modernizr.com)
 * [jQuery](http://jquery.com)
-* [CSS Tricks small screen navigation](http://css-tricks.com/13303-convert-menu-to-dropdown/)
+* *Optional:* [Google webfonts](http://www.google.com/webfonts)
+* [iOS Orientationchange Fix](https://github.com/scottjehl/iOS-Orientationchange-Fix)
+* [FitVids.js](https://github.com/davatron5000/FitVids.js)
 * [jQuery placeholder plugin](https://github.com/mathiasbynens/Placeholder-jQuery-Plugin)
 * [Details-Polyfill](https://github.com/manuelbieh/Details-Polyfill)
-* *Optional:* [Google webfonts](http://www.google.com/webfonts)
+* [AccessifyHTML5](https://github.com/yatil/accessifyhtml5.js)
+* [CSS Tricks small screen navigation](http://css-tricks.com/13303-convert-menu-to-dropdown/)
 
 ### Layout options
 
@@ -32,7 +35,7 @@ If you _do_ want to test it, your blog needs to run at least s9y v1.6. Extract t
 * 2 columns, left sidebar only
 * 2 columns, right sidebar only
 
-If you leave _both_ sidebars empty, you'll get a layout which looks like 2 columns, right sidebar only – just without a sidebar. Also, the 3-column layout will display both sidebars on one side in small resolutions, effectively turning it into a 2-column layout in those resolutions.
+If you leave *both* sidebars empty, you'll get a layout which looks like 2 columns, right sidebar only – just without a sidebar. Also, the 3-column layout will display both sidebars on one side in small resolutions, effectively turning it into a 2-column layout in those resolutions.
 
 ### Theme options
 
