@@ -8,13 +8,13 @@ This is the development branch of 2k11. This is still subject to (sometimes expe
 
 ### Testing
 
-If you *do* want to test it, your blog needs to run at least s9y v1.6. Extract the downloaded archive. I recommend downloading a `.zip` or `.tag.gz` file from the `Tags` section on GitHub rather than cloning the repo. Keep the folder name if you want to be able to test multiple versions or rename it to `2k11` to have just one version installed. Copy to `/templates/` and activate it in the s9y backend. Might need a reload in the frontend.
+If you *do* want to test it, your blog needs to run at least s9y v1.6. Extract the downloaded archive. I recommend downloading a `.zip` or `.tar.gz` file from the [Tags section](https://github.com/yellowled/s9y-2k11/tags) rather than cloning the repo. Keep the folder name if you want to be able to test multiple versions or rename it to `2k11` to have just one version installed. Copy it to `/templates/` and activate it in the s9y backend. (Might need a reload in the frontend.)
 
-**Note:** If you used Bulletproof or a similar template with a customizable navigation, the global navigation in 2k11 **will** overwrite your current navigation. Please write down your navigation links' URLs and link texts *before* switching to 2k11.
+**Note:** If you used Bulletproof or a similar template with a customizable navigation, the global navigation in 2k11 **will** overwrite your current navigation. Please write down your navigation's URLs and link texts *before* switching to 2k11.
 
 ## Features
 
-2k11 is a responsive HTML5 template. It has a fluid grid layout which adapts to the visitor's screen resolution, even on smaller screens down to smartphones. 2k11 looks plain and simple by design, hoping it will appeal to as many users as possible. It is built using
+2k11 is a responsive HTML5 template. It has a fluid grid layout which adapts to the visitor's screen resolution, even on smaller screens down to smartphones. 2k11 looks plain and simple by design, hoping it will appeal to as many users as possible. It is built using:
 
 * [HTML5 Boilerplate](http://h5bp.com)
 * [Modernizr](http://www.modernizr.com)
