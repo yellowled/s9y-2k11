@@ -14,6 +14,8 @@ jQuery(document).ready(function($) {
     var $select = $('<select/>');
     $('#primary-nav li').each(function(){var $el=$(this);if($el.find('span').length){$('<option/>',{'selected':'selected','value':'','text':$el.text()}).appendTo($select);}else{$('<option/>',{'value':$el.find('a').attr('href'),'text':$el.text()}).appendTo($select);}});
     if($select.children().size()>0){$select.appendTo('#primary-nav').change(function(){window.location=$(this).find('option:selected').val();});}
+    // Livesearch
+    $('<div id="LSResult" style="display: none;"><div id="LSShadow"></div></div>').appendTo('#searchform>div');
     // Fit embedded videos
     $('#content>article').fitVids();
     // placeholder polyfill

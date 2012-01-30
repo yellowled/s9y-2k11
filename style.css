@@ -233,7 +233,7 @@ audio, video,
 #trackback_url,
 .manage_comments,
 .plugin_comment_wrap,
-p.whiteline, #searchform div,
+p.whiteline, #searchform>div,
 .serendipity_entry .plainList,
 #page, #primary-nav,
 .serendipity_calendar,
@@ -332,7 +332,7 @@ fieldset,
     margin-bottom: 2.1429em;
 }
 
-#searchform div { padding: 0 1em; }
+#searchform>div { padding: 0 1em; }
 
 #serendipityQuickSearchTermField,
 #serendipity_comment input[type=text],
@@ -747,6 +747,34 @@ pre .geshi {
 .generatedcontent .serendipity_entrypaging_left:before { content: "← "; }
 .generatedcontent .serendipity_entrypaging_right:after { content: " →"; }
 
+#LSResult {
+    background: #ccdee7;
+    margin-top: 1px;
+    opacity: .9;
+    z-index: 10;
+}
+
+#LSShadow {
+    bottom: 0;
+    right: 0;
+    color: transparent;
+    border-right: 0px none;
+    border-bottom: 0px none;
+}
+
+.serendipity_livesearch_result {
+    border: 1px solid #aaa;
+    bottom: 0px;
+    right: 0px;
+}
+
+#LSResult,
+.serendipity_livesearch_result {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
 /* Helper classes  */
 .visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
 
@@ -857,9 +885,9 @@ pre .geshi {
     
     #identity h1 { margin: 1em 0 0; }
     
-    #searchform div { margin-top: 4.4em; }
+    #searchform>div { margin-top: 4.4em; }
 
-    #identity p, #searchform div { margin-bottom: 1.5em; }
+    #identity p, #searchform>div { margin-bottom: 1.5em; }
     
     #primary-nav { margin-bottom: 2em; }
     
@@ -911,8 +939,8 @@ pre .geshi {
     #sidebar_right .sidebar_plugin,
     .ie7 #sidebar_right .sidebar_plugin { margin: 0 1em 2em 2em; }
     
-    #searchform div,
-    .ie7 #searchform div { padding: 0 1em 0 2em; }
+    #searchform>div,
+    .ie7 #searchform>div { padding: 0 1em 0 2em; }
     
     .commentlevel-1 { margin-left: 1em; }
     .commentlevel-2 { margin-left: 2em; }
@@ -929,7 +957,7 @@ pre .geshi {
     #identity h1 { padding: 0 1em; }
     
     #identity p,
-    #searchform div { padding: 0 2em; }
+    #searchform>div { padding: 0 2em; }
     
     #primary-nav ul { margin: 0 1em; }
 
