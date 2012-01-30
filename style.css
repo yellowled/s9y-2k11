@@ -735,13 +735,15 @@ pre .geshi {
     text-align: right;
 }
 
-.serendipity_entrypaging>.epicon { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+.epicon { display: none; visibility: hidden; }
 
 .serendipity_entrypaging_left,
 .serendipity_entrypaging_right { display: block; }
 
 .serendipity_entrypaging_left { text-align: left; }
+.serendipity_entrypaging_left:before { content: "← "; }
 .serendipity_entrypaging_right { text-align: right; }
+.serendipity_entrypaging_right:after { content: " →"; }
 
 /* Helper classes  */
 .visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
