@@ -1,4 +1,4 @@
-<section class="staticpage_results">
+<aside class="staticpage_results">
     <h3>{$CONST.STATICPAGE_SEARCHRESULTS|sprintf:$staticpage_searchresults}</h3>
     {if $staticpage_results}
     <ul>
@@ -10,4 +10,4 @@
     {else}
     <p>{$CONST.NO_ENTRIES_TO_PRINT}</p>
     {/if}
-</section>
+</aside>

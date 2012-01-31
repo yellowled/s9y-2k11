@@ -223,6 +223,7 @@ h3 {
 h4, h5, h6,
 .serendipity_staticpage small,
 .staticpage_results h3,
+.comment_results h3,
 .serendipity_freeTag { font-size: 1em; }
 
 h4, h5, h6,
@@ -293,7 +294,9 @@ fieldset,
 .serendipity_pagination,
 .serendipity_comment_captcha .captcha,
 .serendipity_comment_captcha label,
-.serendipity_freeTag { display: block; }
+.serendipity_freeTag,
+.staticpage_results li>span,
+.comment_results li>span { display: block; }
 
 #primary-nav select {
     margin: .5em 1em;
@@ -410,6 +413,7 @@ fieldset,
 
 .serendipity_search,
 .staticpage_results,
+.comment_results,
 .nocontent { margin: 0 1em 1em; }
 
 .serendipity_byline,
@@ -982,6 +986,7 @@ pre .geshi {
     
     .serendipity_search,
     .staticpage_results,
+    .comment_results,
     .nocontent,
     .serendipity_entrypaging { margin: 0 2em 1em; }
     
