@@ -23,7 +23,7 @@ If you *do* want to test it, your blog needs to run at least s9y v1.6. Extract t
 * [Respond](https://github.com/scottjehl/Respond)
 * [iOS Orientationchange Fix](https://github.com/scottjehl/iOS-Orientationchange-Fix)
 * [FitVids.js](https://github.com/davatron5000/FitVids.js)
-* [jQuery placeholder plugin](https://github.com/mathiasbynens/Placeholder-jQuery-Plugin)
+* [jQuery placeholder plugin](https://github.com/mathiasbynens/jquery-placeholder)
 * [Details-Polyfill](https://github.com/manuelbieh/Details-Polyfill)
 * [AccessifyHTML5](https://github.com/yatil/accessifyhtml5.js)
 * [CSS Tricks small screen navigation](http://css-tricks.com/13303-convert-menu-to-dropdown/)
