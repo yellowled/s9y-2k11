@@ -20,6 +20,7 @@ If you *do* want to test it, your blog needs to run at least s9y v1.6. Extract t
 * [Modernizr](http://www.modernizr.com)
 * [jQuery](http://jquery.com)
 * *Optional:* [Google webfonts](http://www.google.com/webfonts)
+* [Respond](https://github.com/scottjehl/Respond)
 * [iOS Orientationchange Fix](https://github.com/scottjehl/iOS-Orientationchange-Fix)
 * [FitVids.js](https://github.com/davatron5000/FitVids.js)
 * [jQuery placeholder plugin](https://github.com/mathiasbynens/Placeholder-jQuery-Plugin)
