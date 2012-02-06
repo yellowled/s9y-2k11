@@ -10,6 +10,8 @@ var AccessifyHTML5=function(b){var a={article:{role:"article"},aside:{role:"comp
 jQuery(document).ready(function($) {
     // Assign WAI-ARIA roles
     AccessifyHTML5({header:'#banner',main:'#main',footer:'#colophon'});
+    // AccessifyHTML can't handle this (yet)
+    $('input[type=search]').parents('form').attr('role','search');
     // Cloned primary navigation for small screen
     var $select = $('<select/>');
     $('#primary-nav li').each(function(){var $el=$(this);if($el.find('span').length){$('<option/>',{'selected':'selected','value':'','text':$el.text()}).appendTo($select);}else{$('<option/>',{'value':$el.find('a').attr('href'),'text':$el.text()}).appendTo($select);}});
