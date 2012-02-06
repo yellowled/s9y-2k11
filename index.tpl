@@ -45,7 +45,7 @@
             <p>{$blogDescription}</p>
         </div>
         
-        <form id="searchform" action="{$serendipityHTTPPath}{$serendipityIndexFile}" method="get" role="search">
+        <form id="searchform" action="{$serendipityHTTPPath}{$serendipityIndexFile}" method="get">
         <div>
             <input type="hidden" name="serendipity[action]" value="search">
             <label for="serendipityQuickSearchTermField" class="visuallyhidden">{$CONST.QUICKSEARCH}</label>
