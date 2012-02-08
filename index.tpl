@@ -41,8 +41,10 @@
 <div id="page" class="clearfix">
     <header id="banner" class="clearfix{if $leftSidebarElements > 0 && $rightSidebarElements > 0} col3{elseif $leftSidebarElements > 0 && $rightSidebarElements == 0} col2l{else} col2r{/if}{if not $template_option.use_corenav} no-nav{/if}">
         <div id="identity">
-            <h1><a href="{$serendipityBaseURL}">{$blogTitle}</a></h1>
-            <p>{$blogDescription}</p>
+            <a href="{$serendipityBaseURL}">
+                <h1>{$blogTitle}</h1>
+                <p>{$blogDescription}</p>
+            </a>
         </div>
         
         <form id="searchform" action="{$serendipityHTTPPath}{$serendipityIndexFile}" method="get">
