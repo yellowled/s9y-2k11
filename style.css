@@ -304,6 +304,7 @@ fieldset,
     width: 90%;
 }
 
+#identity a,
 #primary-nav li,
 .archives_date { display: inline-block; }
 
