@@ -339,6 +339,11 @@ fieldset,
 
 #searchform>div { padding: 0 1em; }
 
+#searchform label {
+    position: absolute;
+    left: -999em;
+}
+
 #serendipityQuickSearchTermField,
 #serendipity_comment input[type=text],
 #serendipity_comment input[type=email],
