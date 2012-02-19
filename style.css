@@ -785,7 +785,7 @@ label span.placeholder{
     position:absolute;
     font-size:75%;
     color:#999;
-    font-family:sans-serif;
+    /*font-family:sans-serif;*/
     padding:4px 3px;
     z-index:1;
 }
