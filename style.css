@@ -983,6 +983,12 @@ label span.placeholder-hide { display:none; }
     .commentlevel-7 { margin-left: 7em; }
     .commentlevel-8 { margin-left: 8em; }
     .commentlevel-9 { margin-left: 9em; }
+
+    #serendipity_comment textarea {
+        max-width: 100%;
+        resize: both;
+        width: 26.25em;
+    }
 }
 
 @media only screen and (min-width:1024px) {
@@ -1031,6 +1037,8 @@ label span.placeholder-hide { display:none; }
     .serendipity_pagination { margin: 0 2.4615em 1.2308em; }
     
     #colophon small { padding: .9167em 2.4615em 1em; }
+
+    #serendipity_comment textarea { width: 30em; }
 }
 
 /* Print styles */
