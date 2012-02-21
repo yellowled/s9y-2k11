@@ -252,15 +252,10 @@ li ul, li ol, p.break,
 blockquote,
 blockquote + cite {
     display: block;
-    margin: 0 2.5em 1em;
+    margin: 0 1em 1em;
 }
 
 blockquote + cite:before { content: "–\202F"; }
-
-.content blockquote {
-    border-left: 4px solid #aaa;
-    padding-left: .75em;
-}
 
 dt,
 .serendipity_calendar tfoot a,
@@ -973,6 +968,14 @@ label span.placeholder-hide { display:none; }
     
     #searchform>div,
     .ie7 #searchform>div { padding: 0 1em 0 2em; }
+
+    .content blockquote {
+        border-left: 4px solid #aaa;
+        padding-left: .75em;
+    }
+
+    .content blockquote,
+    .content blockquote + cite { margin: 0 2.5em 1em; }
     
     .commentlevel-1 { margin-left: 1em; }
     .commentlevel-2 { margin-left: 2em; }
