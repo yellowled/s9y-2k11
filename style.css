@@ -785,7 +785,7 @@ label span.placeholder{
     position:absolute;
     font-size:75%;
     color:#999;
-    /*font-family:sans-serif;*/
+    font-family:sans-serif;
     padding:4px 3px;
     z-index:1;
 }
@@ -800,7 +800,18 @@ label span.placeholder-hide-exept-screenreader {
     overflow: hidden;
 }
 
-label span.placeholder-hide { display:none; }
+label span.placeholder-hide{
+    display:none;
+}
+
+/* overwrite for the HTML5 Boilerplate way to hide labels */
+label.visuallyhidden-with-placeholder{
+    clip: auto !important;
+    height:auto !important;
+    overflow: visible !important;
+    position:absolute !important;
+    left:-999em;
+}
 
 /* Helper classes  */
 .visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
