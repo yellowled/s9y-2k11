@@ -787,17 +787,6 @@ pre .geshi {
     display: inline-block;
 }
 
-.facebook_like>iframe,
-.facebook_dummy,
-.gplus_like>div,
-.gplus_dummy { margin: 0 4px!important; }
-
-.facebook_like>iframe,
-.gplus_like>div { position: relative; }
-
-.facebook_like>iframe { top: 15px; }
-.gplus_like>div { top: 7px;}
-
 .ie7 .serendipity_findmore li,
 .ie7 .serendipity_findmore_like li {
     display: inline;
