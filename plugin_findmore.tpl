@@ -93,7 +93,9 @@
     <li class="google_like">
         {if $findmore_lazyload}
         <script type="text/javascript">
-            var gplus_like = '<div class="gplus_like"><div class="g-plusone" data-size="medium" data-href="{$entrydata.url}"></div>{literal}<script type="text/javascript">window.___gcfg = {lang: "en"}; (function() { var po = document.createElement("script"); po.type = "text/javascript"; po.async = true; po.src = "https://apis.google.com/js/plusone.js"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(po, s); })(); <\/script></div>';{/literal}insertLazyLoadButton(gplus_like, "gplus", '{$entrydata.path}', '{$findmore_lazyload_text}');
+            var gplus_like = '<div class="gplus_like"><div class="g-plusone" data-size="medium" data-href="{$entrydata.url}"></div>{literal}<script type="text/javascript">window.___gcfg = {lang: "en"}; (function() { var po = document.createElement("script"); po.type = "text/javascript"; po.async = true; po.src = "https://apis.google.com/js/plusone.js"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(po, s); })(); <\/script></div>';
+            {/literal}
+            insertLazyLoadButton(gplus_like, "gplus", '{$entrydata.path}', '{$findmore_lazyload_text}');
         </script>
         {else}
         <g:plusone annotation="none" href="{$entrydata.url}"></g:plusone>
@@ -105,7 +107,11 @@
         {if $findmore_lazyload}
         <a href="http://spread.ly/?url={$entrydata.url|@escape:url}&amp;title={$entrydata.title|@escape:url}&amp;tags={$entrydata.properties.freetag_tagList|@escape:url}&amp;social={if $findmore_spreadly_social}1{else}0{/if}" rel="like"><img src="http://spread.ly/img/like-button.jpg" alt="Like" /></a>
         {else}
-        <iframe scrolling="no" frameborder="0" marginwidth="0" marginheight="0" style="overflow: hidden; width: 100px; height: {if $findmore_spreadly_social}24px;{else}24px{/if}" src="http://button.spread.ly/?url={$entrydata.url|@escape:url}&amp;title={$entrydata.title|@escape:url}&amp;tags={$entrydata.properties.freetag_tagList|@escape:url}&amp;social={if $findmore_spreadly_social}1{else}0{/if}" allowtransparency="true"></iframe>
+        <iframe scrolling="no" frameborder="0" marginwidth="0" marginheight="0"
+           style="overflow: hidden; width: 100px; height: {if $findmore_spreadly_social}24px;{else}24px{/if}"
+           src="http://button.spread.ly/?url={$entrydata.url|@escape:url}&amp;title={$entrydata.title|@escape:url}&amp;tags={$entrydata.properties.freetag_tagList|@escape:url}&amp;social={if $findmore_spreadly_social}1{else}0{/if}"
+           allowtransparency="true">
+        </iframe>
         {/if}
     </li>
     {/if}
