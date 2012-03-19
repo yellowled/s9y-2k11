@@ -793,6 +793,10 @@ pre .geshi {
     zoom: 1;
 }
 
+.lazyload_switcher { margin: 0 4px 0 0; }
+
+.spreadly_like { margin: 0 4px; }
+
 label span.placeholder{
     position:absolute;
     font-size:75%;
