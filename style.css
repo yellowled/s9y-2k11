@@ -795,6 +795,13 @@ pre .geshi {
 
 .lazyload_switcher { margin: 0 4px 0 0; }
 
+.facebook_like>iframe { margin: 0 0 -15px; }
+
+.gplus_like>div {
+    display: block!important;
+    margin: 0 0 -6px!important;
+}
+
 .spreadly_like { margin: 0 4px; }
 
 label span.placeholder{
