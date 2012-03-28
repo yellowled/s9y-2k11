@@ -1,4 +1,4 @@
-<ul class="serendipity_findmore plainList">
+<ul class="serendipity_findmore plainList clearfix">
 {if NOT $findmore_disabled_services.twitter}
     <li><a rel="nofollow" href="http://twitter.com/intent/tweet?text={$entrydata.title|escape}%20-%20{$entrydata.url|escape:url}" title="Twitter"><img src="{$entrydata.path}twitter.png" alt="Twitter"></a></li>
 {/if}
@@ -76,7 +76,7 @@
 {/if}
 </ul>
 {if NOT $findmore_disabled_services.facebook OR NOT $findmore_disabled_services.gplus OR NOT $findmore_disabled_services.spreadly}
-<ul class="serendipity_findmore_like plainList">
+<ul class="serendipity_findmore_like plainList clearfix">
     {if NOT $findmore_disabled_services.facebook}
     <li class="facebook_like">
         {if $findmore_lazyload}
