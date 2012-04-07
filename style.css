@@ -95,6 +95,9 @@ textarea {
     border-radius: 3px;
 }
 
+input.placeholder,
+textarea.placeholder { color: #aaa; }
+
 input[type=text]:focus,
 input[type=search]:focus,
 input[type=email]:focus,
