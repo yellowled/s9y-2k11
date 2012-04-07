@@ -805,13 +805,24 @@ pre .geshi {
 .serendipity_findmore li,
 .serendipity_findmore_like li {
     display: inline-block;
-    margin: 0 4px 0 0;
+    margin: 0 4px 4px 0;
 }
 
 .ie7 .serendipity_findmore li,
 .ie7 .serendipity_findmore_like li {
     display: inline;
     zoom: 1;
+}
+
+.lazyload_switcher {
+    display: inline-block;
+    margin: 0 4px 0 0;
+}
+
+.gplus_like {
+    display: inline;
+    float: right;
+    padding: 4px 0 0;
 }
 
 /* Helper classes  */
