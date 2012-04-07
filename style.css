@@ -806,7 +806,11 @@ pre .geshi {
 }
 
 .serendipity_findmore li,
-.serendipity_findmore_like li,
+.serendipity_findmore_like li {
+    display: inline-block;
+    margin: 0 4px 8px 0;
+}
+
 .lazyload_switcher {
     display: inline-block;
     margin: 0 4px 0 0;
@@ -817,6 +821,24 @@ pre .geshi {
 .ie7 .lazyload_switcher {
     display: inline;
     zoom: 1;
+}
+
+.findmore_like_button { min-width: 120px; }
+
+.facebook_like iframe {
+    position: relative;
+    top: 15px;
+}
+
+.gplus_lazyload_switcher {
+    float: left;
+    position: relative;
+    top: 8px;
+}
+
+.gplus_like iframe {
+    position: relative!important;
+    top: 6px!important;
 }
 
 /* Helper classes  */
