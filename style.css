@@ -444,11 +444,11 @@ fieldset,
     line-height: 1.8462;
 }
 
-.serendipity_entry ul,
-.serendipity_entry ol { margin: 0 0 1em 2em; }
+.serendipity_entry_body ul,
+.serendipity_entry_body ol { margin: 0 0 1em 2em; }
 
-.serendipity_entry li ul,
-.serendipity_entry li ol { margin: 0 0 0 2em; }
+.serendipity_entry_body li ul,
+.serendipity_entry_body li ol { margin: 0 0 0 2em; }
 
 .serendipity_entryIcon {
     float: left;
@@ -792,6 +792,26 @@ pre .geshi {
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
+}
+
+.serendipity_findmore,
+.serendipity_findmore_like {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.serendipity_findmore li,
+.serendipity_findmore_like li {
+    display: inline-block;
+    margin: 0 4px 0 0;
+}
+
+.ie7 .serendipity_findmore li,
+.ie7 .serendipity_findmore_like li {
+    display: inline;
+    zoom: 1;
 }
 
 /* Helper classes  */
