@@ -23,15 +23,15 @@ If you *do* want to test it, your blog needs to run at least s9y v1.6. Extract t
 * [Respond](https://github.com/scottjehl/Respond)
 * [iOS Orientationchange Fix](https://github.com/scottjehl/iOS-Orientationchange-Fix)
 * [FitVids.js](https://github.com/davatron5000/FitVids.js)
-* [HTML5 placeholder polyfill](https://github.com/ginader/HTML5-placeholder-polyfill)
+* [CSS Tricks small screen navigation](http://css-tricks.com/13303-convert-menu-to-dropdown/)
+* [jQuery placeholder](https://github.com/mathiasbynens/jquery-placeholder)
 * [Details-Polyfill](https://github.com/manuelbieh/Details-Polyfill)
 * [AccessifyHTML5](https://github.com/yatil/accessifyhtml5.js)
-* [CSS Tricks small screen navigation](http://css-tricks.com/13303-convert-menu-to-dropdown/)
 
 ### Layout options
 
 2k11 supports three different layouts, activated by pushing sidebar plugins to the standard left/hidden/right sidebars in plugin management in the backend:
-    
+
 * 3 columns, left + right sidebars
 * 2 columns, left sidebar only
 * 2 columns, right sidebar only
