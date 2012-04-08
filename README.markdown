@@ -14,7 +14,9 @@ If you *do* want to test it, your blog needs to run at least s9y v1.6. Extract t
 
 ## Features
 
-2k11 is a responsive HTML5 template. It has a fluid grid layout which adapts to the visitor's screen resolution, even on smaller screens down to smartphones. 2k11 looks plain and simple by design, hoping it will appeal to as many users as possible. It is built using:
+2k11 is a responsive HTML5 template. It has a fluid grid layout which adapts to the visitor's screen resolution, even on smaller screens down to smartphones. 2k11 looks plain and simple by design, hoping it will appeal to as many users as possible.
+
+### It is built using:
 
 * [HTML5 Boilerplate](http://h5bp.com)
 * [Modernizr](http://www.modernizr.com)
@@ -48,4 +50,4 @@ If you leave *both* sidebars empty, you'll get a layout which looks like 2 colum
 
 ### user.css Generator
 
-Since changing the (desktop) layout isn't *that* easy for CSS padawans, I have built a small generator: [2k11 user.css generator](http://yellowled.github.com).
+Since changing the (desktop) layout isn't *that* easy for CSS novices, I have built a basic generator: [2k11 user.css generator](http://yellowled.github.com).
