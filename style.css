@@ -1088,7 +1088,7 @@ pre .geshi {
     * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; }
     a, a:visited { text-decoration: underline; }
     abbr[title]:after { content: " (" attr(title) ")"; }
-    pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+    pre, blockquote { border: 1px solid #999; page-break-inside: avoid; padding: 0.25cm 0.25cm 0; }
     thead { display: table-header-group; }
     tr, img { page-break-inside: avoid; }
     img { max-width: 100% !important; }
