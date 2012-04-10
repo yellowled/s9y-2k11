@@ -355,11 +355,10 @@ fieldset,
 #serendipityQuickSearchTermField,
 #serendipity_comment input[type=text],
 #serendipity_comment input[type=email],
-#serendipity_comment input[type=url] { width: 97%; }
+#serendipity_comment input[type=url] { width: 95%; }
 
-#serendipity_replyTo { width: 99%; }
-
-#serendipity_comment textarea { width: 97%; }
+#serendipity_replyTo,
+#serendipity_comment textarea { width: 95%; }
 
 #primary-nav {
     border-top: 1px solid #294564;
