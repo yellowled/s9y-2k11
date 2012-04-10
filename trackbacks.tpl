@@ -5,7 +5,7 @@
     <details>
         <summary>{$CONST.VIEW_EXTENDED_ENTRY|@sprintf:$trackback.title}</summary>
         <div class="content serendipity_commentBody">{$trackback.body|@strip_tags|@escape:all}</div>
-    </details>    
+    </details>
 {if $entry.is_entry_owner}
     <footer>
         <a href="{$serendipityBaseURL}comment.php?serendipity[delete]={$trackback.id}&amp;serendipity[entry]={$trackback.entry_id}&amp;serendipity[type]=trackbacks">{$CONST.DELETE}</a>

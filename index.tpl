@@ -46,7 +46,7 @@
                 {if $blogDescription}<p>{$blogDescription}</p>{/if}
             </a>
         </div>
-        
+
         <form id="searchform" action="{$serendipityHTTPPath}{$serendipityIndexFile}" method="get">
         <div>
             <input type="hidden" name="serendipity[action]" value="search">
@@ -63,7 +63,7 @@
     {if $template_option.use_corenav}
     <nav id="primary-nav">
         <h2 class="visuallyhidden">{$CONST.TWOK11_NAV_TITLE}</h2>
-        
+
         <ul class="clearfix">{foreach from=$navlinks item="navlink" name="sbnav"}{if $navlink.title!=""&&$navlink.href!=""}<li>{if $currpage==$navlink.href or $currpage2==$navlink.href}<span>{else}<a href="{$navlink.href}">{/if}{$navlink.title}{if $currpage==$navlink.href or $currpage2==$navlink.href}</span>{else}</a>{/if}</li>{/if}{/foreach}</ul>
     </nav>
     {/if}
@@ -84,7 +84,7 @@
         </aside>
     {/if}
     </div>
-    
+
     <footer id="colophon">
         <small lang="en">Powered by <a href="http://s9y.org">Serendipity</a> &amp; the <a href="http://github.com/yellowled/s9y-2k11">2k11</a> theme.</small>
     </footer>
