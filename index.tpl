@@ -1,8 +1,8 @@
 {if $is_embedded != true}
 <!doctype html>
-<!--[if lt IE 7 ]> <html class="no-js ie6 oldie" lang="{$lang}"> <![endif]-->
-<!--[if IE 7 ]>    <html class="no-js ie7 oldie" lang="{$lang}"> <![endif]-->
-<!--[if IE 8 ]>    <html class="no-js ie8 oldie" lang="{$lang}"> <![endif]-->
+<!--[if lt IE 7 ]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="{$lang}"> <![endif]-->
+<!--[if IE 7 ]>    <html class="no-js lt-ie9 lt-ie8" lang="{$lang}"> <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js lt-ie9" lang="{$lang}"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="{$lang}"> <!--<![endif]-->
 <head>
     <meta charset="{$head_charset}">
