@@ -23,7 +23,7 @@
 {if $template_option.userstyles == true}
     <link rel="stylesheet" href="{serendipity_getFile file="user.css"}">
 {/if}
-    <script id="modernizr" src="{serendipity_getFile file="js/modernizr-2.5.3.min.js"}"></script>
+    <script src="{serendipity_getFile file="js/modernizr-2.5.3.min.js"}"></script>
 <script>
     window.onload = function() {ldelim}
         parent.document.getElementById('serendipity_iframe').style.height = document.getElementById('content').offsetHeight
