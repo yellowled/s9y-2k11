@@ -12,6 +12,12 @@ If you *do* want to test it, your blog needs to run at least s9y v1.6. Extract t
 
 **Note:** If you used Bulletproof or a similar template with a customizable navigation, the global navigation in 2k11 **will** overwrite your current navigation. Please write down your navigation's URLs and link texts *before* switching to 2k11.
 
+### Reporting bugs
+
+Please use the [GitHub issue tracker](https://github.com/yellowled/s9y-2k11/issues) or email to report bugs. Also make sure you include some kind of version number with your bug report -- a [tag](https://github.com/yellowled/s9y-2k11/tags) if you use a tagged version or the [SHA hash](https://github.com/yellowled/s9y-2k11/commits/master) of the commit if you use a forked/cloned GitHub version. Both are also included in the name of the `.zip` or `.tar.gz` files if you're using the GitHub download button to get the latest version.
+
+If you have a blog running said version, please also state your URL in your bug report.
+
 ## Features
 
 2k11 is a responsive HTML5 template. It has a fluid grid layout which adapts to the visitor's screen resolution, even on smaller screens down to smartphones. 2k11 looks plain and simple by design, hoping it will appeal to as many users as possible.
