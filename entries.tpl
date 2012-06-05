@@ -71,7 +71,7 @@
         <p class="serendipity_msg_notice">{$CONST.DATA_COMMENT_APPROVED|@sprintf:$CONST.COMMENT_APPROVED}</p>
         {/if}
 
-        <section id="trackbacks" class="serendipity_comments">
+        <section id="trackbacks" class="serendipity_comments serendipity_section_trackbacks">
             <h3>{$CONST.TRACKBACKS}</h3>
 
             <div id="trackback_url"><a rel="nofollow" href="{$entry.link_trackback}" title="{$CONST.TRACKBACK_SPECIFIC_ON_CLICK|@escape}">{$CONST.TRACKBACK_SPECIFIC}</a></div>
@@ -79,7 +79,7 @@
             {serendipity_printTrackbacks entry=$entry.id}
         </section>
 
-        <section id="comments" class="serendipity_comments">
+        <section id="comments" class="serendipity_comments serendipity_section_comments">
             <h3>{$CONST.COMMENTS}</h3>
 
             <p class="manage_comments">{$CONST.DISPLAY_COMMENTS_AS}
