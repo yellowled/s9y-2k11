@@ -25,9 +25,13 @@
         {if $entry.categories}
             <span class="visuallyhidden">{$CONST.CATEGORIES}: </span>{foreach from=$entry.categories item="entry_category" name="categories"}<a href="{$entry_category.category_link}">{$entry_category.category_name|@escape}</a>{if not $smarty.foreach.categories.last}, {/if}{/foreach}
         {/if}
-        {if $entry.categories and $entry.has_comments} | {/if}
-        {if $entry.has_comments}
+        {if $entry.categories and ($entry.has_comments or $entry.has_disqus)} | {/if}
+        {if ($entry.has_comments or $entry.has_disqus)}
+        {if $entry.has_disqus }
+            {$entry.comments}{if $entry.has_trackbacks}, <a href="{$entry.link}#trackbacks">{$entry.trackbacks} {$entry.label_trackbacks}</a>{/if}
+        {else}
             <a href="{$entry.link}#comments" title="{$entry.comments} {$entry.label_comments}{if $entry.has_trackbacks}, {$entry.trackbacks} {$entry.label_trackbacks}{/if}">{$entry.comments} {$entry.label_comments}</a>
+        {/if}
         {/if}
         {if $entry.url_tweetthis}
             | <a href="{$entry.url_tweetthis}" title="{$CONST.TWOK11_TWEET_THIS}">Twitter</a>
