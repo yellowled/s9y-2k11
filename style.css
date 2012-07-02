@@ -855,6 +855,14 @@ pre .geshi {
     border-radius: 3px;
 }
 
+.commentspice_announce_article {
+    clear: both;
+    font-size: .8125em;
+    margin-bottom: 0;
+    padding-top: 0;
+    text-align: left;
+}
+
 /* Helper classes  */
 .visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
 
