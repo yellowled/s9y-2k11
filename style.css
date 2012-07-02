@@ -841,6 +841,20 @@ pre .geshi {
     top: 6px!important;
 }
 
+/* Comment Spice */
+.commentspice_rss_input {
+    background: #fff;
+    border: 1px solid #aaa;
+    color: #666;
+    max-width: 320px;
+    min-width: 52%;
+    overflow: hidden;
+    padding-left: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
 /* Helper classes  */
 .visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
 
