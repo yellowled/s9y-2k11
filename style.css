@@ -863,6 +863,16 @@ pre .geshi {
     text-align: left;
 }
 
+.short-heading {
+    float: left;
+    width: 64%;
+}
+
+.twitter_follow {
+    float: right;
+    width: 34%;
+}
+
 /* Helper classes  */
 .visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
 
