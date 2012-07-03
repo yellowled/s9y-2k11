@@ -551,7 +551,7 @@ pre .geshi {
 
 #c,
 .serendipity_commentDirection {
-    background: #eee;
+    background-color: #eee;
     border: 1px solid #ddd;
     color: #aaa;
     -webkit-border-radius: 3px;
@@ -842,6 +842,8 @@ pre .geshi {
 }
 
 /* Comment Spice */
+.serendipity_comment_spice { background: #eee; }
+
 .commentspice_rss_input {
     background: #fff;
     border: 1px solid #aaa;
