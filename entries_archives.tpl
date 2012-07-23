@@ -1,5 +1,5 @@
 {serendipity_hookPlugin hook="entries_header"}
-<div class="archives clearfix">
+<article class="archives clearfix">
     <h2>{$CONST.ARCHIVES}</h2>
 {foreach from=$archives item="archive"}
     <section class="archives_year clearfix {cycle values="arch_odd,arch_even"}">
@@ -15,5 +15,5 @@
         </ul>
     </section>
 {/foreach}
-</div>
+</article>
 {serendipity_hookPlugin hook="entries_footer"}
