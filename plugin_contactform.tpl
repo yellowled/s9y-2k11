@@ -1,10 +1,9 @@
-    <div class="serendipity_staticpage{if $plugin_contactform_articleformat} serendipity_entry{/if}">
+    <div class="clearfix serendipity_staticpage{if $plugin_contactform_articleformat} serendipity_entry{/if}">
         <h2>{if $plugin_contactform_articleformat}{$plugin_contactform_name}{else}{$plugin_contactform_pagetitle}{/if}</h2>
 
-        <div class="serendpity_preface content">
+        <div class="clearfix content serendpity_preface">
         {$plugin_contactform_preface}
         </div>
-
     {if $is_contactform_sent}
         <p class="serendipity_msg_notice">{$plugin_contactform_sent}</p>
     {else}

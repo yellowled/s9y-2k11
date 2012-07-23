@@ -16,7 +16,7 @@
         {/if}
         </div>
         {if $entry.is_extended}
-        <div id="extended" class="content">
+        <div id="extended" class="clearfix content">
         {$entry.extended}
         </div>
         {/if}
