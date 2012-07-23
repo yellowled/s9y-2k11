@@ -444,9 +444,11 @@ fieldset,
     line-height: 1.8462;
 }
 
+#staticpage_childpages,
 .serendipity_entry_body ul,
 .serendipity_entry_body ol { margin: 0 0 1em 2em; }
 
+#staticpage_childpages li ul,
 .serendipity_entry_body li ul,
 .serendipity_entry_body li ol { margin: 0 0 0 2em; }
 
