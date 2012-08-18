@@ -338,6 +338,7 @@ fieldset,
 #banner>img { display: none; }
 
 #banner>img,
+.plugin_comment_wrap,
 .serendipity_entry footer { clear: both; }
 
 .no-nav {
