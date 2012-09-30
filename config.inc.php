@@ -42,6 +42,7 @@ $template_config = array(
        'select_values' => array(DATE_FORMAT_ENTRY => DATE_FORMAT_ENTRY,
                                 '%A, %e. %B %Y' => '%A, %e. %B %Y',
                                 '%a, %e. %B %Y' => '%a, %e. %B %Y',
+                                '%e. %B %Y' => '%e. %B %Y',
                                 '%d.%m.%y' => '%d.%m.%y',
                                 '%d.%m.%Y' => '%d.%m.%Y',
                                 '%A, %m/%d/%Y' => '%A, %m/%d/%Y',
