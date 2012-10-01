@@ -24,10 +24,8 @@
     {if $entry.is_entry_owner}
         | <a class="comment_source_ownerlink" href="{$comment.link_delete}" title="{$CONST.COMMENT_DELETE_CONFIRM|@sprintf:$comment.id:$comment.author}">{$CONST.DELETE}</a>
     {/if}
-    {if $entry.allow_comments AND $comment.body != 'COMMENT_DELETED'}
         | <a class="comment_reply" href="#serendipity_CommentForm" id="serendipity_reply_{$comment.id}"{if $comment_onchange != ''} onclick="{$comment_onchange}"{/if}>{$CONST.REPLY}</a>
         <div id="serendipity_replyform_{$comment.id}"></div>
-    {/if}
     </footer>
 </article>
 {foreachelse}
