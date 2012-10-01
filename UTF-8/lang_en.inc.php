@@ -20,3 +20,4 @@
 @define('TWOK11_DENT_THIS', 'Share article on Identica');
 @define('TWOK11_SHORT_URL', 'Short URL');
 @define('TWOK11_SHORT_URL_HINT', 'This link is not meant to be clicked. It contains the short URL for this entry. You can use this URL to link to this entry. To copy the link, right click and select Copy Shortcut in Internet Explorer or Copy Link Location in Mozilla.');
+@define('TWOK11_EMPTYTRACKBACK', 'Unfortunately, the contents of this trackback can not be displayed.');
