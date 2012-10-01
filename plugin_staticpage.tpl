@@ -33,9 +33,9 @@
     <footer class="staticpage_metainfo">
         <small>
         {if $staticpage_author}
-            <span class="visuallyhidden">{$CONST.POSTED_BY} </span>{$staticpage_author|@escape}
+            <span class="single_user"><span class="visuallyhidden">{$CONST.POSTED_BY} </span>{$staticpage_author|@escape}
         {/if}
-        {if $staticpage_author AND $staticpage_lastchange} | {/if}
+        {if $staticpage_author AND $staticpage_lastchange} | </span>{/if}
         {if $staticpage_lastchange}
             <span class="visuallyhidden">{$CONST.ON} </span><time datetime="{$staticpage_lastchange|@serendipity_html5time}" pubdate>{$staticpage_lastchange|date_format:$template_option.date_format}</time>
         {/if}
