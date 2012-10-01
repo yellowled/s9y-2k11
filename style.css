@@ -1146,7 +1146,7 @@ pre .geshi {
     .comment_avatar, #respond,
     .serendipityCommentForm { display: none;}
 
-    body { font-family: Georgia, Times, "Times New Roman", serif !important; }
+    body { font-family: Times, "Times New Roman", serif !important; }
     .content a[href]:after,
     #trackbacks h4 a[href]:after { content: " (" attr(href) ")"; }
     .content a.serendipity_image_link[href]:after { content: ""; }
