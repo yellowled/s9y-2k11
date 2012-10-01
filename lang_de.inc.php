@@ -21,3 +21,4 @@
 @define('TWOK11_SHORT_URL', 'Kurz-URL');
 @define('TWOK11_SHORT_URL_HINT', 'Dieser Link ist nicht aktiv. Er enthält die Kurz-URL zu diesem Eintrag. Sie können diese URL benutzen, um diesen Eintrag zu verlinken. Um den Link zu kopieren, klicken Sie ihn mit der rechten Maustaste an und wählen Verknüpfung kopieren im Internet Explorer oder Linkadresse kopieren in Mozilla/Firefox.');
 @define('TWOK11_EMPTYTRACKBACK', 'Die Anzeige des Inhaltes dieses Trackbacks ist leider nicht möglich.');
+@define('TWOK11_TRACKBACKPREVIEW', 'Vorschau anzeigen');

@@ -5,7 +5,7 @@
 	<span class="visuallyhidden">{$CONST.TWOK11_EMPTYTRACKBACK}</span>
 {else}
     <details>
-        <summary>{$CONST.VIEW_EXTENDED_ENTRY|@sprintf:$trackback.title}</summary>
+        <summary>{$CONST.TWOK11_TRACKBACKPREVIEW}</summary>
         <div class="content serendipity_commentBody">{$trackback.body|@strip_tags|@escape:all}</div>
     </details>
 {/if}
