@@ -52,7 +52,7 @@ If you leave *both* sidebars empty, you'll get a layout which looks like 2 colum
 * **Header image:** Pick an image from the s9y media database (or leave empty to omit). This will be added as a banner img between header/search and navigation. It's a responsive images only displayed in screen resolutions higher than 600 pixels. Should be 1120 pixels wide to work properly.
 * **Google webfont:** Pick one of five preselected webfonts or the 'none' option to use Helvetica/Arial. These webfonts are included via the Google webfonts API.
 * **User stylesheet:** Includes an additional stylesheet. Note that this **must** be called `user.css` and you have to create it manually in your template directory. Also note that both this and the Google webfont option add an additional HTTP request which might cause slight performance issues.
-* **Comment references:** Includes a link to related comment to comments which are replies to another comment.
+* **Comment references:** Includes a link to related comment to comments which are replies to another comment, so you can scroll to referenced comment on click.
 * **Navigation:** Global navigation provided by s9y core. Switches to an (additionally added using JS) `select` as a pseudo dropdown menu on small screens. Automagically suppresses links if link text *or* URL is empty, also has an option to not emit the nav at all.
 
 ### user.css Generator
