@@ -76,6 +76,12 @@ $template_config = array(
        'default' => false
    ),
    array(
+       'var' => 'refcomments',
+       'name' => TWOK11_REFCOMMENTS,
+       'type' => 'boolean',
+       'default' => false
+   ),
+   array(
        'var' => 'use_corenav',
        'name' => TWOK11_USE_CORENAV,
        'type' => 'boolean',
