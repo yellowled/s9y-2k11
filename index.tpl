@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cabin:400,400italic,700,700italic">
 {elseif $template_option.webfonts == 'ubuntu'}
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Ubuntu:400,400italic,700,700italic">
+{elseif $template_option.webfonts == 'dserif'}
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700,700italic">
 {/if}
     <link rel="stylesheet" href="{$head_link_stylesheet}">
 {if $template_option.userstyles == true}

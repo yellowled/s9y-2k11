@@ -67,7 +67,8 @@ $template_config = array(
                                 'ptsans' => 'PT Sans',
                                 'osans' => 'Open Sans',
                                 'cabin' => 'Cabin',
-                                'ubuntu' => 'Ubuntu')
+                                'ubuntu' => 'Ubuntu',
+                                'dserif' => 'Droid Serif')
    ),
    array(
        'var' => 'userstyles',

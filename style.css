@@ -197,6 +197,11 @@ a:link { -webkit-tap-highlight-color: #d52; }
 .ubuntu input, .ubuntu select,
 .ubuntu textarea { font-family: 'Ubuntu', sans-serif; }
 
+.dserif, .dserif button,
+.dserif input, .dserif select,
+.dserif textarea { font-family: 'Droid Serif', serif; }
+
+
 p {
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
