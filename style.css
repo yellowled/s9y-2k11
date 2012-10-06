@@ -451,12 +451,16 @@ fieldset,
 }
 
 #staticpage_childpages,
+.staticpage_content ul,
+.staticpage_content ol,
 .serendipity_entry_body ul,
 .serendipity_entry_body ol,
 #extended ul,
 #extended ol { margin: 0 0 1em 2em; }
 
 #staticpage_childpages li ul,
+.staticpage_content li ul,
+.staticpage_content li ol,
 .serendipity_entry_body li ul,
 .serendipity_entry_body li ol,
 #extended li ul,
