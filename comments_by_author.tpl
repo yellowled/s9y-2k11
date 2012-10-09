@@ -1,4 +1,4 @@
-<h2>{$CONST.COMMENTS}</h2>
+<h2 class="visuallyhidden">{$CONST.COMMENTS}</h2>
 {foreach from=$comments_by_authors item="entry_comments"}
 <article class="clearfix serendipity_entry">
 	<h3><a href="{$entry_comments.link}">{$entry_comments.title|@default:$entry_comments.link}</a></h3>
