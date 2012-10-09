@@ -1,4 +1,4 @@
 Name: 2k11-dev
 Author: Matthias Mees, Veit Lehmann
-Date: 2012-10-05
+Date: 2012-10-09
 Require Serendipity: 1.6
