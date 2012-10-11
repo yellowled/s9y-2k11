@@ -6,7 +6,7 @@
 </article>
 {/foreach}
 {if $footer_info or $footer_prev_page or $footer_next_page}
-    <nav class="serendipity_pagination comments_by_author_pagination">
+    <nav class="serendipity_pagination block_level comments_by_author_pagination">
 		<ul class="clearfix">
             {if $footer_info}
             <li class="info"><span>{$footer_info}</span></li>

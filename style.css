@@ -296,21 +296,16 @@ caption, th, prev,
     margin: 0 auto;
 }
 
+.block_level,
 fieldset,
 .no-js #primary-nav ul,
-.archives_summary .serendipity_byline,
 .form_field label,
 .form_tarea label,
 .podcastdownload,
 #primary-nav select,
-.read_more, .trackback_url,
-.serendipity_byline,
-.serendipity_pagination,
 .serendipity_comment_captcha .captcha,
 .serendipity_comment_captcha label,
-.serendipity_freeTag,
-.staticpage_results li>span,
-.comment_results li>span { display: block; }
+.serendipity_freeTag { display: block; }
 
 #primary-nav select {
     margin: .5em 1em;
