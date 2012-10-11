@@ -72,8 +72,6 @@ input:invalid, textarea:invalid { background-color: #eee; }
 table { border-collapse: collapse; border-spacing: 0; }
 td { vertical-align: top; }
 
-
-/* Primary styles */
 input[type="checkbox"] {
     margin: 0 .25em 0 0;
     vertical-align: baseline;
@@ -129,8 +127,6 @@ img, video { height: auto; }
 
 q { quotes: '“' '”' '‘' '’'; }
 :lang(de) q { quotes: '„' '“' '‚' '‘'; }
-/*:lang(de) q { quotes: '»' '«' '›' '‹'; }*/
-/* pre-2011 WebKit */
 q:before   { content: '“'; content: open-quote;  }
 q:after    { content: '”'; content: close-quote; }
 q q:before { content: '‘'; content: open-quote;  }
@@ -845,7 +841,6 @@ pre .geshi {
     top: 6px!important;
 }
 
-/* Comment Spice */
 .serendipity_comment_spice { background: #eee; }
 
 .commentspice_rss_input {
@@ -879,7 +874,6 @@ pre .geshi {
     width: 34%;
 }
 
-/* Helper classes  */
 .visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
 
 .visuallyhidden.focusable:active,
@@ -889,8 +883,6 @@ pre .geshi {
 .clearfix:after { clear: both; }
 .clearfix { zoom: 1; }
 
-
-/* Media queries  */
 @media only screen and (min-width: 481px) {
     #serendipityQuickSearchTermField { max-width: 15em; }
 
@@ -1122,7 +1114,6 @@ pre .geshi {
     #serendipity_comment textarea { width: 30em; }
 }
 
-/* Print styles */
 @media print {
     * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; }
     a, a:visited { text-decoration: underline; }
