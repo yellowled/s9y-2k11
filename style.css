@@ -321,6 +321,7 @@ fieldset,
 #primary-nav li,
 .archives_date { display: inline-block; }
 
+.lt-ie8 #identity a,
 .lt-ie8 #primary-nav li,
 .lt-ie8 .archives_date {
     display: inline;
@@ -451,28 +452,12 @@ fieldset,
 }
 
 #staticpage_childpages,
-.staticpage_content ul,
-.staticpage_content ol,
-.serendipity_entry_body ul,
-.serendipity_entry_body ol,
-.serendipity_preface ul,
-.serendipity_preface ol,
-.serendipity_commentBody ul,
-.serendipity_commentBody ol,
-#extended ul,
-#extended ol { margin: 0 0 1em 2em; }
+.content ul,
+.content ol { margin: 0 0 1em 2em; }
 
 #staticpage_childpages li ul,
-.staticpage_content li ul,
-.staticpage_content li ol,
-.serendipity_entry_body li ul,
-.serendipity_entry_body li ol,
-.serendipity_preface li ul,
-.serendipity_preface li ol,
-.serendipity_commentBody li ul,
-.serendipity_commentBody li ol,
-#extended li ul,
-#extended li ol { margin: 0 0 0 2em; }
+.content li ul,
+.content li ol { margin: 0 0 0 2em; }
 
 .serendipity_entryIcon {
     float: left;
