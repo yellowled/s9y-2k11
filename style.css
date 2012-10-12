@@ -278,7 +278,7 @@ dt,
 .serendipity_calendar .Today,
 .serendipity_freetag_taglist_related { font-weight: bold; }
 
-caption, th, prev,
+caption, th, .prev,
 .serendipity_freeTag { text-align: left; }
 
 #page {
