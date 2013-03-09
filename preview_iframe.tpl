@@ -39,9 +39,9 @@
 <body{if $template_option.webfonts != 'none'} class="{$template_option.webfonts}"{/if}>
 <div id="page" class="clearfix container">
     <div id="main" class="clearfix{if $leftSidebarElements > 0 && $rightSidebarElements > 0} col3{elseif $leftSidebarElements > 0 && $rightSidebarElements == 0} col2l{else} col2r{/if}">
-        <div id="content" class="clearfix" style="padding: 1em 0; margin: 0;">
+        <main id="content" class="clearfix" style="padding: 1em 0; margin: 0;">
         {$preview}
-        </div>
+        </main>
     </div>
 </div>
 </body>
