@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cabin:400,400italic,700,700italic">
 {elseif $template_option.webfonts == 'ubuntu'}
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Ubuntu:400,400italic,700,700italic">
+{elseif $template_option.webfonts == 'dserif'}
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700,700italic">
 {/if}
     <link rel="stylesheet" href="{$head_link_stylesheet}">
 {if $template_option.userstyles == true}
@@ -38,7 +40,7 @@
 </head>
 <body{if $template_option.webfonts != 'none'} class="{$template_option.webfonts}"{/if}>
 <div id="page" class="clearfix container">
-    <div id="main" class="clearfix{if $leftSidebarElements > 0 && $rightSidebarElements > 0} col3{elseif $leftSidebarElements > 0 && $rightSidebarElements == 0} col2l{else} col2r{/if}">
+    <div class="clearfix{if $leftSidebarElements > 0 && $rightSidebarElements > 0} col3{elseif $leftSidebarElements > 0 && $rightSidebarElements == 0} col2l{else} col2r{/if}">
         <main id="content" class="clearfix" style="padding: 1em 0; margin: 0;">
         {$preview}
         </main>
