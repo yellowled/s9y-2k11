@@ -650,31 +650,18 @@ pre .geshi {
     padding: 0!important;
 }
 
-.serendipity_image_left {
-    float: left;
-    margin: 0 2em 1em 0;
-}
-
-.serendipity_image_right {
-    float: right;
-    margin: 0 0 1em 2em;
+.serendipity_image_left,
+.serendipity_image_right,
+.serendipity_imageComment_left,
+.serendipity_imageComment_right {
+    display: block;
+    float: none;
+    margin: 0 0 1em;
 }
 
 .serendipity_image_center {
     display: block;
     margin: 0 auto 1em auto;
-}
-
-.serendipity_imageComment_left {
-    display: inline;
-    float: left;
-    margin: 0 2em 1em 0;
-}
-
-.serendipity_imageComment_right {
-    display: inline;
-    float: right;
-    margin: 0 0 1em 2em;
 }
 
 .serendipity_imageComment_center {
@@ -921,6 +908,28 @@ pre .geshi {
     #sidebar_right .odd {
         clear: both;
         margin-right: 5%;
+    }
+
+    .serendipity_image_left {
+        float: left;
+        margin: 0 2em 1em 0;
+    }
+
+    .serendipity_image_right {
+        float: right;
+        margin: 0 0 1em 2em;
+    }
+
+    .serendipity_imageComment_left {
+        display: inline;
+        float: left;
+        margin: 0 2em 1em 0;
+    }
+
+    .serendipity_imageComment_right {
+        display: inline;
+        float: right;
+        margin: 0 0 1em 2em;
     }
 
     .serendipity_pagination .info {
