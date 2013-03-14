@@ -16,7 +16,7 @@ If you *do* want to test it, your blog needs to run at least s9y v1.6. Extract t
 
 Please use the [GitHub issue tracker](https://github.com/yellowled/s9y-2k11/issues) or email to report bugs. Also make sure you include some kind of version number with your bug report -- a [tag](https://github.com/yellowled/s9y-2k11/tags) if you use a tagged version or the SHA hash of the commit if you use a forked/cloned GitHub version.
 
-Please note that SHA hashes are no longer included in the name of the `.zip` or `.tar.gz` files if you're using the ZIP download button to get the latest version. You can get the SHA hash for any commit on the [commit overview](https://github.com/yellowled/s9y-2k11/commits/master) on GitHub using the 'Copy SHA' button.
+Please note that SHA hashes are no longer included in the name of the `.zip` or `.tar.gz` files if you're using the ZIP download button to get the latest version. You can get the SHA hash for any commit on the [commit overview](https://github.com/yellowled/s9y-2k11/commits/master) using the 'Copy SHA' button.
 
 If you have a blog running said version, please also state your URL in your bug report.
 
