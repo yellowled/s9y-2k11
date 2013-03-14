@@ -14,7 +14,9 @@ If you *do* want to test it, your blog needs to run at least s9y v1.6. Extract t
 
 ### Reporting bugs
 
-Please use the [GitHub issue tracker](https://github.com/yellowled/s9y-2k11/issues) or email to report bugs. Also make sure you include some kind of version number with your bug report -- a [tag](https://github.com/yellowled/s9y-2k11/tags) if you use a tagged version or the [SHA hash](https://github.com/yellowled/s9y-2k11/commits/master) of the commit if you use a forked/cloned GitHub version. Both are also included in the name of the `.zip` or `.tar.gz` files if you're using the GitHub download button to get the latest version.
+Please use the [GitHub issue tracker](https://github.com/yellowled/s9y-2k11/issues) or email to report bugs. Also make sure you include some kind of version number with your bug report -- a [tag](https://github.com/yellowled/s9y-2k11/tags) if you use a tagged version or the SHA hash of the commit if you use a forked/cloned GitHub version.
+
+Please note that SHA hashes are no longer included in the name of the `.zip` or `.tar.gz` files if you're using the ZIP download button to get the latest version. You can get the SHA hash for any commit on the [commit overview](https://github.com/yellowled/s9y-2k11/commits/master) on GitHub using the 'Copy SHA' button.
 
 If you have a blog running said version, please also state your URL in your bug report.
 
@@ -48,11 +50,11 @@ If you leave *both* sidebars empty, you'll get a layout which looks like 2 colum
 
 ### Theme options
 
-* **Date format:** Sets a date format used _globally_ in the theme, i.e. for entries, comments, trackbacks, static pages. Basically for anything controlled by the .tpl files provided by 2k11.
-* **Header image:** Pick an image from the s9y media database (or leave empty to omit). This will be added as a banner img between header/search and navigation. It's a responsive images only displayed in screen resolutions higher than 600 pixels. Should be 1120 pixels wide to work properly.
+* **Date format:** Sets a date format used _globally_ in the theme, i.e. for entries, comments, trackbacks, static pages. Basically for anything controlled by the `.tpl` files provided by 2k11.
+* **Header image:** Pick an image from the s9y media database (or leave empty to omit). This will be added as a banner image between header/search and navigation. It's a responsive image only displayed in screen resolutions higher than 600 pixels. Should be 1120 pixels wide to work properly.
 * **Google webfont:** Pick one of five preselected webfonts or the 'none' option to use Helvetica/Arial. These webfonts are included via the Google webfonts API.
 * **User stylesheet:** Includes an additional stylesheet. Note that this **must** be called `user.css` and you have to create it manually in your template directory. Also note that both this and the Google webfont option add an additional HTTP request which might cause slight performance issues.
-* **Image styles:** Lets you choose how to style images in entries and static pages, basically any images from the media db that appear in the content area of the blog. Possible values: no border, simple border or shadow border. Implemented using a class on #content, so you could even overwrite .plain-images and/or .fancy-images in your user.css.
+* **Image styles:** Lets you choose how to style images in entries and static pages, basically any images from the media db that appear in the content area of the blog. Possible values: no border, simple border or shadow border. Implemented using a class on `#content`, so you could even overwrite `.plain-images` and/or `.fancy-images` in your `user.css`.
 * **Comment references:** Includes a link to related comment to comments which are replies to another comment, so you can scroll to referenced comment on click.
 * **Navigation:** Global navigation provided by s9y core. Switches to an (additionally added using JS) `select` as a pseudo dropdown menu on small screens. Automagically suppresses links if link text *or* URL is empty, also has an option to not emit the nav at all.
 
