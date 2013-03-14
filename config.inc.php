@@ -83,7 +83,7 @@ $template_config = array(
         'var' => 'imgstyle',
         'name' => TWOK11_IMGSTYLE,
         'type' => 'select',
-        'default' => 'none',
+        'default' => 'plain-images',
         'select_values' => array('none' => TWOK11_IMGSTYLE_NONE,
                                 'plain-images' => TWOK11_IMGSTYLE_BORDER,
                                 'fancy-images' => TWOK11_IMGSTYLE_SHADOW)
