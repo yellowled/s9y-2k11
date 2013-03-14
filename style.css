@@ -648,7 +648,8 @@ pre .geshi {
 .serendipity_imageComment_center,
 .serendipity_imageComment_left,
 .serendipity_imageComment_right {
-    border: 1px solid #aaa!important;
+    background: transparent;
+    border: 0 none;
     padding: 0!important;
 }
 
@@ -677,13 +678,41 @@ pre .geshi {
 }
 
 .serendipity_imageComment_txt {
-    background: #ddd;
     border-top: 0 none;
     color: #222;
     font-size: .8125em;
     line-height: 1.8462;
     padding: .2301em;
     text-align: center;
+}
+
+.plain-images .serendipity_image_left,
+.plain-images .serendipity_image_right,
+.plain-images .serendipity_image_center,
+.plain-images .serendipity_imageComment_center,
+.plain-images .serendipity_imageComment_left,
+.plain-images .serendipity_imageComment_right {
+    border: 1px solid #aaa;
+}
+
+.plain-images .serendipity_imageComment_txt {
+    background: #ddd;
+}
+
+.fancy-images .serendipity_image_left,
+.fancy-images .serendipity_image_right,
+.fancy-images .serendipity_image_center,
+.fancy-images .serendipity_imageComment_img {
+    -webkit-box-shadow: 0 0 2px 1px rgba(0,0,0,.5);
+    -moz-box-shadow: 0 0 2px 1px rgba(0,0,0,.5);
+    box-shadow: 0 0 2px 1px rgba(0,0,0,.5);
+}
+
+.no-boxshadow .fancy-images .serendipity_image_left,
+.no-boxshadow .fancy-images .serendipity_image_right,
+.no-boxshadow .fancy-images .serendipity_image_center,
+.no-boxshadow .fancy-images .serendipity_imageComment_img {
+    border: 1px solid #aaa;
 }
 
 .serendipity_imageComment_center,
