@@ -2,6 +2,14 @@
 
 2k11 is supposed to become the new default theme for the [Serendipity (s9y) blog engine](http://s9y.org).
 
+## Important
+
+**Please note:** Following the release of [Serendipity 1.7](http://blog.s9y.org/archives/247-Serendipity-1.7-released.html), 2k11 development will be moved to the s9y [core repository](https://github.com/s9y/Serendipity). This means that as of today (2013-05-11), this repository is discontinued and will receive no further updates.
+
+If you are still using a version from this repository in your blog, please switch to the 2k11 version bundled with s9y 1.7 after upgrading, e.g. switch from `2k11-dev` to `2k11` under “Manage Styles”. Note that this switch will **not** adopt your 2k11 theme options, so make sure to write them down before switching.
+
+* * *
+
 ## Disclaimer
 
 This is the development branch of 2k11. This is still subject to (sometimes experimental) changes. I do **not** recommend using it in a production environment.
